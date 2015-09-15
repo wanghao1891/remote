@@ -1,0 +1,50 @@
+* 7. [2015-09-15 Tue 16:54]
+** [[http://redis.readthedocs.org/en/latest/pub_sub/pubsub.html][PUBSUB]] [2015-09-15 Tue 16:55]
+
+* 6. [2015-09-14 Mon 13:34]
+** [[https://github.com/NodeRedis/node_redis][NodeRedis/node_redis]] [2015-09-14 Mon 18:55]
+
+** [[http://redis.io/topics/pubsub][Pub/Sub]] [2015-09-14 Mon 18:03]
+
+** [[http://redisbook.com/preview/pubsub/channel.html][频道的订阅与退订]] [2015-09-14 Mon 18:02]
+
+** [[http://redisbook.com/][Redis 设计与实现]] [2015-09-14 Mon 15:08]
+
+** [[http://redisbook.readthedocs.org/en/latest/index.html][Redis 设计与实现（第一版）]] [2015-09-14 Mon 15:06]
+
+** [[http://redisbook.readthedocs.org/en/latest/feature/pubsub.html][订阅与发布]] [2015-09-14 Mon 15:05]
+
+** [[http://try.redis.io/][TRY REDIS]] [2015-09-14 Mon 14:58]
+   Console
+   Very good
+
+** [[http://github.tiankonguse.com/blog/2015/07/28/redis-base/][redis 基础知识]] [2015-09-14 Mon 13:34]
+
+* 5. 2015-06-23
+** [Learn by Hacking - Redis源码速览](http://zhengqm.github.io/code/2015/06/20/Learn-by-hacking-redis-source-code/)
+
+  人们常说写代码进步最快的方式之一是阅读成熟开源项目的代码，从中可以学习到许多良好的代码风格、问题抽象实践。今天我选择了下面这个代码质量被广泛认可的开源项目源码进行阅读：
+
+  Redis是一个用c语言实现的key-value store。除了最基础的基于字符串的键值对，redis还支持哈希、列表、集合、有序集合等数据结构，所以redis也常被称为是一个data structure server。
+
+* 4. 2015-05-12
+** [微博关系服务与Redis的故事](http://www.infoq.com/cn/articles/weibo-relation-service-with-redis/)
+    新浪微博的工程师们曾经在多个公开场合都讲到过，微博平台当前在使用并维护着可能是世界上最大的Redis集群，其中最大的一个业务，单个业务使用了超过 10T 的内存，这里说的就是微博关系服务。
+
+* 3. 2015-05-11
+** [Redis设计与实现（一~五整合版）](http://get.jobdeer.com/522.get?utm_source=tuicool)
+    项目中用到了redis，但用到的都是最最基本的功能，比如简单的slave机制，数据结构只使用了字符串。但是一直听说redis是一个很牛的开源项目，很多公司都在用。于是我就比较奇怪，这玩意不就和 memcache 差不多吗？仅仅是因为memcache是内存级别的，没有持久化功能。而redis支持持久化？难道这就是它的必杀技？
+
+    带着这个疑问，我在网上搜了一圈。发现有个叫做huangz的程序员针对redis写了一本书叫做《redis设计与实现》，而且业界良心搞了一个reids2.6版本的注释版源码。这本书不到200页，估计2个星期能看完吧，之后打算再看下感兴趣部分的源码。当然，如果你不知道redis是干嘛的，请自行谷歌，简单说就是Key-Value数据库，而且 value 支持5种数据结构：
+
+    字符串
+    哈希表（map）
+    列表（list）
+    集合（set）
+    有序集
+
+* 2. 2015-04-30
+** [How HipChat Stores And Indexes Billions Of Messages Using ElasticSearch And Redis](http://highscalability.com/blog/2014/1/6/how-hipchat-stores-and-indexes-billions-of-messages-using-el.html)
+
+* 1. 2015-04-07
+** [redis快速入门详解](http://airjd.com/view/i80zyhkb000ec5j#1)

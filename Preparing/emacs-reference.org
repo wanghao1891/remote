@@ -1,0 +1,554 @@
+* 25. [2015-09-12 Sat 23:00]
+** [[http://www.emacswiki.org/emacs/TruncateLines][TruncateLines]] [2015-09-12 Sat 23:08]
+
+** [[http://emacswiki.org/emacs/LineWrap][LineWrap]] [2015-09-12 Sat 23:07]
+
+** [[http://forum.ubuntu.org.cn/viewtopic.phpf%3D68&t%3D294165][求教：org-mode的自动换行设置无效]] [2015-09-12 Sat 23:02]
+
+** [[http://stackoverflow.com/questions/7577614/emacs-truncate-lines-in-all-buffers][Emacs truncate lines in all buffers]] [2015-09-12 Sat 23:01]
+
+# 24、2015-09-03
+* [Emacs学习笔记(10):Org-mode,最强的任务管理利器，没有之一](http://www.cnblogs.com/holbrook/archive/2012/04/14/2447754.html)
+
+> org-mode gtd
+
+* [Emacs学习笔记(9):org-mode，最好的文档编辑利器，没有之一](http://www.cnblogs.com/holbrook/archive/2012/04/12/2444992.html)
+
+> org-mode outliner
+
+* [David O'Toole Org tutorial](http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html)
+
+> org-mode
+
+# 23、2015-09-02
+* [Emacs随想](http://everet.org/thinking-of-emacs.html)
+内容很丰富
+
+* [普通人（非程式設計師）的.emacs設定檔](http://kuanshome.blogspot.tw/2012/08/emacs.html)
+
+# 22、2015-08-26
+* [mac下的emacs meta键设置](http://www.yuleshow.com/?p=3889)
+
+* [Emacs on Mac OS X Leopard key bindings](http://stackoverflow.com/questions/162896/emacs-on-mac-os-x-leopard-key-bindings)
+
+* [Setting up Mac OS X and iTerm2 for Emacs](http://azaleasays.com/2013/07/05/setting-up-mac-os-x-and-iterm2-for-emacs/)
+
+* [Meta Key Problems](http://emacswiki.org/emacs/MetaKeyProblems)
+
+* [How can I change meta key from alt to cmd on Mac in Emacs 24?](http://stackoverflow.com/questions/7743402/how-can-i-change-meta-key-from-alt-to-cmd-on-mac-in-emacs-24)
+
+* [Emacs For Mac OS](http://www.emacswiki.org/emacs/EmacsForMacOS)
+
+# 21、2015-08-15
+* [hs-minor-mode](http://www.mit.edu/afs.new/sipb/user/yandros/elisp/hideshow.el)
+
+* [Emacs配置文件——新手攻略](Emacs配置文件——新手攻略)
+
+# 20、2015-08-05
+* [使用Emacs org-mode + GitHub Pages来写博客](http://forrestchang.github.io/how-to-use-org-mode-build-blog.html)
+
+  之前也折腾过好多的博客，Jekyll、Hexo、Farbox等，这些静态博客生成器都有一个共同点，都是采用的Markdown语法来进行书写的，而自己平时记笔记都是使用的Emacs org-mode，这样就导致了记笔记和写博客两个过程分裂开来了。
+
+  昨晚偶然看到[Yan's Home Page](http://dirlt.com/)，被深深的震撼了，博主写了很多的干货，专注与博客的内容而不是博客的外观。而自己也是一个极简主义者，觉得这样的博客样式还是挺好看的（很有Web1.0时代的复古风啊）。恰巧博主也是使用的Emacs来写博客，于是便花了一个上午的时间搜集相关的资料并把博客搭建起来了。
+
+# 19、2015-07-08
+* [Emacs入门](http://www.newsmth.net/bbsanc.php?path=%2Fgroups%2Fcomp.faq%2FEmacs%2Felisp%2Fhappierbee%2FM.1184679743.j0&ap=64311)
+
+  emacs的高手不能不会elisp。但是对于很多<来说elispÆ习是一个痛苦的历程，至少我是有这样一段经历。现在，我的elisp也算有成了，所以斗胆这样文章为后来者提供一点捷径。
+
+  > elisp
+
+* [EmacsLispReference](http://www.emacswiki.org/emacs?action=browse;oldid=EmacsLispManual;id=EmacsLispReference)
+
+  > elisp
+
+* [EmacsLispManual Chinese Notes](http://www.emacswiki.org/emacs/EmacsLispManual_Chinese_Notes)
+
+  > elisp
+
+* [InteractiveFunction](http://emacswiki.org/emacs/InteractiveFunction)
+
+  A Lisp function becomes a command when its body contains, at top level, a form that calls the special form `(interactive...)’. This special form does nothing when executed, but its presence in the function definition indicates that interactive calling is permitted. Its argument controls the reading of the function arguments in an interactive call.
+
+  > elisp interactive
+
+* [Emacs speed up 1000%](http://blog.binchen.org/posts/emacs-speed-up-1000.html)
+
+  I'm still NOT satisfied with my Emacs performance after applying below tricks:
+
+  * autoload packages
+  * idle-load packages
+  * compiling *.el to *.elc
+
+  After some research, I found I could make my Emacs 1000% fast in 1 minute.
+
+  > performance
+
+* [How to use ctags in Emacs effectively](http://blog.binchen.org/posts/how-to-use-ctags-in-emacs-effectively-3.html)
+
+  Exuberant Ctags is a code navigation tool. It supports many language and could be integrated into Emacs well.
+
+  > ctags
+
+* [Emacs Tags](http://www.emacswiki.org/emacs/EmacsTags#tags)
+
+  This page is about tags, a facility for recording names and their definitions and later looking up the definitions.
+
+  > tags
+
+* [Build Tags](http://www.emacswiki.org/emacs/BuildTags)
+
+  There are several tools to create a tags file. The two dominant tools are etags and ExuberantCtags. Etags comes with Emacs and ExuberantCtags is separate but available on most systems. ExuberantCtags is the better choice as it supports more languages and is more robust.
+
+  > ctags
+
+# 18、2015-07-04
+* [Firemacs](http://www.mew.org/~kazu/proj/firemacs/en/)
+
+  * An extension to add Emacs's editing features to Firefox
+  * You can also enjoy "less"-like motions in non-input elements
+
+* [学习GNU Emacs命令速查表](http://www.linuxidc.com/Linux/2012-08/68300.htm)
+
+# 17、2015-07-03
+* [Exuberant Ctags](http://ctags.sourceforge.net/)
+
+  A multilanguage implementation of Ctags
+
+* [emacs-helm-gtags](https://github.com/syohex/emacs-helm-gtags)
+
+  helm-gtags.el is GNU GLOBAL helm interface.
+
+* [GnuGlobal](http://emacswiki.org/emacs/GnuGlobal)
+
+  The GNU GLOBAL package is highly recommended for using a single tags file, covering all files in all subdirectories, that lives at the base of a source-code tree.
+
+* [GNU GLOBAL Source Code Tag System](http://www.gnu.org/software/global/manual/global.html)
+
+  GNU GLOBAL is a source code tag system that works the same way across diverse environments, such as Emacs editor, Vi editor, Less viewer, Bash shell, various web browsers, etc. You can locate specified symbols, such as functions, macros, structs and classes in your source files and move there easily. It is useful for hacking large projects which contain many sub-directories, many #ifdef and many main() functions. It is similar to ctags or etags, but is different from them at the point of independence of any editor.
+
+* [Ctags](http://courses.cs.washington.edu/courses/cse451/10au/tutorials/tutorial_ctags.html)
+
+  Ctags is a tool that makes it easy to navigate large source code projects. It provides some of the features that you may be used to using in Eclipse or other IDEs, such as the ability to jump from the current source file to definitions of functions and structures in other files. Ctags will make it much easier to find the Linux kernel files that you have to modify for your CSE 451 projects. Ctags also supports many languages besides C, so you may find it useful for future projects.
+
+  > ctags
+
+* [Guile-Emacs Robin Templeton](https://www.google-melange.com/gsoc/project/details/google/gsoc2014/bpt/5803402760028160)
+
+  > guile
+
+* [GuileEmacsHistory](http://www.emacswiki.org/emacs/GuileEmacsHistory)
+
+  See GuileEmacs for info on the current effort, which seems to have come farthest (and far enough to possibly be merged into upstream) so was given that main article. This page lists a timeline of older efforts as well as the history of the current effort.
+
+  > guile
+
+* [GuileEmacs](http://emacswiki.org/emacs/GuileEmacs)
+
+  For the former contents of this page which were for a large part concerned with the history of all efforts to integrate Guile and Emacs
+
+  > guile
+
+# 16、2015-07-02
+* [MenuBar](http://www.emacswiki.org/emacs/MenuBar)
+
+  The menu bar is a set of menus at the top of each Emacs frame. It is available only when MenuBarMode is on, which it is by default.
+
+  > menubar
+
+* [全屏模式](http://www.emacswiki.org/emacs/%E5%85%A8%E5%B1%8F%E6%A8%A1%E5%BC%8F)
+
+  note：这篇文章的题目应该改为“全屏显示”而不是全屏模式，因为后者像一个mode似的。容易误会。请知道怎么改的朋友帮忙。
+
+  下面代码在gnu/linux下通过，只针对gnu emacs。
+
+  > menubar
+
+# 15、2015-06-30
+* [有哪些是必备的emacs扩展？](http://www.zhihu.com/question/21943533)
+
+  keysnail - firefox模拟成Emacs,我用过的同类软件中最好的,细节无可挑剔
+
+* [Emacs和它的朋友们——阅读源代码篇](http://baohaojun.github.io/reading-source-code-cn.html)
+
+  正如那本《Code Reading》一书中指出的那样，源代码阅读一直没有被很好的重 视：你上大学的时候有“代码阅读”这门课吗？相信没有。
+
+* [Emacs学习手记（3）](http://blog.donews.com/leal/archive/2005/10/18/592725.aspx)
+
+  怎么才能知道Emacs中活动buffer的数量？有三种方法：buffer列表（键入C-x C-b时显示在一窗口中），Buffers菜单（它列出了活动的buffer和浏览这些buffer的命令），还有Buffer弹出菜单（按住Ctrl，单击鼠标左键访问，它根据模式列出buffer）。
+
+  > buffer
+
+# 14、2015-06-29
+* [Emacs'sNotes](https://github.com/mh29110/readingNotes/blob/master/Emacs'sNotes)
+
+  印象笔记上千后感觉同步和搜索很沉重,决定开始按主题整理到博客上,给印象笔记瘦身!
+  君欲善其事,必先利其器. 第一个大主题是关于编辑器
+
+* [GrepMode](http://emacswiki.org/emacs/GrepMode)
+
+  This page is about the Emacs ‘grep’ command.
+
+  > grep
+
+# 13、2015-06-23
+* [今天和emacs的ido-mode较劲了](http://blog.csdn.net/delphinew/article/details/5579646)
+
+  升级后主要是把.emacs中关于cedet加载的配置关掉即可。但是我日常使用的ido-mode居然出现了问题。
+
+  > ido
+
+* [Interactively Do Things](http://emacswiki.org/emacs/InteractivelyDoThings)
+
+  Ido is part of Emacs, starting with release 22. You can get the latest version from the unofficial bzr mirror or git mirror. You may get a current version from the canonical emacs bzr repository at Savannah when it gains a web interface (BzrForEmacsDevs#toc6). Or you can get a very outdated version of it at http://www.cua.dk/.
+
+  > ido
+
+* [Emacs月月积累（终结篇）：熟练使用org-mode管理日常事务](http://blog.csdn.net/u014801157/article/details/24372485)
+
+  本以为把这个“月月积累”系列坚持下去会花相当长的时间，也会相当困难，没想到这么快就终结了。主要是因为学会了用org-mode管理日常事务：既然Emacs成为了日常工具，当然也就没必要再每月做一点。还有就是：如果精通了org-mode，有空再了解些Emacs-lisp编程方法，基本上就踏上了Emacer不归之路，掌握Emacs其他方面的应用只是顺手拈来，遇到问题也只是兵来将挡水来土掩。
+
+* [Emacs org mode学习笔记](http://emacser.com/org-mode.htm)
+
+  以前一直都用Emacs Wiki Mode记笔记，但wiki mode总有些奇奇怪怪的bug，并且已经不更新了，最近org mode 非常火爆，禁不住想试一下。
+
+  对于记笔记，我的打算很简单，一个目录用来装所有的笔记，一个目录用来存放publish成HTML格式的笔记。并且能够自动生成索引文件。这样就可以在索引文件里直接查找并跳转到所有的笔记里。
+
+  > org-mode
+
+* [emacs的书签](http://blog.csdn.net/schumyxp/article/details/2276695)
+
+  C-x r m 添加书签  
+  C-x r b 跳到某个书签  
+  M-x list-bookmarks 显示所有书签，在里面d标记删除，u取消，r重命名，x执行操作
+
+  要想保存书签，可以修改.emacs文件，在里面添加如下内容  
+  (setq bookmark-save-flag 1)
+
+  这会把书签保存到~/.emacs.bmk
+
+  > bookmark
+
+* [Emacs 编辑环境，第 3 部分: 高级 Emacs 文本操作](http://www.ibm.com/developerworks/cn/education/aix/au-emacs3/#resources)
+
+  本教程是系列文章的第 3 部分，基于您在前两部分教程中所学习的内容，介绍一些用于文本操作的更高级的 Emacs 功能。您将学习高级编辑技术的实际示例，包括如何执行递归编辑、进行标记和使用文本矩形区块，以及使用剪切环 (kill ring) 和二次选择处理复杂的选择技术。
+
+* [8.2 Creating timestamps](http://orgmode.org/manual/Creating-timestamps.html#Creating-timestamps)
+
+  For Org mode to recognize timestamps, they need to be in the specific format. All commands listed below produce timestamps in the correct format.
+
+# 12、2015-06-17
+* [用Org-mode实现GTD](http://www.cnblogs.com/holbrook/archive/2012/04/17/2454619.html)
+
+  有了Org-mode强大的任务管理功能，再配合其他一些Emacs插件，可以很容易实现个人时间管理（GTD）。 如果不了解GTD，这里 可以让你在两分钟之内对GTD有一个初步的认识。
+
+* [org-mode: 最好的文档编辑利器，没有之一](http://www.cnblogs.com/holbrook/archive/2012/04/12/2444992.html)
+
+  尽管按照org-mode 官方 的说法，Org 是一个基于快速高效的文本方式来实现做笔记、管理待办事项（TODO list）以及做项目计划的模式（Org is a mode for keeping notes, maintaining TODO lists, and doing project planning with a fast and effective plain-text system ），但 Org-mode 首先是最好的文档编辑利器，没有之一。
+
+  我之前用过很多年M$ Word, 也尝试过OpenOffice/LibreOffice Writer,以及iWorks Pager，但都不理想，写文档是没有痛快淋漓的感觉。直到后来发现了Omni Outliner , 才终于找到了写作的乐趣。 但是了解了org-mode之后，发现原来一切都是浮云。只有Org-mode才是终极的解决之道。 使用org-mode写文档的时候，你只需要关注内容本身，而不需要写上几个字，选中它们按Ctl-B，或者停下来用鼠标去点击“标题1”，更甚觉得那个标题格式不顺眼，开始去调整样式，而停下写作的思路。
+
+# 11、2015-06-15
+* [Features of org mode](http://orgmode.org/features.html)
+
+
+* [The Org Manual](http://orgmode.org/manual/index.html)
+
+* [org-mode](http://orgmode.org/)
+
+  Created by [Carsten Dominik](http://staff.science.uva.nl/~dominik/) in 2003, maintained by [Bastien Guerry](http://bzg.fr/) and developed by [many others](http://orgmode.org/org.html#History-and-Acknowledgments).
+
+  Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
+
+  [github](https://github.com/jwiegley/org-mode)
+
+# 10、2015-06-13
+* [CuaMode](http://www.emacswiki.org/emacs/CuaMode)
+
+  Cua-mode is part of GnuEmacs versions 22.1.1 and later (at least).
+
+* [SmoothScrolling](http://www.emacswiki.org/emacs/SmoothScrolling)
+
+  mouse wheel & keyboard scroll one line at a time
+
+* [14.3 Automatic Scrolling](http://www.gnu.org/software/emacs/manual/html_node/emacs/Auto-Scrolling.html)
+
+  Emacs performs automatic scrolling when point moves out of the visible portion of the text. Normally, automatic scrolling centers point vertically in the window, but there are several ways to alter this behavior.
+
+* [调教Emacs(二)——更好 更强 更快](http://iiiyu.com/2012/02/29/emacs-set-up-2/)
+
+* [调教Emacs(一)——存活](http://iiiyu.com/2012/02/26/emacs-set-up-1/)
+
+* [cua-mode支持的可视化列模式](http://iiiyu.com/2012/03/14/emacs-set-up-3/)
+
+* [emacs的列模式](http://blog.csdn.net/meteor1113/article/details/4349274)
+
+  * 原始列模式
+
+  * cua-mode支持的可视化列模式
+
+# 9、2015-0-12
+* [EMACS配置文件（留存纪念）](http://hill.51.net/blog/index.php?job=art&articleid=a_20111226_234857)
+
+  注：此文件不是.emacs文件，而是lisp目录下的site-start.el文件。
+
+  这个文件的内容与.emacs文件内容一致，所起的作用也一致。
+
+* [HideShow](http://www.emacswiki.org/emacs/HideShow)
+
+  Invoke HideShow mode with M-x hs-minor-mode.
+
+* [emacs code](http://www.dr-qubit.org/emacs.php)
+
+  This page contains the Emacs lisp packages I develop and maintain (see below for more detailed descriptions):
+
+* [smex](https://github.com/nonsequitur/smex)
+
+  Smex is a M-x enhancement for Emacs. Built on top of Ido, it provides a convenient interface to your recently and most frequently used commands. And to all the other commands, too.
+
+* [学习Emacs系列教程（九）：缓冲管理](http://www.cnblogs.com/robertzml/archive/2010/03/09/1680909.html)
+
+  首先提及一点，这里的缓冲就是Emacs中的buffer。闹，所谓的缓冲就是当前你正在编辑的东东。比如，你打开一个文件Emacs会建立一个缓冲来装载这个文件，当你调用帮助时Emacs会建立一个叫"*Help*"的缓冲来显示帮助内容，打开Tutorial则会出现TUTORIAL.cn这个缓冲。本质上来说缓冲就是内存中开辟的一段空闲空间。
+
+* [学习Emacs系列教程（八）：查找替换](http://www.cnblogs.com/robertzml/archive/2010/03/03/1675870.html)
+
+  查找替换是任何编辑器都不可能缺少的功能，就连小小的Notepad都有快速查找，更不用说像Emacs这样的庞然大物了。其重要性这里就不多说了，接下来将一步一步给你介绍如何在Emacs中进行查找和替换。
+　　
+  Emacs将查找分成了四个大类，分别是：简单查找，增量查找，词组查找和正则查找。四种方式各有特点，适用范围也不同，大家根据需要熟悉一两种即可。
+
+* [学习Emacs系列教程（七）：剪切板](http://www.cnblogs.com/robertzml/archive/2010/02/27/1674810.html)
+
+  Emacs 在不同的操作系统中表现会有一些小的差异，这里我接着上一章所提到的粘贴复制来比较一下不同操作系统中Emacs的剪切板。
+
+* [学习Emacs系列教程（六）：编辑（3）](http://www.cnblogs.com/robertzml/archive/2010/02/19/1669204.html)
+
+  这次介绍编辑中关于粘贴复制的部分，不过在Emacs中称粘贴复制为Killing和Yanking，而不是通常说的Cutting和Pasting，当然差别不会太多。
+
+* [学习Emacs系列教程（五）：编辑（2）—— 标记](http://www.cnblogs.com/robertzml/archive/2010/02/15/1668592.html)
+
+  所谓区域(region)就是平时我们使用鼠标选中的一段文字，在emacs中用样可以使用鼠标来选择一段文字表示区域，如果使用键盘操作的话需要用一个术语叫标记(mark)，也就是一个基准点，或者说是区域的起点，使用命令C-SPC 用来设定标记，不幸的是这个组合键通常情况是被输入法给截获了，我们得使用C-@来代替，要多按个Shift，操作起来感觉有点别扭。OK，在设定好标记后我们可以让光标移动到任何想去的地方，在光标和标记之间就是选定的区域，emacs里面会高亮显示这个区域，参见下图，注意，这个区域是动态存在的，只要光标位置变了，区域也随着变化，只是其起点永远是那个标记。
+
+* [学习Emacs系列教程（三）：编辑（1）](http://www.cnblogs.com/robertzml/archive/2009/09/23/1571942.html)
+
+  任何一款文本编辑软件的核心功能当然就是编辑文本，Emacs也不例外，虽然它也有许多其它强大的本领，但都离不开文本编辑。闹，文本编辑说白了也就是打字，专业点说我们需要实现一种所见即所得输入方式。在Emacs中打字和Notepad中没什么区别，一样也是打开一个文件直接往里面敲字符就可以了，中文也行。这个和Vim区别比较大，我们还需要知道自己是在哪个模式下，不然乱敲一气也不见屏幕有什么反应。
+
+* [学习Emacs系列教程（十）：多窗口](http://www.cnblogs.com/robertzml/archive/2010/03/24/1692737.html)
+
+  首先先明确下Emacs窗口的概念，我们双击Emacs图标打开程序见到的Windows窗口叫做Frame，包含了标题栏，菜单栏，工具栏，最下面的Mode Line和回显区域，而中间一大块显示文本的区域则是Window，实际上每个窗口都有自己的Mode Line。下文中我将称Frame为框，Window为窗口，这里和我们平时理解的Windows窗口有点区别。
+  　在Emacs里面，一个框可以分割出多个窗口，多个窗口可以显示同一个或者不同Buffer，但是一个窗口只能属于一个Frame。一个窗口同时也只能显示一个Buffer，但是同时打开两个窗口也能显示一个Buffer的不同部分，这两个窗口是同步的，就是说如果在一个窗口中对Buffer做了修改，在另一个窗口中可以立即表现出来。但在一个窗口中移动光标之类的操作不会影响另一个窗口。多缓冲中有当前缓冲这个概念，同样对于多窗口也有当前窗口，对于当前选中的窗口其Mode Line相对于其它窗口颜色会深一些。
+
+* [学习Emacs系列教程（二）：导航](http://www.cnblogs.com/robertzml/archive/2009/09/14/1566435.html)
+
+  上回开了个头，简单的介绍了Emacs的一些基本常识，这回继续说基本常识，怎么移动你的光标。可能有人会说，这上下左右键不是很好用吗，还用你来讲。呶，Emacs的强大在于你能够只使用键盘左边那堆键来完成任何事情（不包括顶上的ESC和Function），这也是Emacs的设计宗旨。
+　
+  为了试验这些按键，大家在进入Emacs时选择页面中间的Emacs Tutorial，这里面可以随便乱按不用担心出什么岔子。
+
+* [学习Emacs系列教程（一）：基本使用](http://www.cnblogs.com/robertzml/archive/2009/09/10/1564108.html)
+
+  前言的前言：本人也是初学Emacs，之前对Vim也只接触了一点，所以也谈不上对哪个更喜欢，也分不出哪个更好。写这个教程的目的一是方便自己更好的学习Emacs，
+
+  二是没事找事。如果有专家路过还望多指点。
+
+* [学习Emacs系列教程（四）：Minibuffer](http://www.cnblogs.com/robertzml/archive/2009/09/27/1574557.html)
+
+  Minibuffer 乃是Emacs命令读取复杂参数的位置。比如说文件名，缓冲名，命令名以及Lisp表达式这些东西。Minibuffer 显示在echo area中，当Minibuffer处于使用状态时，会出现一个彩色的提示符并以冒号结尾，根据提示符信息输入参数，以回车提交。取消Minibuffer 使用C-g，也就是上节介绍的取消命令。
+
+* [emacs scroll other window up](http://stackoverflow.com/questions/10290828/emacs-scroll-other-window-up)
+
+  On many terminals you can do M-PageUp and M-PageDn to scroll the other window. It's nice if you're already used to using PageUp/PageDn for scrolling.
+
+* [初尝Emacs](http://warmcafe.info/archives/327)
+
+  Emacs即Editor MACroS（宏编辑器），是一种文本编辑器，在程序员和其他以技术工作为主的计算机用户中广受欢迎。最初由Richard Stallman于1975年在MIT协同盖伊·史提尔二世共同完成。这一创意的灵感来源于TECMAC和TMACS，它们是由盖伊·史提尔二世、Dave Moon、Richard Greenblatt、Charles Frankston等人编写的宏文本编辑器。自诞生以来，Emacs演化出了众多分支，其中使用最广泛的两种分别是：1984年由Richard Stallman发起并由他维护至2008年的GNU Emacs，以及1991年发起的XEmacs。XEmacs是GNU Emacs的分支，至今仍保持着相当的兼容性。它们都使用了Emacs Lisp这种有着极强扩展性的编程语言，从而实现了包括编程、编译乃至网络浏览等等功能的扩展。
+
+# 8、2015-06-11
+* [Planet Emacsen](http://planet.emacsen.org/)
+
+  多个Emacs博客的集合.
+
+* [38.2 emacsclient Options](http://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html#emacsclient-Options)
+
+  You can pass some optional arguments to the emacsclient program, such as:
+
+  emacsclient -c +12 file1 +4:3 file2
+
+# 7、2015-06-10
+* [How to gracefully shutdown emacs daemon?](http://stackoverflow.com/questions/1167484/how-to-gracefully-shutdown-emacs-daemon)
+
+  On login to Ubuntu, I start an Emacs (version 23) daemon using Ubuntu's Startup programs. I then start Emacs clients whenever I need to edit something. When I logoff from Ubuntu, it says Emacs is still running, of course. I need to attach a script somewhere to tell Gnome to shutdown emacs when I logoff/shutdown.
+
+* [38 Using Emacs as a Server](http://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html)
+
+  Various programs can invoke your choice of editor to edit a particular piece of text. For instance, version control programs invoke an editor to enter version control logs (see Version Control), and the Unix mail utility invokes an editor to enter a message to send. By convention, your choice of editor is specified by the environment variable EDITOR. If you set EDITOR to ‘emacs’, Emacs would be invoked, but in an inconvenient way—by starting a new Emacs process. This is inconvenient because the new Emacs process doesn’t share buffers, a command history, or other kinds of information with any existing Emacs process.
+
+* [EmacsAsDaemon](http://www.emacswiki.org/emacs/EmacsAsDaemon)
+
+  This a new feature that is included in emacs-23.1.
+
+  Start the emacs daemon with
+
+  emacs --daemon
+
+* [Emacs 一个强大的平台](http://ann77.emacser.com/Emacs/EmacsIndex.html)
+
+
+
+* [[emacs] 为什么说org-mode是个神器](http://www.cnblogs.com/bamanzi/archive/2012/05/12/org-mode-so-powerful.html)
+
+  Org-Mode 是Emacs上的一个扩展包，算是个神器。概括地说，它是一种major mode，可以让用户编写结构 化带有格式的文档——不过是用带有简单标记的纯文本来表达格式的，这点跟markdown和restructuredtext有 点像。
+
+  但这个东西却是一个神器，你可以用它来写文档、写博客、写胶片、记笔记，甚至GTD、电子表格，甚至编写代码！
+
+* [Emacs的Org Mode](http://emacser.com/org-mode-yupeng.htm)
+
+  Org mode 是 emacs 中的一个主模式。 Org 是 organization 的缩写。这个模式的主要作用是用来记笔记，写 todo list，org mode 有一个目标，就是希望每件事情都只记录一次。
+
+* [Evaluating JavaScript in a Node.js REPL from an Emacs Buffer](https://atlanis.net/blog/posts/nodejs-repl-eval.html)
+
+  For my internship at IBM, we're going to be doing a lot of work on Node.js. This is awesome: Node is a great platform. However, I very quickly discovered that the state of Emacs ↔ Node.js integration is dilapidated at best (as far as I can tell, at least).
+
+* [Setting up Emacs as a Javascript editing environment for Fun or Profit]
+
+  I’ve been doing a lot of Javascript lately, which has naturally led to a whole lot of trips down the .emacs rabbit-hole
+
+* [js-comint.el](http://js-comint-el.sourceforge.net/)
+
+  js-comint.el is a comint mode for emacs which allows you to run a compatible javascript repl such as Spidermonkey or Rhino inside of emacs. At first blush this may seem a little useless, but when paired with Steve Yegge's js2-mode it becomes a useful way of testing non-html-centric javascript code while editing it.
+
+  For example, put js-comint.el in your load-path, and then add the following lines to your .emacs:
+
+      (require 'js-comint)
+      (setq inferior-js-program-command "/usr/bin/java org.mozilla.javascript.tools.shell.Main")
+      (add-hook 'js2-mode-hook '(lambda ()
+      			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+      			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
+      			    (local-set-key "\C-cb" 'js-send-buffer)
+      			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+      			    (local-set-key "\C-cl" 'js-load-file-and-go)
+      			    ))
+  You can then try out any piece of javascript code in a javascript interpreter by simply typing C-x C-e at the end of the sexp. js-comint will use js2-mode to find the last sexp, run Rhino, and load the sexp it just found into the interpreter. This, it turns out, is extremely useful, particularly when you're writing non-domish, algorithmic javascript.
+
+* [48.2.4.2 Safety of File Variables](http://www.gnu.org/software/emacs/manual/html_node/emacs/Safe-File-Variables.html)
+
+  File-local variables can be dangerous; when you visit someone else’s file, there’s no telling what its local variables list could do to your Emacs. Improper values of the eval “variable”, and other variables such as load-path, could execute Lisp code you didn’t intend to run.
+
+* emacs 设置tab大小为4个空格
+  在.emacs中加入
+  (setq default-tab-width 4)
+  (setq-default indent-tabs-mode nil)
+
+插入tab C-q tab
+
+* [Emacs的Tab键与缩进](http://www.cnblogs.com/bamanzi/archive/2010/04/04/emacs-indent.html)
+
+* [一年成为Emacs高手(像神一样使用编辑器)](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)
+
+  陈斌放在github上的版本，应该是原始的
+
+* [Emacs中文网](http://emacser.com/)
+
+# 6、2015-06-09
+* [Emacs Markdown mode](https://github.com/defunkt/markdown-mode)
+
+  markdown-mode is a major mode for editing Markdown-formatted text files in GNU Emacs. markdown-mode is free software, licensed under the GNU GPL.
+
+* [How can I reload .emacs after changing it?](http://stackoverflow.com/questions/2580650/how-can-i-reload-emacs-after-changing-it)
+
+  M-x load-file
+  C-x C-e
+  M-x eval-region RET
+  M-x eval-buffer
+
+  C-x C-e ;; current line
+  M-x eval-region ;; region
+  M-x eval-buffer ;; whole buffer
+  M-x load-file ~/.emacs.d/init.el
+
+# 5、2015-06-08
+* [Trần Xuân Trường](https://github.com/tmtxt/.emacs.d)
+
+  emacs.d
+
+* [Set up Javascript development environment in Emacs](https://truongtx.me/2014/02/23/set-up-javascript-development-environment-in-emacs/)
+
+  The built-in js-mode in Emacs does not provide many features for working with js framework beside js editing and syntax highlighting. The tips in this post will help you transform your Emacs into a powerful Javascript IDE.
+
+* [用emacs打造node.js开发环境(2014.05.06更新)](http://blog.csdn.net/luckyan315/article/details/18948815)
+
+  之前的因为项目用node来构建，网上搜集了相关的插件，涉及到整个开发流程，共大家参考以下所有涉及到的文件，都可以在 https://github.com/luckyan315/site-lisp 这里找到^^
+
+  （另外本文是用org-mode来写的，原版可以从这里查看：http://luckyan315.github.io/ ）
+
+* [ParEdit](http://emacswiki.org/emacs/ParEdit)
+
+  ParEdit (paredit.el) is a minor mode for performing structured editing of S-expression data. The typical example of this would be Lisp or Scheme source code.
+
+  ParEdit helps **keep parentheses balanced** and adds many keys for moving S-expressions and moving around in S-expressions. Its behavior can be jarring for those who may want transient periods of unbalanced parentheses, such as when typing parentheses directly or commenting out code line by line.
+
+# 4、2015-06-07
+* [从零开始——Emacs 安装配置使用教程 2015](http://www.jianshu.com/p/b4cf683c25f3)
+
+  作为一个彻头彻尾的emacs新手，尽管有些薄弱的编程经验，但上手这么一个黑客级别的编辑器还是难免一段阵痛期。虽然网上有很多非常好的教程，比如这篇著名的文章，一年成为Emacs高手(像神一样使用编辑器)，虽然提供了一个很好的学习框架，但具体的学习内容还是需要你自己寻找。这篇教程，在某种意义上可以被视为按照那个学习框架进行的学习实践。
+
+* [对于使用emacs包管理器ELPA，你有哪些推荐的包？](http://www.zhihu.com/question/21097151)
+  ELPA官网页http://tromey.com/elpa/ EmacsWiki页[EmacsWiki: ELPA](http://www.emacswiki.org/emacs/ELPA)
+
+  (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+  ("marmalade" . "http://marmalade-repo.org/packages/")
+  ("melpa" . "http://melpa.milkbox.net/packages/")))
+  本来是搜这个问题的，看到还没有人回答就说说我现在推荐的包吧。
+  ace-jump-mode 它的功能是快速跳转到屏幕某个位置，超好用。
+  bookmark+ 把常用文件加入书签
+  browse-kill-ring 如名字所示，interactively insert items from kill-ring
+  buffer-move 很好用 Swap buffers without typing C-x b on each window
+  color-theme 主题，不用说。
+  company 我个人用的是company，它的auto-complete都是自动补全的，选个你喜欢的。
+  desktop 保存当前的工作状态。
+  dired+ 超好用。
+  eldoc-extension 写elisp时会有文档提示
+  fuzzy 不知道为什么装，好像是和ido配合使用的。
+  git-gutter-fringe 实时显示文件的修改状态(和git diff作用类似)
+  helm 功能和ido, smex 等有重叠，不过也很好用。
+  key-chord 快速按两个键时执行一个函数，如(key-chord-define c++-mode-map "{}" "{\n\n}\C-p\t")
+  multiple-cursors 超好用。
+  paredit 如果你写S-表达式(lisp, elisp, scheme, ...)的话必备
+  popup pos-tip 忘了有什么用了。
+  pretty-mode-plus 在不同major mode下替换符号，如在c-mode下把!=显示成≠等，在octave-mode下把~=替换成≠等。
+  rainbow-delimiters 可以把括号("{}[]()")变成不同的颜色
+  session 和desktop目的一样，use variables, registers and buffer places across sessions
+  slime 写common lisp 必备 如果用company的话也装了slime-company吧。
+  smart-compile smarter-compile 智能编译
+  smex 应该是很好用 M-x interface with Ido-style fuzzy matching.
+  w3m an Emacs interface to w3m 可以查个CLHS什么的。
+  yasnippet 自动补全的。
+
+* [ELPA](http://www.emacswiki.org/emacs/ELPA)
+
+  ELPA is the Emacs Lisp Package Archive, written originally by TomTromey. It is included in GnuEmacs, starting with version 24. package.el is the package manager library for ELPA.
+
+  “Our goal is to make it simple to install, use, and upgrade Emacs Lisp packages. We supply package.el a simple package manager for Emacs, and a repository of pre-packed Emacs Lisp code.”
+
+# 3、2015-06-05
+* [Emacs Prelude](https://github.com/bbatsov/prelude)
+
+  Prelude is an Emacs distribution that aims to enhance the default Emacs experience. Prelude alters a lot of the default settings, bundles a plethora of additional packages and adds its own core library to the mix. The final product offers an easy to use Emacs configuration for Emacs newcomers and lots of additional power for Emacs power users.
+
+* [emacs24-starter-kit](https://github.com/eschulte/emacs24-starter-kit)
+
+  A cleaner version of the literate starter kit based on Emacs24
+
+# 2、2015-06-04
+* [Emacs Starter Kit](http://eschulte.github.io/emacs24-starter-kit/)
+
+  This won't teach you Emacs, but it'll make it easier to get comfortable. To access the tutorial, press control-h followed by t from within Emacs.
+
+* [redguardtoo emacs.d](https://github.com/redguardtoo/emacs.d)
+
+# 1、2015-06-03
+* [The Emacs Editor](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)
+
+  Emacs is the extensible, customizable, self-documenting real-time display editor. This manual describes how to edit with Emacs and some of the ways to customize it; it corresponds to GNU Emacs version 24.5.
+
+* [一年成为Emacs高手(像神一样使用编辑器)](http://blog.csdn.net/redguardtoo/article/details/7222501/)
+
+  http://blog.csdn.net/redguardtoo/article/details/7222501/

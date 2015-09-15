@@ -1,0 +1,1282 @@
+* 72. [2015-09-11 Fri 15:31]
+** [[http://www.amoa400.com/][moa400-blog]] [2015-09-11 Fri 15:32]                                           :node.js:
+   写程序-做产品-玩设计
+
+* 71. [2015-09-06 Sun 12:55]
+** [[http://hantsy.blogspot.tw/][Forward Everyday]] [2015-09-06 Sun 12:56]                                      :remote:java:freelancer:
+  Hantsy Bai is a self-employed consultant, and he has over 13 year Java EE development experience. Currently he focus on offshore development and technical consulting of Java EE, Spring, Groovy, etc. He lives in Shanghai, China.
+
+# 70、2015-09-02
+* [好记性不如烂笔头](http://everet.org/)
+鄙人小菜，毕业于华南理工大学软件工程。
+
+目前为一个搞Android的服务端程序员-.– 喜欢C++和Python。
+
+爱好探险，摄影，和计算机。喜欢实现自己的想法~
+
+对于摄影，大部分照片都置于我的QQ空间里，因已积累了多年照片与评论，遂不愿再换。
+
+> emacs
+
+# 69、2015-09-01
+* [于康](http://cyukang.com/)
+这是个人博客，在这里记录一些笔记、心得感悟、杂七杂八好玩的。
+既然放在大家能看到的地方，那就尽量提供一些或许有用的信息。
+写作对作者的益处远远多于阅读者，
+这里写出的文字也更多是自己的一个积累和沉淀。
+内容多为算法和程序设计、Linux、
+编程语言C/C++、Go、Rust/Ruby/Python/Scheme等技术相关的内容。
+如果刚好你对我写的东西感兴趣，可以订阅我的RSS，我会保持全文输出。
+
+> programming scheme
+
+# 69、2015-08-29
+* [Dr. Gernot Starke](http://it-and-more.blogspot.tw/)
+
+  Independent IT consultant, supporting real-world projects in software-architecture, agile development processes and/or technical management.
+
+  > mac emacs
+
+# 68、2015-08-25
+* [尤小右](http://www.evanyou.me/)
+
+  Vue.js 的作者
+
+  > javascript vue.js
+
+# 67、2015-08-15
+* [Eric Elliott](http://ericleads.com/)
+  Eric Elliott is a veteran of JavaScript application development. He has served as Computer Scientist for the Adobe Creative Cloud team, JavaScript Lead at Tout (social video), head of client side architecture at Zumba Fitness (the leading global fitness brand), author, public speaker, UX consultant, and viral application consultant. He lives in the San Francisco bay area with the most beautiful woman in the world.
+
+  > javascript
+
+* [CSS魔法](http://www.cssmagic.net/)
+  * 网名
+    CSS魔法
+  * 目前职业
+    前端开发(HTML/CSS/JavaScript)、移动互联网产品设计
+  * 目前工作地
+    上海 百姓网
+
+  * [github](https://github.com/cssmagic)
+
+# 66、2015-08-13
+* [Philip Walton](http://philipwalton.com/)
+
+  My name is Philip Walton. I’m an engineer at Google on the developer relations team and formerly, senior front-end software engineer at Appfolio. I’ve been working on the web professionally for the past seven years, and unprofessionally since 1998 when I made my first website.
+
+  This blog is a place where I can explore the ideas I think about outside of work. I tend to prefer writing about larger, more abstract topics, but occasionally I’ll bring up a specific technology as well.
+
+  If you’re interested in my thoughts on something, let me know, and maybe it’ll turn into my next article.
+
+  > front-end
+
+* [囧克斯](http://jiongks.name/)
+  本名 赵锦江
+  英文名 Jinks Zhao
+  昵称 勾三股四
+
+  该网站的名字因本人英文名被调戏而得名为囧克斯
+
+  > front-end maxthon taobao
+
+# 65、2015-08-05
+* [Yan Zhang](http://dirlt.com/)
+  * Extensive experience in:
+    * large-scale distributed system design and implementation.
+    * network programming framework design and implementation.
+    * storage system design and implementation.
+    * performance optimization and tuning for systems and applications.
+    * system software development.
+    * big data processing and analysis.
+    * machine learning and data mining.
+  * Specialities:
+    * proficient in C/C++, Python, Java, Scala.
+    * solid knowledge of data structure and algorithm.
+    * extremely familiar with system development toolchain on linux.
+    * good understanding of compiler technique and related tools.
+
+# 64、2015-07-31
+* [Joe Armstrong](http://joearms.github.io/)
+  * PROFESSOR, ADJUNCT
+    * Works for
+      SCS PROGRVARUTEKNIK O DATORSYS
+    * E-mail
+      jlarm@kth.se
+    * Address
+      Electrum 229
+    * Link
+      www.kth.se/profile/jlarm/
+
+  * About me
+
+    Be patient, I've just started editing the information here
+
+    * My research interests are:
+      * Distributed programming
+      * Low-energy computing
+      * Functional Programming
+
+# 63、2015-07-24
+* [James Cooper](http://bitmechanic.com/)
+
+  Hi! I'm James Cooper, a technology consultant and developer based in Seattle, WA. Current interests include distributed computing, queueing, and the Go language.
+
+  I'm available for freelance work. Contact me at: james at bitmechanic dot com
+
+  The maintainer of [node-pool](https://github.com/coopernurse/node-pool)
+
+* [Douglas Christopher Wilson](http://somethingdoug.com/)
+
+  The maintainer of [node-mysql](https://github.com/felixge/node-mysql)
+
+# 62、2015-07-23
+* [Richard P. Gabriel](http://www.dreamsongs.com/)
+
+  For years I’ve tried to blend art and science in my work. Even with limited talent and limited success, over many years I’ve amassed a body of work some find interesting, and over time, as the master recommends, I will endeavor to put it all here for you to have. Here’s how Henry put it:
+
+  * Let us suppose, valleys & such ago,
+  * one pal unwinding from his labours in
+  * one bar of Chicago,
+  * and this did happen. This was so.
+  * And many graces are slipped, & many a sin
+  * even that laid man low
+
+  > lisp programming
+
+# 61、2015-07-22
+* [Lin Zhizhao](http://linz.im/)
+
+  I am a freelancer, I do web design.
+
+  > remote
+
+# 60、2015-07-20
+* [R. Kent Dybvig](http://www.cs.indiana.edu/~dyb/)
+
+  * [wikipedia](https://en.wikipedia.org/wiki/R._Kent_Dybvig)
+  * [linkedin](https://www.linkedin.com/in/kentdybvig)
+
+  Professor Emeritus of Computer Science
+
+  * Contact Information
+
+    * dyb@cs.indiana.edu
+    * (812) 855-8653
+
+  * Education
+
+    * Ph.D. in Computer Science at The University of North Carolina at Chapel Hill, 1987
+    * M.S. in Computer Science at Indiana University, 1983
+    * B.A. in Mathematics and Computer Science at Indiana University, 1980
+
+  * Courses Taught at SOIC
+
+    * H211 Introduction to Computer Science, Honors
+    * P423 Compilers
+    * P523 Programming Language Implementation
+
+  * Biography
+
+    Kent Dybvig and his students engage in research on the design and implementation of programming languages that has led to contributions involving control operators, syntactic abstraction, program analysis, compiler optimization, register allocation, multithreading, automatic storage management, and more. In 1984 he created the Chez Scheme implementation of Scheme and remains its principal developer. Known for fast compile times and reliability as well as for its ability to compile and run even complex programs with large memory footprints efficiently, Chez Scheme has been used to build commercial systems for enterprise integration, web serving, virtual reality, robotic drug testing, and circuit layout, among others. It is also used for computer science education at all levels as well as research in a variety of areas. Dybvig is author of The Scheme Programming Language, fourth edition (MIT Press) and was chair of the editorial committee for the Sixth Revised Report on Scheme.
+
+  * Research Areas
+
+  Programming Language Principles, Design, and Implementation
+
+* [Michael D. Adams](http://michaeldadams.org/)
+
+  I am a researcher in Computer Science currently working on the K Framework with Grigore Rosu in the Formal Systems Labratory (FSL) at the University of Illinois at Urbana-Champaign.
+
+  My research area is programming languages with an emphasis on types, static analysis, control-flow analysis, syntax, parsing and compilers.
+
+  My research objectives relate to the design, implementation and construction of programming languages, compilers and software analysis tools that help programmers more easily implement, reason about, prove correct and improve the performance of their programs.
+
+  I graduated from Indiana University under the supervision of Kent Dybvig and did post-doctoral research on the High-Assurance Systems Programming (HASP) project with Mark Jones, Jim Hook and Andrew Tolmach at Portland State University.
+
+  I’ve been involved in the development of
+
+  the Glasgow Haskell Compiler,
+  the Chez Scheme compiler,
+  the X10 language,
+  the Habit compiler and of course
+  the K Framework.
+
+  > scheme
+
+* [董少桓](http://www.mis.yuntech.edu.tw/~tungsh/tungsh.html)
+
+  國 立 雲 林 科 技 大 學 資 訊 管 理 系 所
+
+  董 少 桓 教 授
+
+  National Yunlin University of Science and Technology Department of Information Management
+
+  * 支援程式設計教學的網站與工具
+
+  初學者學習程式設計的困難度隨著程式語言功能的增強而不斷的增加。傳統的以C或Java為初學者入門程式語言的教育方式等於是期待初學者使用專業程式設計師才使用的語言或開發工具來學習程式設計。初學者將會遭遇的困難與挫折實在是可想而知。本研究使用專門為初學者而設計的Scheme語言當作學習C、Java或其他程式語言的踏板，並設計相關的教學內容及軟體使學生能有一條更平順的學習程式設計的路徑。以Scheme為入門程式語言的教學方式也被麻省理工學院、加州大學柏克萊分校、及其他學校採用。
+
+  * 目前方向：
+    * 程式語言學習網
+    * 過去成果
+      * Visualizing Evaluation in Scheme
+      * Effects of Visualization Strategy for Learning Recursion
+
+  The student of R. Kent Dybvig.
+
+  > scheme
+
+* [Daniel Friedman](http://www.soic.indiana.edu/faculty-research/directory/profile.html?profile_id=205)
+
+  * Professor of Computer Science
+
+    Contact Information
+
+    dfried@cs.indiana.edu
+
+    (812) 855-4885
+
+    Lindley Hall 230A
+
+  * Education
+
+    Ph.D. in Computer Science at University of Texas at Austin, 1973
+
+  * Research Areas
+
+    Programming Language Principles, Design, and Implementation
+
+    Theoretical Foundations of Computer Science
+
+  > programming scheme
+
+* [Patrick](http://lab.patrickjahns.de/)
+
+  Hi, I`m Patrick, [knowmad](http://www.knowmadsociety.com/) and [tech enthusiast](https://github.com/patrickjahns). This is where I collect and share posts related to technology.
+
+  > docker
+
+# 59、2015-07-18
+* [童燕群](http://codefine.co/)
+
+  80后，半路出生，还奋战在IT一线的老码农一枚。做过电信级服务端软件，也写过Java应用，略懂存储，喜欢折腾WEB，喜欢DIY硬件。向往无拘无束，自由自在的生活方式，闲暇时看看电影，读读历史、文学，写写技术文章，勤于总结。
+
+  这里更多关注IT领域的基础知识，看到好的文章也会忍不住转来这里。注重实践，总希望能够深挖知识点和问题，但是表达能力欠缺，明于心却不明于口，看文章时如有疑惑，欢迎不吝指正。
+
+  努力做好博客，希望借助于这个平台认识更多有着共同志趣的同学。
+
+  > netwok epoll
+
+* [Jeff Preshing](http://preshing.com/)
+
+  Hi, I’m Jeff Preshing, Canadian computer programmer. Looks like you’ve found my blog. This is where I write about programming-related stuff.
+
+  I try to keep it technical, and tend to focus on C++ and Python, but these aren’t strict rules. You could say the main theme throughout this blog is a reverence and fascination for programming. I think it’s incredible to be living in an age where we have these electronic boxes plugged into the wall, which we can program to do useful and amazing things. Given that you are reading on one right now, perhaps you think so too.
+
+  I’ve been working in the game industry for more than 12 years. Currently, I work as a Technical Architect at Ubisoft Montreal, where I’ve worked on franchises such as Rainbow Six, Child of Light and Assassin’s Creed. Before that, I spent a few years developing desktop graphics software at Corel.
+
+  If you like this blog, you can subscribe via RSS or follow me on Twitter, where I will spam you with the latest post from time to time. Also, feel free to leave comments, especially if you spot an error, or even just to share any interesting experiences or thoughts you have that are related to the post.
+
+  > canada
+
+# 58、2015-07-16
+* [Aditya Bhargava](http://adit.io/index.html)
+
+  > haskell functional
+
+* [Clarissa Peterson](http://www.clarissapeterson.com/)
+
+  My name is Clarissa and I make websites. (I also fix websites, if yours needs fixing rather than making.)
+
+  Clarissa posing with a cardboard cutout of Flo from the Progressive commercials.
+
+  At the Progressive corporate headquarters in 2012 to give a talk on responsive design to the Cleveland Web Standards Association. Flo was not able to attend the event.
+
+  I’m a web/UX designer and front-end developer. Some of the things that I do: responsive design, mobile strategy, user experience analysis, content strategy, and talking about all of the above.
+
+  I wrote a book called Learning Responsive Web Design: A Beginner’s Guide for O’Reilly Media. It was published in June 2014.
+
+  My first web job was in 2002, and since then I’ve had some pretty awesome gigs. Some of the places I’ve worked include the Library of Congress, AARP, Fannie Mae, and the Leadership Conference on Civil & Human Rights. I’ve also worked for Ralph Nader. My background includes user experience design, web content strategy, project/program management, front-end development, and online marketing.
+
+  I currently live in Montreal, Quebec, with my wonderful husband A.J. Kandy, but in July 2015 we’ll be moving to Calgary, Alberta. I grew up in central Wisconsin (lots of cows), and I’ve also lived in Houston, Chicago, and Washington, DC. And, well, I lived on the road for a little while (it was fun).
+
+  > javascript front-end
+
+# 57、2015-07-14
+* [Marco Maggi](http://marcomaggi.github.io/)
+
+  My name is Marco Maggi. I live in the northern part of Italy. I am the one who is not smiling in this photo.
+
+  > vicare scheme
+
+* [Gianni Chiappetta](https://butt.zone/)
+
+  Create a javascript implementation of the L-diggity.
+
+  > javascript
+
+# 56、2015-07-12
+* [王耀第](http://wangyaodi.com/)
+
+  远程工作者，高级Ruby/Rails工程师，西安Rubyists 活动组织者，西安GDG 组织者。
+
+  > remote
+
+* [http://meaglith.com/](http://meaglith.com/)
+
+  ConatinerOps
+
+  > docker
+
+* [叶叮叮](http://yedingding.com/)
+
+  GROWING TECH ENTREPRENEUR
+
+  七年远程工作者，系统架构师，Fengche.co 联合创始人，RubyConf China 组织者，Teahour.FM 联合主播。开源狂热者，喜欢解决各种疑难杂症，产品开发中寻找完美和现实的平衡点。喜欢研究开发流程及方法论，关注如何改善团队协作，希望 Fengche.co 能帮助技术创业团队更好地做产品！
+
+  > remote
+
+# 54、2015-07-10
+* [Mikael Ronstrom](http://mikaelronstrom.blogspot.tw/)
+
+  [profile](https://www.blogger.com/profile/09590445221922043181)
+
+  My name is Mikael Ronstrom and I work for Oracle as Senior MySQL Architect. I am a member of the LDS church. The statements and opinions expressed on this blog are my own and do not necessarily represent those of Oracle Corporation
+
+  > database  mysql
+
+# 53、2015-07-09
+* [Weiwei SUN](http://wwsun.me/)
+
+  Born in 1990, now a student of Southeast University, and also a student of Monash University(Australia), double master degree of Computer Technology and Information Technology. Loving technology, programming, reading, and photographing. The research interests of mine are database technology, data visualization, and application of machine learning.
+
+  I will Graduate in June 2016, expect the internship or full-time job in Full-stack Web Development or Big Data Platform Development.
+
+  > javascript
+
+# 52、2015-07-08
+* [陈斌](http://blog.binchen.org/index.html)
+
+  我是陈斌.做软件开发多年.业余爱好为桥牌.目前居住在Sydney, Australia
+
+  > emacs ctags lisp javascript
+
+* [郝培强](http://tiny4.org/blog/)
+
+  我就是我，Tinyfool，郝培强！身高180，体重110公斤，标准的中年老胖子。 无妻有女，无房无车，现居上海，程序员，OurCoders.com站长。
+
+  我的英文Blog：[Tinyfool's diary](http://tinyfool.org/)
+
+  我的微博：[@Tinyfool](http://weibo.com/tinyfool)
+
+  我的Twitter：[@Tinyfool](https://twitter.com/tinyfool)
+
+# 51、2015-07-06
+* [rainy](http://blog.rainy.im/)
+
+  > javascript
+
+# 50、2015-07-04
+* [aleix conchillo flaqué](http://hacks-galore.org/aleix/)
+
+  I was born in September 1976 in Granollers, a town near Barcelona. Since I was in college I always wanted to work abroad. Finally, in 2011, all the stars were in the right place and I moved with my wife and my one year old son to Los Angeles, California. Since then I work for Oblong Industries, the developer of the g-speak platform. g-speak enables the development of multi-user, multi-screen, multi-device, spatial, networked applications.
+
+  Before, I worked for 6 years as a software engineer within the LISA Pathfinder project at ICE (Institute of Space Sciences). I developed embedded software for the LISA Test Package, a payload developed by the European scientific community. LISA Pathfinder is scheduled for launch in 2014.
+
+  [blog](http://hacks-galore.org/aleix/blog)
+
+  > embedded scheme guile
+
+* [JOEL KLETTKE](http://joelklettke.com/)
+
+  The life and times of the world's most humble copywriter.
+
+  > remote
+
+* [crifan](http://www.crifan.com/)
+
+  * 网名现用crifan，曾用green-waste。
+  * 80后
+  * 雄性
+  * 挨踢（IT）族
+  * 音乐爱好者
+  * 乐于分享者
+  * 关注社会公平，正义
+  * 偶像：老罗（罗永浩）
+  * 座右铭：走别人没走过的路，让别人有路可走
+
+  > embedded website
+
+# 49、2015-07-03
+* [Ben Simon](http://www.blogbyben.com/)
+
+  A random collection of thoughts, comments and photos from Ben Simon.
+
+  > scheme guile
+
+# 48、2015-06-28
+* [张丹](http://blog.fens.me/)
+
+  张丹(Conan), 创业者，程序员(Java,R,Javascript/Nodejs)
+
+  记录成长的经历，从“软件架构设师”转型为“数据科学家”再到“量化投资-宽客”，打造跨界的IT金融博客！
+
+  新版本使用了wordpress博客系统，比原来“纯手工”打造的blog要漂亮很多。
+
+  博客总结了一些R,Java,Hadoop,Nodejs等IT技术的使用心得，以及从IT转金融的学习路线、各种知识汇总。
+
+  张丹，我是一名程序员，前后做了10年的程序开发。在这10年间，我从程序员一路做到架构师，经历了太多的系统和应用。我做过手机游戏，写过编程工具；做过大型Web应用系统，写过公司内部CRM；做过SOA的系统集成，写过基于Hadoop的大数据工具；做过外包，做过电商，做过团购，做过支付，做过SNS，也做过移动SNS。
+
+  熟练掌握R,JAVA,PHP,Javacript 4种编程语言。
+
+  > javascript nodejs
+
+# 47、2015-06-27
+* [Brendan D. Gregg](http://www.brendangregg.com/index.html)
+
+  G'Day. I use this site to share some hobbies and my work with computers. These days I work on large scale computer performance, including large cloud computing environments, and live in Silicon Valley. I have a personal [blog](http://www.brendangregg.com/blog/index.html), and I'm also on twitter. Here is my [bio](http://www.brendangregg.com/bio.html) and [anti-bio](http://www.brendangregg.com/antibio.html).
+
+  > linux performance
+
+For a short selection of my favourite content, see my portfolio page. For everything, see the sitemap.
+
+* [Samson's machete](http://nalaginrut.com/)
+
+  The author of artanis
+
+  Mu Lei
+
+  [github](https://github.com//NalaGinrut)
+
+  A Chinese in Shenzhen
+
+  > scheme guile
+
+# 46、2015-06-23
+* [Bruce Dou](http://blog.eood.cn/)
+
+  关注互联网基础架构，高并发，高可用，低延迟的架构；自动化部署和持续开发集成的基础设施。
+
+  提供互联网架构(亚马逊云服务以及传统架构)相关付费技术咨询。
+
+  提供付费互联网相关服务或者软件测评。
+
+  Bruce Dou
+
+  Beijing, China & UK
+
+  Email / Gtalk: doubaokun@gmail.com
+
+  Web: http://blog.eood.cn
+
+  Language Using:
+
+  PHP / Node.js / Java / Python / Erlang / Ruby / JavaScript / Scala
+
+  Interest In:
+
+  Web Infrastructure
+
+  High Available, High performance, Low latency architecture Design
+
+  Artificial Intelligence
+
+  Drupal
+
+  Internet Application Development
+
+  Search Engine
+
+  Natural Language Process
+
+  Recommend System
+
+  Machine leaning and Data mining
+
+  Skills & Technology
+
+  Drupal module development & Drupal theme building & Drupal performance optimize
+
+  Build custom search engine based on Lucene
+
+  Build distributed chatting system based on Ejabberd
+
+  Build E-commence system based on Drupal & Ubercart
+
+  Build synchronous and asynchronous architecture
+
+  Build scalable, high available, low latency, robust architecture
+
+  Amazon EC2, S3, SimpleDB Maintenance or development
+
+  AWS EC2, ELB, CloudFormation, S3, RDS maintenance and development
+
+  Also interested in simple things, but above all clean design, music, programming, and architecture.
+
+# 45、2015-06-17
+* [腊八粥](http://www.labazhou.net/)
+
+  一个关于计算机、极客的英文文章的翻译网站
+
+* [Eevee](http://eev.ee/)
+
+  I'm Eevee, an 11× programmer and world-renowned Pokémon, and this is my amazing personal website.
+
+  I like making things other people can enjoy: programs, games, comics, writing, etc. Maybe you will enjoy some of them too!
+
+  [github](https://github.com/eevee)
+
+# 44、2015-06-15
+* [涯余](http://yayua.github.io/)
+
+  无可云证，是立足境。
+
+  * Arch / Slackware / openSUSE / OSX
+  * C / C++ / Java / Shell / Golang / Lisp / Latex
+  * Docker / Hadoop / Flume
+
+  > docker
+
+* [Bastien Guerry](http://bzg.fr/index.en.html)
+
+  > emacs org-mode
+
+* [Carsten Dominik](https://staff.fnwi.uva.nl/c.dominik/)
+
+  Who am I
+
+  You are visiting the homepage of Prof. Carsten Dominik, currently UHD (Universitair Hoofddocent) at the Sterrenkundig Instituut Anton Pannekoek and special professor for exoplanets at the astronomy department of the Radboud Universiteit Nijmegen The institute is part of the Faculty of Natural Sciences, Mathematics and Informatics at the University of Amsterdam.
+  Research Interests
+
+  My Research Interests focus on the the formation of planetary systems. Just like our own planetary systems, there is a large number of stars in the Milky Way that possess planetary systems. Latest estimates find that there should be at least as many planets as stars. We investigate how such planets form, by studying the disks around young stars in which planets form. We do this using numerical simulations as well as observations taken with the most modern telescopes in the world.
+
+  > emacs org-mode
+
+# 43、2015-06-12
+* [Curriculum Vitae](http://www.dr-qubit.org/qubit.php)
+
+  I'm a nationality-confused European, born and raised in Luxembourg but technically British.
+
+  > emacs undo-tree
+
+* [璇玑玉衡](http://www.cnblogs.com/robertzml/)
+
+  不要迷恋哥，哥只是传说。
+
+  > emacs
+
+* [Shane Hudson](https://shanehudson.net)
+
+  About Shane Hudson Dot Net
+
+  Those clever among you may have guessed that this website is run by me, Shane Hudson! So what is it? Well, basically... I was fed up of forgetting where I published articles, so primarily this website is for linking to said articles. Oh yeah, I forgot to say what the articles are about.
+
+  Well, I am a freelance front end website developer and general computer geek (no, not nerd.. I do socialise occasionally!!), I enjoy learning and messing about with different things to do with computers. But I have a very bad memory, so I often write articles or snippets just to remind myself of what I had learned or discovered. It seems they also help others, which is always good!
+
+  A few people have asked me why I use .net for my website instead of the .co.uk that I also (now) own. The main reason is because when I first started out, I was targetting the world, rather than staying local. Also, I think that Dot Net fits pretty well since I am a web developer and the web is on the InterNET :) see, my logic does make sense ocassionally.
+
+  Who Is Shane Hudson?
+
+  Me! I am a website developer from Chichester (West Sussex, England) but am currently studying Computer Science with Artifical Intelligence at the University of Kent. Previously, I started a degree in computing aged 11 with the Open University but have not yet completed it as I decided that I need the social and independant experiences to make sure I am well rounded, sociable et cetera.
+
+  I am interested in making the web sustainable (which currently I do not believe it is) as well as semantic so that anybody can use a website no matter what browser, system or even screen reader they use. Of course, that does come with compromises for browsers that are graphical (unlike, for example, Lynx) but are not up to modern day standards such as Internet Explorer. If you are interested in this kind of stuff, you will definitely want to be sticking around!
+
+  If you are interested in stalking me, I can be found on multiple parts of the Internet. My username is usually ShaneHudson, I don't have any aliases or nicknames! Places that I frequent include Twitter, Google Plus, Forrst and Dream In Code. I can also be found around IRC, so let me know if you know of any good channels!
+
+  Credit To The Designers
+
+  I am a front end website developer, that means I take the designs from the designer and turn them into markup (usually incorporating or creating the backend too, unless it is a larger site that has other people working on the backend development).
+
+  I am not a designer.
+
+  This site (and so many others) would have been white, black and purple (links not bruises!) if not for two very good designers that I recommend completely to anybody, thanks guys!
+
+  Dan Edwards (Design51) - Website Designer
+  Ricardo Gimenes - Graphic Designer
+
+  > javascript front-end
+
+# 42、2015-06-11
+* [Kyle Simpson](http://blog.getify.com/)
+
+  *******************************
+  I am NOT interested in developer opportunities. Please only contact me for developer evangelism/outreach roles.
+  *******************************
+
+  Kyle Simpson is an Open Web Evangelist from Austin, TX, who's passionate about all things JavaScript. He's an author, workshop trainer, tech speaker, and OSS contributor/leader.
+
+  More about me: http://getify.me
+  Photo attribution: http://www.flickr.com/photos/robertnyman/5723348183
+
+  Specialties: JavaScript, HTML5, web performance optimization
+
+  > keywords: javascript html performance optimization node.js
+
+* [博客教主](http://www.ha97.com/)
+
+  工作做过大中型服务器运维（包括网站与WebGame、MMORPG网游）、也从事过大中型社区运营、网站策划与SEO等；做过电脑技工、运维工程师、网站项目经理、运维经理。现居深圳，任职于某大型软件公司的运维架构师，从事服务器运维管理和技术方案相关工作。
+
+  > operate
+
+# 41、2015-06-10
+* [王纯业的主页](http://ann77.emacser.com/)
+
+  > keywords: emacs
+
+* [J David Smith](https://atlanis.net/)
+
+  Who Am I?
+
+  I am a 22-year-old CS/MA undergraduate student at the University of Kentucky.
+
+  I started learning to program almost a decade ago in order to write video games (what kid didn't want to make games?). My aunt recommended that I learn C++ and Java, and I have been continuously learning ever since.
+
+  I was homeschooled for 11 of the 13 years of my primary/secondary education, which left me with a lot of free time. I used it to both further my knowledge of computers, read lots of books and (of course) play video games.
+
+  Since I discovered Ubuntu in 2006, I have been using Linux-based systems as my primary OS. Currently, I run Arch Linux on my laptop, desktop and server.
+
+  What Am I Doing?
+
+  I am currently betwween personal projects. Some code I've written is available on my bitbucket and github profiles.
+
+  During the school year, I'm enrolled full-time at UK and work under Dr. Nathan Jacobs in the CS department. In the Summer of 2014, I interned in IBM's ExtremeBlue program in Raleigh, North Carolina.
+
+  Guild Wars 2, League of Legends and Hawken occupy whatever time I don't spend coding. Occasionally, I blog about topics that interest me.
+
+  For more information, see [my resume](https://atlanis.net/static/resume_jdavidsmith.pdf).
+
+* [david miller](http://blog.deadpansincerity.com)
+
+  the weblog of david miller
+
+  > emacs
+
+* [巴蛮子的烂笔头](http://www.cnblogs.com/bamanzi/)
+
+  巴蛮子，湖北施南府人氏，现在某个IT公司工作，本职工作是做研发类工具。但他是个三脚猫，对很多东西电脑技术都有兴趣，比如Delphi, Python, UNIX/Linux/Cygwin, Gtk/GNOME, Vim/Emacs, Rails等，
+
+  这里主要是本着”好记性不如烂笔头“的想法记录他业余的一些收获、杂感。 以前在Blogger上搭建的博客(需FQ)
+
+  跟我联系
+  Gmail/Gtalk: ba.manzi AT gmail DOT com
+
+  MSN: bamanzi AT hotmail.com
+
+  Twitter: bamanzi
+
+  QQ: 15704509
+
+  Debian学习小组 QQ群: 1631462
+
+  在其它一些地方(非技术场合，也包括MSN,QQ上)，他也常用“菠萝油王子”这个 昵称，因为他很喜欢《麦兜故事2-菠萝油王子》这个故事，怕自己也“有一日，佢变做个佬”，也浑浑噩噩地过了多少年... 在电脑技术之外，他喜欢最喜欢爬山、摄影、美食和科幻。当然也喜欢旅游，但对各地风土人情的兴趣大于山水风光。
+
+  > emacs
+
+# 40、2015-06-08
+* [Trần Xuân Trường](https://truongtx.me)
+
+  Web Developer - Cogini Vietnam
+  Bachelor of Information and Technology
+
+  I'm currently a web developer at Cogini Vietnam. Although the people there call me a front-end developer, I work on both front-end and back-end stuff. I'm really interested in command line interface, text-based and keyboard-oriented applications. Because of that, I love using MacOS and Linux as they have really powerful command line applications.
+
+  In the past, I studied at Aptech and then transfered to RMIT Vietnam. During the at RMIT, I participated in the university's IT Club and worked at the Lead Editor. The people at RMIT had inspired me with the power of Unix/Linux system and really helps me in the journey path to the world of Linux/Unix system.
+
+  Usually, I like researching about new technologies, new programming languages in my free time. Also, I have a blog for summarizing my personal experience, what I have done as well as how I solved difficult problems.
+
+  I'm hard working, careful, willing to learn new thing as well as can adapt quickly with new technologies.
+
+  > keywords: emacs javascript
+
+# 39、2015-06-07
+* [Ryan Morr](http://ryanmorr.com/)
+
+  My name is Ryan Morr, I am a programmer residing in Barrie, Ontario, Canada with a real passion for everything related to front-end web development. I am a JavaScript fanatic, strong advocate for the open web, and I love to play around with code just for fun.
+
+  I am a very proud Canadian, and as you can imagine, I don’t just love hockey, it’s my religion. I am also a huge movie buff, astronomy aficionado, fitness enthusiast, and part-time gamer.
+
+  This blog is dedicated to what I find interesting in the world of front-end web development, Particularly code and various open source projects I have undertaken. All of my code is dedicated to the public domain as described by the Unlicense. That’s just a fancy way of saying you can use my code anyway you want.
+
+  > keywords: javascript front-end css html
+
+# 38、2015-06-05
+* [Bozhidar Ivanov Batsov](http://batsov.com/)
+
+  While I doubt that any of you want to read something about me I’ll continue writing anyway.
+
+  My name is Bozhidar Ivanov Batsov. I’m originally from Veliko Tarnovo, Bulgaria, but I’ve been residing in Sofia (Bulgaria’s current capital) for quite some time now.
+
+  I’m currently the CTO of [Tradeo Inc.](http://tradeo.com/), where I develop and supervise various Ruby on Rails and Node.js applications. Before that I’ve worked as Java developer (Swing, JavaEE, etc). Before that I used to be a C++ developer and before that I developed Linux kernel drivers for some embedded devices. As you can see I’ve gradually transferred from low-level to very high level programming – hopefully this will preserve my sanity for a while.
+
+  For more professional details – check my [linkedin profile](http://www.linkedin.com/in/bozhidarbatsov).
+
+  Apart from programming I’ve always been fond of Unix operating systems (and operating systems in general (especially those with the source code lying around)). My favorite editor is Emacs, my shell of choice is zsh and my preferred VCS is git. I’m quite proficient in Linux and I happen to be an LPIC-2 certified system administrator.
+
+  I maintain a couple of smallish open-source projects here and there (mostly on [GitHub](https://github.com/bbatsov/ruby-style-guide)) and I’ve contributed to many more. I’m also the principle author of the [community-driven Ruby coding style guide](https://github.com/bbatsov/ruby-style-guide) and the [community-driven Ruby on Rails style guide](https://github.com/bbatsov/rails-style-guide).
+
+  Some of my other projects in no particular order:
+
+  RuboCop – A static code analyzer for Ruby
+  Powerpack – A few useful extensions to core Ruby classes
+  Prelude – An Emacs distribution built on top of GNU Emacs 24
+  Projectile – Project Interaction Library for Emacs, that stays out of your way
+  clojure-mode – A major mode for programming in Clojure
+  cider – A Clojure programming environment for Emacs
+  guru-mode – An annoying companion on your journey to Emacs mastery
+  rubocop-emacs – Emacs integration for RuboCop
+  zenburn-emacs – The Zenburn color theme, ported to Emacs
+  solarized-emacs – The Solarized color theme, ported to Emacs
+  puppet-mode – A mode for editing Puppet 3 manifests
+  swift-mode – A mode for editing Swift code
+
+  > emacs scheme clojure
+
+# 37、2015-06-04
+* [陈斌](http://blog.binchen.org/)
+
+  我是陈斌.做软件开发多年.业余爱好为桥牌.目前居住在Sydney, Australia
+
+  [csdn](http://blog.csdn.net/redguardtoo)
+
+  > keywords: emacs
+
+# 36、2015-06-03
+* [Colin Eberhardt](http://www.raywenderlich.com/u/ColinEberhardt)
+
+  RW Team Member  
+  Colin Eberhardt has been writing code and tutorials for many years, covering a wide range of technologies and platforms. Most recently he has turned his attention to iOS. Colin is CTO of ShinobiControls, creators of charts, grids and other powerful iOS controls.
+
+  > react
+
+# 35、2015-06-01
+* [李忠](http://blog.163.com/leechung@126)
+
+  穿越计算机的迷雾 一书的作者
+
+  > computer
+
+* [汤姆大叔](http://www.cnblogs.com/TomXu/)
+
+  姓名：汤姆大叔
+  兴趣爱好：技术、管理、英文、吃喝玩乐乱侃空
+
+  注：本人翻译的技术文章皆不是逐句翻译，而是按照自己的理解翻译的（当然也去除了一些不影响理解但本人实在不知道如何组织的句子）。
+
+  > keywords: javascript translation
+
+* [张鑫旭](http://www.zhangxinxu.com/wordpress/)
+
+  09年华中科技大学毕业，目前上海，现就职ISUX上海设计中心，热爱web前端，喜爱钓鱼。
+
+  > keywords: javascript css tencent
+
+* [Stoyan Stefanov](http://www.phpied.com/)
+
+  Stoyan Stefanov is a Facebook engineer, ex-Yahoo, architect of the YSlow 2.0 performance tool and creator of the smush.it image optimization tool!
+
+  He's the author of JavaScript for PHP developers (O'Reilly), JavaScript Patterns (O'Reilly), Object-Oriented JavaScript (Packt Publishing), The Book of Speed (online), and a contributor to High-Performance JavaScript (O'Reilly) and Even Faster Web Sites (O'Reilly).
+
+  Stoyan is a Zend-certified engineer, blogs at phpied.com and jspatterns.com and speaks at conferences and meetups around the world (Velocity, JSConf, OSCON, Web Directions, Fronteers...)
+
+  A Bulgarian-Canadian, Stoyan lives in Los Angeles with his wife and daughters and spends his time biking between home, office, the beach, band practice, flying lessons and kids birthday parties.
+
+  > keywords: javascript facebook
+
+# 34、2015-05-30
+* [壹頁書](http://blog.itpub.net/member/profile/uid/29254281/)
+
+  > keywords: mongodb mysql linux go
+
+# 33、2015-05-29
+* [Guilherme Rodrigues](http://firstdoit.com/)
+
+  Hey! My name is Guilherme Rodrigues, but you can call me "Gui"!
+
+  I'm a software developer from Rio de Janeiro with 5 years experience on web development. For the last three years, I've focused on single page applications, leading the front end development team at [VTEX](http://www.vtex.com/), the leading e-commerce provider in Latin America. There's more details about my career at my [Stack Overflow profile](http://careers.stackoverflow.com/firstdoit).
+
+  ### Technologies
+
+  Right now, I deal daily in JavaScript, CoffeeScript, HTML, CSS, Node.js, AWS and Heroku.  
+  In the past, I have worked mostly with ActionScript 3, Java, Android, PostgreSQL, MongoDB and Redis.
+
+# 32、2015-05-28
+* [Jerome Petazzoni](http://blog.docker.com/author/jerome/)
+
+  The engineer of docker.
+
+  > keywords: docker
+
+# 31、2015-05-26
+* [淘宝褚霸](http://blog.yufeng.info/)
+
+  专注: 高性能,容错, 分布式服务器的研究和实现  
+  信仰: 简单就是美  
+  背景: 14年c开发经验, 12年网络开发经验, 3年Linux内核开发  
+  提供服务器架构、诊断、优化咨询服务
+
+  Twitter: @eric33yu  
+  新浪围脖: @淘宝褚霸  
+  Gmail/Gtalk: @mryufeng  
+  Slideshare: http://www.slideshare.net/mryufeng  
+  目前供职于淘宝，欢迎大家多联系!
+
+  > keywords: taobao c network linux erlang
+
+* [灰主流创业者](http://bhsc881114.github.io/)
+
+  > keywords: node.js html css javascript
+
+# 30、2015-05-25
+* [Chengkai](http://examplecode.github.io/)
+
+  自由懒散的程序员一枚，不迷信技术，有产品思维。技术永远是工具，用来解决问题的,客户端，服务端领域的相关技术都有涉猎.极简主义，崇尚37signals的文化.
+
+  我的产品: http://xbrowser.me  
+  email: chengkai.me@gmail.com  
+  gi thub: https://github.com/examplecode
+
+  [chengkai 简书](http://www.jianshu.com/users/e8ec9a90b251/latest_articles)
+
+  keywords: xbrowser mproxy
+
+# 29、2015-05-24
+* [潘家邦](http://blog.jamespan.me/)
+
+  本人潘家邦，计算机科学爱好者，开源爱好者，曾经的Python汪，现在已经化身Java狗
+
+  keywords: alibaba
+
+# 28、2015-05-19
+* [snoopyxdy](http://snoopyxdy.blog.163.com/)
+
+  博主关注node.js，开发有[rrestjs](https://github.com/DoubleSpout/rrestjs)
+
+  [DoubleSpout cnodejs](https://cnodejs.org/user/DoubleSpout)
+
+  > keywords: node.js mongodb
+
+# 27、2015-05-16
+* [Sneezry](https://sneezry.com/)
+
+  <Chrome扩展及应用开发>一书的作者。
+
+  > keywords：chrome javascript
+
+* [Liubin](http://liubin.org/about/)
+
+  一个小小的程序员。
+
+  Twitter : @OurColorfulDays
+  Sina Weibo: @sakura79  
+  GitHub: [@liubin](https://github.com/liubin)  
+  Instagram : @sakura_liu
+
+  publications & presentations
+
+  2015
+
+  2015.04  Go, Docker & HashiCorp
+  2014
+
+  2014.12 《第一本Docker书》，译者之一  
+  2014.10 《Web应用安全权威指南》译者之一  
+  2014.9 Security for everyone. at AngelCrunch  
+  2014.3 Docker out & out at Docker Beijing meetup  
+  2014.5 Java SE 8 Introduction
+
+  > keywords: docker
+
+* [roy Howard](http://blog.thoward37.me/)
+
+  Lounge Scene
+  The real you has been eaten by cats
+
+  Hi, I'm Troy Howard and this is my blog.
+
+  Want to chat? Come find me on [Twitter](http://twitter.com/thoward37), or [GitHub](http://github.com/thoward).
+
+  > keywords: docker
+
+* [Oilbeater](http://oilbeater.com/index.html)
+
+  一个什么都写一点的程序员。
+
+  乡亲们好，我是@Oilbeater，欢迎来到我的部落。
+
+  我现在在北京大学操作系统实验室辛勤的种着OS这块地，将要去杭州送快递，曾经在Amazon公司送快递，之前被发配到分舵研究Webkit，再之前曾在百度经验和百度旅游这两块地上抓过半年虫，再再之前曾在北京科技大学这块地上挖过四年坑。
+
+  如果想赞助域名服务器或者请博主喝汽水的话，就扫码打赏点碎银子吧。
+
+  > keywords: docker
+
+* [Liubey](http://www.liubey.org/)
+
+  对极简主义有着特别的崇拜。
+
+  Beyond超级歌迷，曾经收集过他们所有专辑…的磁带。
+
+  职业生涯始于大连某银行解决方案公司，快速成长于北京某第三方支付公司，目前就值于某游戏公司。
+
+  未完成的目的地：大理洱海，敦煌大漠，华山顶。
+
+# 26、2015-05-15
+* [FunHacks](http://funhacks.net/)
+
+  一些关于算法的内容。
+
+# 25、2015-05-13
+* [Martin Kleppmann](https://martin.kleppmann.com)
+
+  My name is Martin Kleppmann. I am probably best described by the snippets of digital identity that are scattered across the interwebs:
+
+  [My Blog](http://martin.kleppmann.com/)
+  [@martinkl on Twitter](http://twitter.com/martinkl)
+  [My Open Source projects on Github](http://github.com/ept)
+  [My LinkedIn profile](http://www.linkedin.com/in/martinkleppmann)
+  [My presentations on Speakerdeck](https://speakerdeck.com/ept)
+  [My undergraduate dissertation](http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-683.html)
+
+  I'm writing a book for O'Reilly, called [Designing Data-Intensive Applications](http://dataintensive.net/).
+
+* [Kongxx](http://www.kongxx.info/blog/)
+
+  有困难要上，没有困难创造困难也要上。
+
+  > keywords: docker linux
+
+* [Googol Lee](http://air.googol.im/)
+
+  the blog of Googol Lee
+
+  > keywords: docker go atom
+
+# 24、2015-05-12
+* [Shay Frendt](http://shayfrendt.com/)
+
+  Shay works at GitHub, posts short updates on Twitter, and random photos on Instagram.
+
+  In his spare time, he can be found advising startups, scuba diving with the fishes, or traveling to obscure cities around the world.
+
+  He's had one [successful startup exit](http://techcrunch.com/2012/11/29/exceptional-buys-ranger/) and several flops. He hopes for a repeat success one day soon.
+
+  > keywords: github ruby
+
+# 23、2015-05-11
+* [TJ](http://www.tjholowaychuk.com/)
+
+  The creator of the express.
+
+  > keywords: node.js express go
+
+* [张丹(Conan)](http://blog.fens.me/)
+
+    从零开始nodejs系列文章，将介绍如何利Javascript做为服务端脚本，通过Nodejs框架web开发。Nodejs框架是基于V8的引擎，是目前速度最快的Javascript引擎。chrome浏览器就基于V8，同时打开20-30个网页都很流畅。Nodejs标准的web开发框架Express，可以帮助我们迅速建立web站点，比起PHP的开发效率更高，而且学习曲线更低。非常适合小型网站，个性化网站，我们自己的Geek网站！！
+
+    创业者，程序员(Java,R,Javascript/Nodejs)
+
+    > keywords: node.js R Javascript Java
+
+## [谢文威](http://xiewenwei.github.io/)
+    Program 程序人生
+
+    name = 'Vincent'
+    real_name = '谢文威'
+
+    company = '薄荷科技'
+    title = '创始合伙人，CTO，Rubyist'
+
+    email = 'ok$#boohee.com'.gsub('$#','@')
+    qq = '5511595'
+    sina_weibo = '薄荷vincent'
+    blog = 'http://xiewenwei.github.com'
+    github = 'https://github.com/xiewenwei'
+
+    while true
+      write_programs
+      read_books
+      watch_movies
+      enjoy
+    end
+
+keywords: redis mongodb ruby
+
+## [Juude](http://juude.net/)
+    我是一个android framework工程师，在OPPO工作
+    博客所有内容仅代表个人观点，与公司无关。
+    注：作者关注Android方面
+
+# 22、2015-05-10
+## 22.1、 [P_Chou Tech Space](http://www.pchou.info/index.html)
+    Do not build on quicksand high
+    注：有关于docker、javascript等
+
+# 21、2015-05-09
+## [Sarah Mei](http://www.sarahmei.com/blog)  
+    I am a Ruby and JavaScript developer based in San Francisco, California. I’m the Chief Consultant at DevMynd Software, where I spend most of my time pairing with my clients’ developers, helping level up their team. My particular areas of interest are OOP, service refactorings, growing teams, and inter-developer dynamics.
+    I’ve written here about my experiences pair programming while I was at Pivotal Labs, and also my approach to testing. But my most popular article, by a huge margin, is about the dangers of shiny new technology.
+    I’m writing a book with Sandi Metz about how to refactor Rails applications towards happiness. Fingers crossed, we’ll finish it soon!
+    Obligatory links to my Twitter, GitHub, and LinkedIn.
+    Community
+    I founded RailsBridge in 2009 with Sarah Allen. We run free two-day workshops for women who want to learn Ruby on Rails. We’ve done over 150 events that have reached over 3000 women. Many workshops are in and around San Francisco — which is home base for both Sarah Allen and me — but we have active RailsBridge organizers in many other places too. Check out the BridgeTroll, the application we wrote to manage workshops, for details on upcoming events. By the way, the BridgeTroll code is open source and we’re always looking for new contributors!
+    I am a director of Ruby Central, a non-profit that runs the two largest Ruby conferences in the world – RubyConf and RailsConf. In addition to the conferences, we support the Ruby community in other interesting ways, such as with grants for development of Ruby-related infrastructure like rubygems.org and bundler. I also helped run the Golden Gate Ruby Conference (GoGaRuCo) here in San Francisco, our not-quite-so-regional regional Ruby conference.
+    In addition to running technical conferences, I do a lot of speaking at them, and some new speaker mentoring. I’ve written here about how to write an effective conference talk proposal.
+    My other active mentoring includes working with students at Hackbright Academy in San Francisco, and various other one-off teaching projects for adults and teenagers.
+    Contacting Me
+    The best way to get ahold of me is via Twitter. If you’re feeling old skool, though, you can email me at (my Twitter name) @ gmail. Be warned that I am very bad at email.
+
+# 20、2015-05-02
+* [KS的个人WIKI](http://www.rxna.cn/)  
+这里将放一些我在开发阶段所遇到的问题，并汇总成WIKI的形式，作为记录 :)
+注：文章中有node.js，有go等
+
+# 19、2015-05-01
+* [Tony Bai](http://tonybai.com/)  
+Tony Bai，C程序员，供职于国内某大型软件公司。喜技术，爱钻研；热爱开源，曾先后贡献了[lcut](http://code.google.com/p/lcut)、[cbehave](http://code.google.com/p/cbehave)、[buildc](http://code.google.com/p/buildc)等多个工具框架；喜好写博客，写博九年，仍孜孜不倦。
+
+* [Otis](http://coderforart.com/)  
+大家好，我叫 Otis，目前是独立开发者。
+目前开发有两个作品，MWeb是我的第一个作品，另一个作品为：PinPhoto。
+
+* [cifer](http://cifer.me/)  
+秋风萧瑟兮圣城千里落叶缤纷
+我自逍遥兮凌晨三点键指飞舞
+注：博客作者关注linux、嵌入式等
+
+#18、2015-04-30
+* [Herman Schaaf](http://herman.asia/)  
+Programmer and traveler
+[Blog](http://www.ironzebra.com/)  
+Building web applications in Cape Town, Taipei and Tokyo. [Read the blog](http://www.ironzebra.com/posts/)
+I am Herman Schaaf, a web application developer that particularly likes building things in Python, Django, Node.js, JavaScript and, recently, Go.
+Over the last few years, I have helped build high-traffic web applications in [Cape Town](http://progr.es/), [Taipei](http://eumakh.com/) and now, [Tokyo](http://gengo.com/).
+I have a keen interest in languages and I've started several open-source projects related to linguistics: [ChineseLevel](http://chineselevel.com/), [Chinese IME](http://chinese-ime.com/) and [Mafan](https://github.com/hermanschaaf/mafan). I speak Afrikaans at home, English at work, Chinese with friends and study Japanese part-time.
+You can find me at some of the common programmer watering holes, [Github](https://github.com/hermanschaaf/), [StackOverflow](http://stackoverflow.com/users/445210/herman-schaaf) and [CoderWall](https://coderwall.com/hermanschaaf)
+注：此人关注go语言
+
+# 17、2015-04-29
+* [Antoine Girbal](http://edgystuff.tumblr.com/)  
+Current	Elastic.co
+Previous	MongoDB, cdnetworks, Panther Express
+Education	Stevens Institute of Technology
+Recommendations	16 people have recommended Antoine
+Websites
+[Personal Website](http://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fwww%2Eantoinegirbal%2Ecom&urlhash=ULUb&trk=ppro_website)
+[Company Website](http://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fwww%2E10gen%2Ecom&urlhash=CnPP&trk=ppro_website)
+
+* [KevinLi](http://likaiwen.cn/)  
+KevinLi，反过来念就是中文名。最初是个设计师，Remote worker & Freelancer，机缘巧合走上了远程工作之路。信奉作品为王，用心创造作品，用作品与这世界交流。
+在 Tower.im 远程工作过；
+和同学做了即点即查的英文RSS阅读器 帆阅；
+做个生产独特网站模板的 Studio；
+大二在 腾讯CDC 实习；
+大三在 A-ONE设计 实习……
+杂七杂八参与了不少项目，具体可以或看作品、个人网站或简历。
+有事没事欢迎联系：kevinlee.id@gmail.com
+
+# 16、2015-04-28
+* [平静的技术](http://www.arkulo.com/)  
+有一些原理性的东西
+
+# 15、2015-04-23
+* [Douglas Crockford](http://crockford.com/)  
+When you get bored, click something. If that doesn't help, then turn off your computer immediately.
+Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies.
+[Wikipedia](http://en.wikipedia.org/wiki/Douglas_Crockford)
+[JavaScript大牛：Douglas Crockford](http://www.douban.com/note/32340365/)
+
+* [郑晔](http://dreamhead.blogbus.com/)  
+ThoughtWorks 公司首席咨询师，人生目标是终身编程，沉浸软件行业十余年，热衷于探索各种程序设计语言在真实软件开发中所能发挥的威力，致力于探寻合理的软件开发方式。加入 ThoughtWorks 公司后，曾畅游形形色色的软件开发项目，品味林林总总的开发语言。做过演讲，也写过文章，翻译过书，也贡献过开源，愿意与人畅聊技术，也愿意分享自己的经验。他的 blog 是梦想风暴（http://dreamhead.blogbus.com/），新浪微博是@dreamhead。
+注：目前已离开ThoughWorks去创业了，[Clojure编程乐趣](http://www.ituring.com.cn/book/1458)一书的译者
+
+* [Paul Butcher](http://paulbutcher.com/)  
+Paul Butcher是一位资深程序员，涉猎广泛，从单片机编码到高级声明式编程无所不精，现在他开办了独立咨询公司Ten Tenths。他曾任SwiftKey的首席软件架构师，并先后担任Texperts和Smartner的CTO。Paul是一位少年天才，8岁时就已经开始在8位机上编写游戏。他从1989年开始攻读博士学位，在并行计算和分布式计算的领域深造，当时他便深信并发编程将成为主流。二十年后，他的观点终于得以验证——整个世界都在讨论多核以及如何发挥其优势。
+Paul Butcher的最新作品《七周七并发模型》延续了《七周七语言》的写作风格，通过以下七个精选的模型帮助读者了解并发领域的轮廓：线程与锁，函数式编程，Clojure，actor，通信顺序进程，数据级并行，Lambda架构。除《七周七并发模型》外，Paul还著有在亚马逊获得全五星好评的《软件调试修炼之道》。
+[Ten Tenths](http://tententhsconsulting.com/)
+Ten Tenths is a consulting vehicle for Paul Butcher ([LinkedIn](http://uk.linkedin.com/in/paulbutcher/), [Twitter](https://twitter.com/paulrabutcher), [Blog](http://paulbutcher.com/), [GitHub](https://github.com/paulbutcher)).
+Paul is a veteran of technology startups and author of software engineering textbooks ([Amazon](http://amazon.com/author/paulbutcher)). He was Chief Software Architect of [SwiftKey](http://swiftkey.net/), Chief Technical Officer of [Texperts](http://en.wikipedia.org/wiki/Texperts) and Chief Technical Officer of [Smartner](http://www.theregister.co.uk/2005/04/11/seven_smartner/).
+Ten Tenths specializes in consultancy for startups and investors, in particular:
+Building a development team, putting an appropriate development process in place and defining an appropriate architecture.
+Due-diligence (both preparing for it, and carrying it out).
+Interim CTO/Chief Software Architect.
+Concurrency, parallelism, and big data (Scala, Clojure, Hadoop, Storm, …).
+Paul can be contacted at paul@tententhsconsulting.com.
+
+* [电流](http://www.jianshu.com/users/23357713c09d/latest_articles)  
+[方闻](http://www.2vnow.com/funask.html) -- 一个极轻的搜索比较引擎
+
+# 14、2015-04-22
+* [李航](http://blog.sina.com.cn/u/2060750830)  
+京都大学毕业，东京大学博士
+现任华为技术有限公司诺亚方舟实验室主任
+曾任NEC中央研究所研究员，微软亚洲研究院主任研究员、高级研究员
+研究方向：机器学习、信息检索、自然语言处理、数据挖掘
+注：早期接触过lisp
+
+* [shuoyang](http://blog.shuoyangdesign.com/)
+用户体验者，纽约
+乐窝联合创始人 www.lewoer.com
+
+# 13、2015-04-21
+* [Vjeux](http://blog.vjeux.com/)  
+French Web Developer
+Hey, I'm Christopher Chedeau aka Vjeux! I started this blog to talk about the various projects I am working on and to reveal some of my programming tricks! I hope you will find some of my stuff fun if not useful :)
+I'm a  Facebook Software Engineer in the Front-end team working on React Native. Before that, I went to EPITA, a 5-year Computer Science school and majored in its R&D lab  LRDE. I also worked for  Curse during the nights and week-ends.
+
+* [Brendan Eich](https://brendaneich.com/)  
+The creator of javascript.
+
+* [阮一峰](http://www.ruanyifeng.com/home.html)  
+My name is Ruan YiFeng(阮一峰). You can call me Frank. I was born in 1970s.
+I am an Economics Ph.D, graduated from Shanghai University of Finance and Economics, and now am employed by a local college in Shanghai.
+I am also an IT developer focusing on web technology, and a strong advocate and believer of Free Software.
+In spare time, I like reading book, surfing internet, watching movie and taking a leisurely walk outdoors.
+
+* [陈天](http://zhuanlan.zhihu.com/prattle)  
+陈天，蛰伏中。微信公众号: programmer_life(程序人生)
+JUNIPER
+Entrepreneur & Full Stack Engineer
+Even darkness must pass. A new day will come. And when the sun shines it will shine out the clearer.
+[Skills I Got]
+I'm keen to learn new things. I might be THE web developer who has the best knowledge on network/security, while THE system developer who has the best knowledge on web technologies.
+[Entrepreneurship]
+I started a company called Tu Ke Quan, or traveller's circle (http://tukeq.com) in March 2011. I failed but I learned a lot.
+[Engineering]
+With in-depth knowledge from CPU Architecture to web development, and programming skills from C to node.js, I can bring ideas into reality.
+[Leadership]
+I had led different teams to solve complicated problems. I developed people for the mutual goals, in either mature corporate, or startup.
+
+# 12、2015-04-20
+* [minghe](http://minghe.me/)  
+I built
+www.yiqiwan.us
+ai.minghe.me
+nextNews
+此人是ruby程序员，自己开发一些语言项目
+* [袁小康](http://github.tiankonguse.com/)
+我是 tiankonguse, 一个安静的程序员。
+大学四年 acmer,期间用php写过一些小系统。
+目前，就职与腾讯公司，从事后台开发。
+工作目前涉及到的语言有:c/c++(CGI,服务,独立程序), python(独立程序), perl(独立程序), php(网站后台), 前台html+css+js开发。
+涉及到技术有：　独立系统设计，　系统数据库独立设计，　sphinx搜索搭建与维护，　各种接口设计与维护。
+
+# 11、2015-04-16
+* [@levelsio](https://levels.io)  
+Hi, I'm @levelsio. I make Remote | OK, Nomad List, Startup Retreats and Go Fucking Do It. I travel to work from anywhere, bootstrap companies and only own what fits in my backpack. Previously, I founded a music network on YouTube w/ 100+ mln views. Follow my adventures on Twitter or read my posts.
+
+* [陈皓](http://coolshell.cn/)  
+大家好，我是陈皓，我不是高手，我也不是牛人，我只是在跟随着我的兴趣和喜好去学习一些技术。我以前的博客在CSDN（http://blog.csdn.net/haoel），目前已不更新，博客转到酷壳。（我并没有把CSDN上所有的文章移过来，尤其是2009年以前的）
+15年软件开发相关工作经验，8年以上项目和团队管理经验。擅长底层技术架构，团队建设，软件工程，软件研发咨询，以及全球软件团队协作管理。对高性能，高可用性，分布式，高并发，以及大规模数据处理系统有一些经验和心得。喜欢关注底层技术平台和互联网行业应用。技术擅长C/C++/Java和Unix/Linux/Windows。曾于Amazon中国任研发经理，负责电子商务全球化业务（全球开店）和全球库存预测系统的研发。曾在阿里巴巴北京研发中心、商家业务部曾任资深专家一职，负责电商云平台、开放平台，云监控和电商多媒体平台。现在阿里巴巴核心系统专家组从事阿里核心系统和阿里云ECS相关的虚拟化平台的开发工作。
+软件开发了十多年来，在银行呆过，在给银行做系统集成的国企呆过，在专注分布式计算系统的公司呆过，在去需要进行海量数据实时处理的公司呆过，底层做了这么多年，现在想从纯底层基础架构技术转到业务技术方向，从金融行业转向电子商务互联网行业，原因有那么几个：
+底层技术研究了十来年了，离业务太远了，越来越有点技术书呆子。
+多了解一些业务和用户，这有利于思路开阔和创新，也有利于自己的发展。
+从面对企业的IT公司转向面对互联网用户的IT公司。有利于在激烈的环境中锻炼自己。
+
+# 10、2015-04-15
+* [Jimmy Breck-McKye](http://www.breck-mckye.com/)  
+A lazy programmer
+
+* [Sam Dutton](https://samdutton.wordpress.com/)  
+Sam Dutton is a software developer in London, England.
+
+* [温国兵](http://dbarobin.com/)  
+目前就职于某创业公司，担任运维工程师一职，兼任 MySQL DBA。当然，以后的发展不止是运维和 DBA。
+2014 年 毕业，第一份实习工作是 SQL Server DBA，第二份工作就是目前的工作。身为 90 后，还很年轻，所以谈不上有哪些技术背景。只能说自己在 Linux 和 MySQL 两方面有过人的能力，其他的 SQL Server 和 Oracle 只是略懂。关注 MySQL、NoSQL 技术，平时浏览的网站无出其右地围绕这两块。
+
+# 9、2015-04-14
+* [Stu Halloway](https://github.com/stuarthalloway)  
+Stuart Halloway, the author of Programming Clojure, is a co-founder of Relevance, Inc. With over 20 years of experience as a programmer, CTO, and CEO, Stuart has built software systems in finance, health care, contract management, online retail, manufacturing, education, and security automation.
+
+* [Rich Hickey](https://github.com/richhickey)  
+Rich Hickey, the author of Clojure and designer of Datomic, is a software developer with over 20 years of experience in various domains. Rich has worked on scheduling systems, broadcast automation, audio analysis and fingerprinting, database design, yield management, exit poll systems, and machine listening, in a variety of languages.
+
+* [Michael T. Nygard](http://www.michaelnygard.com/)  
+Michael T. Nygard是一位从业二十余年的资深程序员，现任Cognitect首席架构师，他被誉为在线业务的“流动解决问题专家”。Nygard曾先后为美国政府、军队、银行、金融、农业和零售等多个行业交付过运营系统，这种实际运营的经历改变了他对软件架构的看法，也让他对在相当不友好的环境下构建高性能、高可靠性的软件有了独特的见解。他写过多篇文章和社论，是软件架构经典著作《架构之美》和《软件架构师需要知道的97件事》的作者之一。Nygard最新出版的著作《发布！软件的设计与部署》详细展示了软件发布前可能出现的种种问题以及相应的解决之道，书中所有主题都是通过作者自己研究过的真实案例来阐述的。
+[《发布！》作者Michael Nygard：质疑软件开发最基本的假设（图灵访谈）](http://www.ituring.com.cn/article/195743)
+[linkedin](https://www.linkedin.com/in/mtnygard)
+
+* [ha97](http://www.ha97.com/)  
+此人对运维比较了解
+
+[heeroluo/](http://heeroluo.net/)  
+此人对javascript比较了解
+
+# 8、2015-04-12
+## [12) 李亚飞](http://yafeilee.me/)  
+我是李亚飞, 一个在中国深圳的全栈开发工程师( Full Stack Developer ).
+曾经在深信服工作大约 5 年( 2009.6 - 2014.3 ). 在那里, 从一个菜鸟成长为一个资深工程师, 还有幸带领一个很酷的团队帮助公司进行自动化测试方向的研究与推进.
+在 2014 年 3 月份, 与一个很不错的合伙人一起, 他负责业务, 我负责技术开发了创业赢(http://cywin.cn), 这是一个股权众筹平台, 帮助创业团队更好的融资, 但是在 10 月份的时候项目快速失败了.
+虽然, 这是一次不成熟的创业经历, 但收获依然很大, 有一点让我意识到: 只有自己最擅长的领域, 才能更适合发挥.
+目前我正在组建一个远程办公团队, 第一步先帮助其他创业团队搞定技术上的工作, 如果你有兴趣与我聊聊, 欢迎在下面的联系方式与我取得联系.
+http://80percent.io/，这个是他们团队的主页。
+## [11) Jeremy Wells](https://medium.com/@mrjeremywells)  
+Creative Director, UX Designer, Problem Solver, Wannabe Powerlifter. Always rethink, improve, apply, and repeat.
+注：作者是远程工作者
+
+# 7、2015-04-11
+## [10) Changming](http://www.sunchangming.com/)  
+他的github里有一些算法相关的部分
+My name is Changming, I am currently a programmer live in Beijing now.
+C++ and JAVA are my most favorite programming languages. Here is my github: https://github.com/snnn
+I like trek, swimming, play World of Warcraft...
+
+## [9) 姜承尧](http://www.innomysql.net/)  
+姜承尧、《MySQL技术内幕》系列书籍作者、Oracle MySQL ACE、金庸迷、花名：东邪
+工作经历：
+2011～ 至今   网易杭州研究院 —— 数据库技术组 技术经理
+2006 ～ 2011  久游网 —— 数据库工程部 经理
+2004 ～ 2006 汇雅信息技术有限公司 —— CTO 创业
+我的书籍：
+MySQL技术内幕：InnoDB存储引擎（2011.04、2013.04）
+MySQL技术内幕：SQL编程（2012.04）
+MySQL内核：InnoDB存储引擎 卷1（2014.04）
+MySQL技术内幕：性能调优与架构设计（2015.08）
+
+# 6、2015-04-04
+## 8) Elisabeth Freeman  
+The Author of Head First HTML with CSS & XHTML
+Elisabeth is a computer scientist at heart and holds graduate degrees in Computer Science from Yale University and Indiana University. She’s worked in a variety of  areas including visual languages, RSS syndication, and Internet systems.  She’s also been an active advocate for women in computing, developing programs that encourage woman to enter the field. These days you’ll find her sipping some Java or Cocoa on her Mac, although she dreams of  a day when the whole world is using Scheme.
+
+# 5、2015-04-01
+## [7) Azat Mardan](http://webapplog.com/)  
+    I have over 12 years of experience in web, mobile and software development. With a Bachelor’s Degree in Informatics and a Master of Science in Information Systems Technology degree, I possess deep academic knowledge as well as extensive practical experience. I am an author of nine books on JavaScript and Node.js. Two of which became Amazon.com #1 Best Sellers in their categories.
+
+## [6) the Design Cubicle](http://www.thedesigncubicle.com/)  
+    I’m Brian Hoff, a graphic designer from the always-sunny Philadelphia. I collaborate mostly on web design and brand identity, but I’m experienced in building all kinds of quality, strategic design, both on the web and in print.
+    My work focuses on balancing usability and accessibility with memorable, beautiful design.
+    In addition to my design services, I also write for this blog, The Design Cubicle. The blog not only aims to teach, inspire and help other designers, but also focuses on client education and design awareness, while showcasing my work, creative processes and personal practices.
+
+# 4、2015-03-27
+## [5) Github上最受关注的前端大牛，快来膜拜吧！](http://code.csdn.net/news/2820990)
+
+# 3、2015-03-22
+## [4) Henrik Warne](http://henrikwarne.com/)  
+    Hello, and welcome to my blog. My name is Henrik Warne. I am a software developer in Stockholm, Sweden. I have been programming professionally for more than 20 years, and I still love to code!
+
+# 2、2015-03-12
+## [3) Bogdan Popescu](http://blog.kapeli.com/)  
+    Hello! My name is Bogdan Popescu and I’m the indie developer behind Kapeli. Besides actual programming I handle support, marketing and whatever else. Most of the time I have no idea what I’m doing so you should take everything on this blog with a grain of salt. However, I do my best to learn from my mistakes and I take criticism very well, so please tell me when something’s wrong.
+    I guess I should introduce myself a bit. I got my diploma in Computer Science and Software Engineering at Birmingham University in 2012 and since then I’ve been an indie developer. My home country is Romania and that’s where I spend most of my time, but I like to travel a lot. I can work from anywhere there’s an Internet connection and I take advantage of that to visit places that interest me.
+    I started this blog because sometimes I get ideas about things I should write about. Now that I have a blog I’m starting to realize that I don’t really have a lot to write about. Oh well.
+
+# 1、2015-03-07
+## [2) Felix Geisendörfer](http://felixge.de/)  
+    Hi, I am Felix Geisendörfer, a programmer and entrepreneur living in Berlin, Germany.
+    Currently I'm writing software in Go as a contractor.
+    In the past I've co-founded and bootstrapped Transloadit into a profitable business, was one of the first contributors to node.js and worked on many other open source projects as well.
+    One of my spare time passions is robotics, so a few friends and I organized an event around programming flying robots with JavaScript called NodeCopter which has now turned into a small community.
+    I have been blogging since 2006, my older posts can be found [here](http://debuggable.com/posts/archive).  
+    Founded in 2008, debuggable is a small company started by Tim Koschützki and Felix Geisendörfer creating wonderful SaaS products in the fine city of Berlin, Germany.
+    Our current product is Transloadit.com, which is a platform that handles file uploads and video encoding for other people's web applications.
+
+## [1) Kevin van Zonneveld](http://kvz.io/)  
+    For 8 years I worked at a hosting company where I learned about code, servers, networks. Halfway I became their lead in research & development and among things, designed their cloud offering.
+    In evening hours I cofounded Transloadit, a startup that handles file uploading and processing.
+    Occasionally I do consultancy, helping people deploy to clouds, run infrastructure as code, or advise how to run Node.js in production.
+    Infrastructure mistakes are common and incredibly expensive. Having
+    worked at a hosting company for 8 years, seeing hundreds of different linux setups and what works
+    designed their cloud platform and automated how they do system administration
+    launched the first commercial Node.js company Transloadit, deployed onto Amazon EC2
+    Gives me experience that not many companies have in-house. Experience that can help avoid these costly mistakes.
+    I have limited time for consultancy, but I really enjoy offering advice on
+    automated infrastructure / infra as code
+    running Node.js in production

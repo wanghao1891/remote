@@ -1,0 +1,97 @@
+* 13. [2015-09-15 Tue 13:12]
+** [[http://www.ituring.com.cn/article/203520][VLIS实验室云计算组张磊：关于Docker、开源，以及教育的尝试（图灵访谈）]] [2015-09-15 Tue 13:12]
+
+* 12. [2015-09-14 Mon 10:10]
+** [[http://www.csdn.net/article/2015-09-09/2825651][Docker Registry V1 与 V2 的区别解析以及灵雀云的实时同步迁移实践]] [2015-09-14 Mon 13:17]
+
+** [[http://docs.docker.com/mac/step_one/][Install Docker Mac OS X]] [2015-09-14 Mon 10:10]
+
+* 11. [2015-09-13 Sun 15:46]
+** [[http://hao.jobbole.com/boot2docker/][boot2docker：基于 Tiny Core Linux 的轻量级Linux发行版]] [2015-09-13 Sun 16:04]
+
+** [[http://boot2docker.io/][boot2docker]] [2015-09-13 Sun 16:00]
+   boot2docker is a lightweight Linux distribution based on Tiny Core Linux made specifically to run Docker containers. It runs completely from RAM, weighs ~27MB and boots in ~5s (YMMV).
+
+** [[https://www.gitbook.com/book/joshhu/docker_theory_install/details][最完整的Docker聖經 - Docker原理圖解及全環境安裝]] [2015-09-13 Sun 15:46]
+
+* 10.[2015-09-07 Mon 13:02]
+** [[http://insights.thoughtworkers.org/cluster-management-mode/][闲谈集群管理模式]] [2015-09-07 Mon 13:04]
+
+# 9、2015-08-26
+* [在Mac上安装Docker](http://huataihuang.github.io/2014/10/02/install-Docker-on-Mac/)
+
+# 8、2015-07-28
+* [
+《Docker开发实践》作者曾金龙：迅雷云的Docker开发实践（图灵访谈）](http://www.ituring.com.cn/article/201256)
+
+  曾金龙就职于迅雷网络，是国内覆盖面最广的“迅雷P2P引擎”核心研发成员。他毕业于中山大学，具有计算机科学硕士学位，他的研究方向是P2P网络、音视频传输和CEP系统。曾金龙对Docker技术有着深入的理解，是国内较早将Docker引入到实际软件开发、测试和部署中的人。他在2015年出版了《Docker开发实践》一书。
+
+  > docker p2p
+
+# 7、2015-07-20
+* [Docker on i386](http://mwhiteley.com/linux-containers/2013/08/31/docker-on-i386.html)
+
+  I have had a much outdated but heroically stable Dell PowerEdge 2550 for many years now. It’s great to have a place to work on personal development projects without dealing with hourly costs etc, but sometimes the lack of performance can really be an issue. A lot of the work I’ve done in the past few years has been centered around virtualization and so the machine has collected more dust than it once did. I’ve been doing some work with Docker recently and got excited that I could deploy some of my projects on this machine again. Somehow, I hadn’t ever noticed that Docker is only supported on amd64 at this point.
+
+  > docker linux i386
+
+# 6、2015-07-17
+* [docker-32bit/ubuntu](https://github.com/docker-32bit/ubuntu)
+
+  Build a docker image for ubuntu i386.
+
+  Run build-image.sh to build the docker image 32bit/ubuntu:14.04, or build-image.sh precise to build the docker image 32bit/ubuntu:precise.
+
+  See also: http://mwhiteley.com/linux-containers/2013/08/31/docker-on-i386.html
+
+  > ubuntu i386
+
+# 5、2015-07-03
+* [希云cSphere的Docker代码贡献心得](https://blog.csphere.cn/archives/82)
+
+  每一个互联网人都很清楚，拥抱开源的最大好处是当我们发现什么地方不爽时，可以随心所欲的改造它，让它趋于完美。Docker生态系统正在迅速发展，这还得归功于其充满活力的开源社区以及各个Docker管理工具项目的诞生。希云cSphere的存在，正是为了实现“让Docker更加完美”这一目标。我们在使用Docker的时候，发现过各种各样的坑，本文将结合实际案例，为您详细描述我们在实现目标的路上所做出的各种努力。希望对您有所帮助。
+
+# 4、2015-07-01
+* [在灵雀云玩转Docker Ceph对象存储](http://www.alauda.cn/2015/06/26/%E5%9C%A8%E7%81%B5%E9%9B%80%E4%BA%91%E7%8E%A9%E8%BD%ACdocker-ceph%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8%EF%BC%88s3%E6%88%96swift%EF%BC%89/)
+
+  【编者按】Ceph是一种集高性能、高可靠性和高可扩展性为一体的统一的、分布式的存储系统。“统一的”意味着Ceph可以一套存储系统同时提供对象存储、块存储和文件系统存储三种功能，以便在满足不同应用需求的前提下简化部署和运维。而“分布式的”在Ceph系统中则意味着真正的无中心结构和没有理论上限的系统规模可扩展性。在实践当中，Ceph可以被部署于上千台服务器上。截至2013年3月初，Ceph在生产环境下部署的最大规模系统为Dreamhost公司的对象存储业务集群，其管理的物理存储容量为3PB。
+
+  > ceph
+
+# 3、2015-06-25
+* [How to manage docker in production](https://medium.com/@cSphere/csphere-makes-docker-management-easier-22d420b617cf)
+
+  DockerCon has just ended, docker surrounding ecosystem has been very powerful. Many companies begin to adopt docker in production environment, then we will consider how to manage docker orderly.
+
+  Today I will give you a very unique docker management tools — cSphere, stands for container sphere. It can do almost everything about docker.
+
+* [程序员改变世界，DockerCon 2015直播现场](http://www.alauda.cn/2015/06/23/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%EF%BC%8Cdockercon-2015%E7%9B%B4%E6%92%AD%E7%8E%B0%E5%9C%BA/)
+
+  六月的San Francisco 居然异常的凉爽。而与之相反的确是DockerCon 2015的如火如荼。2000人的参与的大会使这个不太热的初夏平添了几分热度。美国时间6月22日，DockerCon 2015在旧金山举行。作为本次DockerCon的赞助商之一，灵雀云也为大会增添了不少中国特色，CTO陈恺以及战略及市场负责人于历濛，出席了本次DockerCon，他们会在灵雀云微博直播本次盛会，并为未能到现场的Docker爱好者们带来第一手的报道。
+
+* [cSphere.cn – 国内首个docker管理平台](https://blog.csphere.cn/archives/74)
+
+  DockerCon大会期间，希云cSphere管理平台发布了英文版本，向海外Docker爱好者展示来自中国的Docker技术和实力。cSphere也是国内唯一一家发布英文版本的Docker管理平台。
+
+# 2、2015-06-12
+* [Docker介绍及相关资源整理（工具、学习）](http://airjd.com/view/iarh7jpk0006nvp#1)
+
+  AUFS
+
+  一种“增量文件系统”，用户所做修改以增量的方式保存，决定了其分层存储特性。
+
+  是一个叫岡島的日本人开发的联合文件系统，用来把原本分离的两个文件系统联合在一起。它是Debian Linux一个内核驱动,其它的 Linux 发行版往往是没有 aufs 驱动的。
+
+  CoreOS项目是Google ChromeOS代码的一个fork版本，目前已成为一个超级精简的服务器操作系统，进化速度堪比ChromeOS。
+
+  Google Coder 是Google 团队的一个为 Raspberry Pi 而设的实验程式，目的是将 Raspberry Pi 变成一个简单的个人小型网络伺服器，提供一个网上环境给程式员在 Chrome 中编写一些有关 HTML、CSS 和 Javascript 的东西，其可以搭载一些基本的 web app。不过它有一个更伟大的理念，就是让初学者有一个基础环境去一边学习一边编写程式
+
+# 1、2015-06-03
+* [Managing Data in Containers](https://docs.docker.com/userguide/dockervolumes/)
+
+  So far we've been introduced to some basic Docker concepts, seen how to work with Docker images as well as learned about networking and links between containers. In this section we're going to discuss how you can manage data inside and between your Docker containers.
+
+  We're going to look at the two primary ways you can manage data in Docker.
+
+  Data volumes, and  
+  Data volume containers.

@@ -1,0 +1,21 @@
+* 4. [2015-09-11 Fri 17:33]
+** [[https://git-scm.com/book/zh/v1/%25E8%25B5%25B7%25E6%25AD%25A5-%25E5%2588%259D%25E6%25AC%25A1%25E8%25BF%2590%25E8%25A1%258C-Git-%25E5%2589%258D%25E7%259A%2584%25E9%2585%258D%25E7%25BD%25AE][1.5 起步 - 初次运行 Git 前的配置]]
+
+* 3. 2015-07-23
+** [GitBook](https://www.gitbook.com/)                                          :book:markdown:
+
+   A modern publishing toolchain. Simply taking you from ideas to finished, polished books.
+
+   [github](https://github.com/GitbookIO/gitbook)
+
+* 2. 2015-06-29
+** [Git配置和常用命令](http://hunng.com/2014/04/25/git-configs-and-cammands/)
+   Git是一个分布式版本控制／软件配置管理软件，原来是linux内核开发者林纳斯·托瓦兹（Linus Torvalds）为了更好地管理linux内核开发而创立的。
+
+* 1. 2015-06-12
+** [2.4 Git Basics - Undoing Things](http://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
+*** Unstaging a Staged File
+    git reset HEAD CONTRIBUTING.md
+
+*** Unmodifying a Modified File
+    git checkout -- CONTRIBUTING.md

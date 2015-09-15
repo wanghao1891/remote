@@ -1,0 +1,292 @@
+* 26. [2015-09-12 Sat 18:37]
+** 修改html中的title值
+   document.title = 'new value';
+
+# 25、2015-08-15
+* new操作符的作用，是把函数的prototype链上的数据复制到新对象上
+
+# 24、2015-08-05
+* 从数组中取出最后一个元素，并将该元素从数组中删除
+  array.pop( )
+  The pop and push methods make an array work like a stack. The pop method removes and returns the last element in this array. If the array is empty, it returns undefined.
+  var a = ['a', 'b', 'c'];
+  var c = a.pop( ); // a is ['a', 'b'] & c is 'c'
+  pop can be implemented like this:
+  Array.method('pop', function ( ) {
+    return this.splice(this.length - 1, 1)[0];
+  });
+
+# 23、2015-07-31
+* 排序
+    function sortNumber(a,b)
+    {
+    return a - b
+    }
+
+    var arr = new Array(6)
+    arr[0] = "10"
+    arr[1] = "5"
+    arr[2] = "40"
+    arr[3] = "25"
+    arr[4] = "1000"
+    arr[5] = "1"
+
+    document.write(arr + "<br />")
+    document.write(arr.sort(sortNumber))
+
+# 22、2015-07-15
+* 在一个函数中，定义了一个变量，如果在嵌套函数中再次定义一次这个变量，而且是在条件判断中定义，那么如果不满足条件，则在这个嵌套函数中，就不会有这个变量的定义了
+这样如果使用的话，就会出错了
+
+# 21、2015-07-13
+* 在做加法运算时，转换为减去负值
+
+  a + b -> a - (-b)
+
+  这样是为了防止出现字符串拼接的操作
+
+* 给程序中容易出错的地方加上try catch
+
+* 弄清楚了正则表达式的test方法，为什么有时返回true，有时返回false
+
+  * 原因
+    如果给正则表达式加上标示g，这是正则会记录最后一次的索引，这样的话，如果内容中不再有关键词的话，就会返回false。
+
+  * 解决
+    * 每次给regexp.lastIndex设置为0
+    * 去掉正则中的标示g
+  * reference
+    [Why RegExp with global flag in Javascript give wrong results?](http://stackoverflow.com/questions/1520800/why-regexp-with-global-flag-in-javascript-give-wrong-results)
+
+# 20、2015-07-11
+* 用javascript实现Levenshtein Distance来比较字符串的相似度
+
+      //add by wh [2015-07-11 Sat 13:30]
+      function min() {
+
+          var min = Number.MAX_VALUE;
+          var slice = Array.prototype.slice;
+          var args = slice.call(arguments, 0);
+
+          args.forEach(function(arg) {
+
+              if(min > arg) {
+                  min = arg;
+              }
+          });
+
+          return min;
+      }
+
+      //add by wh [2015-07-11 Sat 13:30]
+      function levenshtein(arg1, arg2) {
+
+          var len1 = arg1.length;
+          var len2 = arg2.length;
+
+          var diff = [];
+          for(var i = 0; i <= len1; i++) {
+              diff[i] = [i];
+          }
+
+          for(var j = 1; j <= len2; j++) {
+              diff[0][j] = j;
+          }
+
+          var _tmp;
+          for(var a = 1; a <= len1; a++) {
+              for(var b = 1; b <= len2; b++) {
+                  var _c1 = arg1.substr(a-1, 1);
+                  var _c2 = arg2.substr(b-1, 1);
+
+                  if(_c1 == _c2) {
+                      _tmp = 0;
+                  } else {
+                      _tmp = 1;
+                  }
+
+                  var topleft = diff[a-1][b-1] + _tmp;
+                  var top = diff[a][b-1] + 1;
+                  var left = diff[a-1][b] + 1;
+
+                  diff[a][b] = min(topleft, top, left);
+              }
+          }
+
+          var difference = diff[len1][len2] / Math.max(len1, len2);
+
+          return difference;
+      }
+
+  > 参考：[计算字符串相似度算法——Levenshtein](http://wdhdmx.iteye.com/blog/1343856)
+    接下来看能否实现更加有效率的算法：[自己实现文本相似度算法（余弦定理）](http://my.oschina.net/BreathL/blog/42477)
+
+# 19、2015-07-10
+* 用正则表达式来检测一个字符串是否存在某种模式
+
+  * 错误方法
+    var patt = /W3School/gi
+    var str = "Visit W3School";
+    执行patt.test(str)，第一次会返回true，第二次为false，依次交错出现
+
+  * 正确方法
+    var patt = /W3School/
+    var str = "Visit W3School";
+
+    或者：
+    var patt = new RegExp("W3School");
+    var str = "Visit W3School";
+
+# 18、2015-07-08
+* 在dom元素中添加子元素
+  * appendChild
+        var para=document.createElement("p");
+        var node=document.createTextNode("这是新段落。");
+        para.appendChild(node);
+
+        var element=document.getElementById("div1");
+        element.appendChild(para);
+
+  * insertBefore
+        var vocabulary_ol = document.getElementById("vocabulary-ol");
+        var first_node = vocabulary_ol.firstChild;
+        var div_node = document.createElement("div");
+        vocabulary_ol.insertBefore(div_node, first_node);
+
+# 17、2015-07-02
+* 在使用Object作为mongodb的字段时，如果更新，需要新建一个Object，不能在原来的基础上添加key/value，
+
+  这样的话，数据库认为没有变化，应该是和Object本身存放的是一个引用有关系
+
+  使用如下merge方法：
+  function merge(a, b){
+    if (a && b) {
+      for (var key in b) {
+        a[key] = b[key];
+      }
+    }
+    return a;
+  }
+
+  需要将原来的Object传给b，新的传给a
+
+# 16、2015-06-30
+* 数组合并
+
+  array.concat(item…)
+  The concat method produces a new array containing a shallow copy of this array with the
+  items appended to it. If an item is an array, then each of its elements is appended individually. Also seearray.push(item...)later in this chapter.
+  var a = ['a', 'b', 'c'];
+  var b = ['x', 'y', 'z'];
+  var c = a.concat(b, true);
+  // c is ['a', 'b', 'c', 'x', 'y', 'z', true]
+
+# 15、2015-06-14
+* 处理函数参数为数组，使用apply方法
+
+  var args = Array.prototype.slice.call(arguments, 1);
+
+  > Because of a design error,argumentsis not really an array. It is an array-like object.
+  argumentshas alengthproperty, but it lacks all of the array methods.  
+  reference: *** javascript: the good parts *** -- P31
+
+  或者：
+  var args = Array.prototype.slice.apply(arguments, [1]);
+
+# 14、2015-06-07
+* [True Hash Maps in JavaScript](http://ryanmorr.com/true-hash-maps-in-javascript/)
+
+  Using an object literal as a simple means to storing key-value pairs is common place within JavaScript. However, an object literal is not a true hash map and therefore poses potential liabilities if used in the wrong manner. While JavaScript may not offer native hash maps (at least not cross-browser), there is a superior alternative to object literals to capture the desired functionality without the pitfalls.
+
+* [JavaScript中的哈希表(Hash Maps的最佳实践)](http://ourjs.com/detail/55714cbe20cbb7f655000004)
+
+  注* 散列表（Hash table，也叫哈希表），是根据关键字（Key value）而直接访问在内存存储位置的数据结构。摘自 Wiki
+
+  Hash Map通常在JavaScript中作为一个简单的来存储键值对的地方。然而，Object并不是一个真正的哈希映射，如果使用不当可能会带来潜在的问题。而且JavaScript可能不提供本地哈希映射（至少不是跨浏览器兼容的），有一个更好的声明对象属性的方法。
+
+# 13、2015-06-04
+* 将日期型格式化
+
+  new Date().Format("yyyy-MM-dd");
+
+# 12、2015-06-01
+* [翻译-高质量JavaScript代码书写基本要点](http://www.zhangxinxu.com/wordpress/2010/10/%E7%BF%BB%E8%AF%91-%E9%AB%98%E8%B4%A8%E9%87%8Fjavascript%E4%BB%A3%E7%A0%81%E4%B9%A6%E5%86%99%E5%9F%BA%E6%9C%AC%E8%A6%81%E7%82%B9/)
+
+  才华横溢的Stoyan Stefanov，在他写的由O’Reilly初版的新书《JavaScript Patterns》(JavaScript模式)中，我想要是为我们的读者贡献其摘要，那会是件很美妙的事情。具体一点就是编写高质量JavaScript的一些要素，例如避免全局变量，使用单变量声明，在循环中预缓存length(长度)，遵循代码阅读，以及更多。
+
+* [深入理解JavaScript系列（1）：编写高质量JavaScript代码的基本要点](http://www.cnblogs.com/TomXu/archive/2011/12/28/2286877.html)
+
+  才华横溢的Stoyan Stefanov，在他写的由O’Reilly初版的新书《JavaScript Patterns》(JavaScript模式)中，我想要是为我们的读者贡献其摘要，那会是件很美妙的事情。具体一点就是编写高质量JavaScript的一些要素，例如避免全局变量，使用单变量声明，在循环中预缓存length(长度)，遵循代码阅读，以及更多。
+
+* [编写高质量JavaScript代码](http://www.lovebabyyu.com/2015/05/gzjjavscript.html)
+
+  最小全局变量(Minimizing Globals)  
+  JavaScript通过函数管理作用域。在函数内部声明的变量只在这个函数内部，函数外面不可用。另一方面，全局变量就是在任何函数外面声明的或是未声明直接简单使用的。
+
+  > keywords: programming javascript global variable
+
+# 11、2015-05-26
+* 根据鼠标点击的坐标，显示对话框
+
+        dialog.css("left", event.x + 10);
+        dialog.css("top", event.y + 10);
+
+# 10、2015-05-11
+## [Javascript 严格模式详解](http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html)
+    除了正常运行模式，ECMAscript 5添加了第二种运行模式："严格模式"（strict mode）。顾名思义，这种模式使得Javascript在更严格的条件下运行。
+
+# 9、2015-05-09
+## 获取Object中的key的值  
+    a = {"name": "test"};
+    for(var key in a){
+    console.log(key);
+    console.log(a[key]);
+    }
+
+# 8、2015-05-07
+* 计算时间差值，用mongo返回的时间
+		var createdate = user.create_at;
+		var currentdate = new Date();
+		var totalseconds = (currentdate.getTime() - createdate.getTime())/1000;
+		var totaldays = Math.round(totalseconds/3600/24);
+		var totalmonths = (currentdate.getFullYear() -  createdate.getFullYear()) * 12 + (currentdate.getMonth() - createdate.getMonth());
+
+注：Date.now()返回的是字符串，所以不能用来计算差值
+
+* 判断一个对象是否为undefined的方法
+typeof(_time[i]) == "undefined"
+
+* [JS 中如何判断 undefined](http://www.cnblogs.com/mountain-mist/articles/1600995.html)
+
+# 7、2015-05-06
+* [现代JavaScript编程和设计模式[英]](现代JavaScript编程和设计模式[英])
+
+# 6、2015-04-28
+* [The Basics Of Variable Scope In JavaScript](https://www.codepunker.com/blog/the-basics-of-variable-scope-in-javascript?utm_source=ourjs.com)
+* [JavaScript变量作用域(Variable Scope)和闭包(closure)的基础知识](http://ourjs.com/detail/553edd20329934463f000002)
+
+# 5、2015-04-23
+* [JavaScript The Good Part-JS的优缺点[Douglas Crockford, 2009]](http://airjd.com/view/i8tyyh2p0003ymm#1)
+* [JSLint](https://github.com/douglascrockford/JSLint)
+* [JavaScript resources](http://javascript.crockford.com/)
+Douglas Crockford
+
+# 4、2015-04-21
+* [Javascript的10个设计缺陷](http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html)
+* [Popularity](https://brendaneich.com/2008/04/popularity/)
+* [Javascript诞生记](http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html)
+* [Javascript面向对象编程（三）：非构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html)
+* [Javascript面向对象编程（二）：构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html)
+* [Javascript 面向对象编程（一）：封装](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html)
+* [Javascript – How Prototypal Inheritance really works](http://blog.vjeux.com/2011/javascript/how-prototypal-inheritance-really-works.html)
+* [Javascript继承机制的设计思想](http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
+* [Javascript: 世纪机器语言？](http://zhuanlan.zhihu.com/prattle/19985617)
+
+# 3、2015-04-14
+* [深入理解Javascript中的面向对象](http://heeroluo.net/article/detail/122/understand-object-oriented-javascript-deeply-chapter-1)
+
+# 2、2015-04-11
+* [forEach](http://blog.csdn.net/oscar999/article/details/8671546)
+
+# 1、2015-04-11
+* [ECMAScript 6 — New Features: Overview & Comparison](http://es6-features.org/?utm_source=javascriptweekly&utm_medium=email#Constants)

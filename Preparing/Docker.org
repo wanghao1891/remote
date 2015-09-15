@@ -1,0 +1,685 @@
+* 26. [2015-09-13 Sun 16:53]
+** 在mac中安装boot2docker
+   cd ~/wanghao/bin
+   wget https://s3.amazonaws.com/github-cloud/releases/17053199/3ed5a622-40fb-11e5-93fc-908c2f339b79.0-darwin-amd64?response-content-disposition=attachment%3B%20filename%3Dboot2docker-v1.8.0-darwin-amd64&response-content-type=application/octet-stream&AWSAccessKeyId=AKIAISTNZFOVBIJMK3TQ&Expires=1442137628&Signature=UVZY79XwU4w%2F1M6LPhNg6gDVrTQ%3D
+   ln -s boot2docker-v1.8.0-darwin-amd64 boot2docker
+   chmod 755 boot2docker-v1.8.0-darwin-amd64
+   $ ./boot2docker init
+   <<
+   WARNING: The 'boot2docker' command line interface is officially deprecated.
+
+   Please switch to Docker Machine (https://docs.docker.com/machine/) ASAP.
+
+   Docker Toolbox (https://docker.com/toolbox) is the recommended install method.
+
+   Latest release for github.com/boot2docker/boot2docker is v1.8.2
+   Downloading boot2docker ISO image...
+   Success: downloaded https://github.com/boot2docker/boot2docker/releases/download/v1.8.2/boot2docker.iso
+   to /Users/huangling/.boot2docker/boot2docker.iso
+   Generating public/private rsa key pair.
+   Your identification has been saved in /Users/huangling/.ssh/id_boot2docker.
+   Your public key has been saved in /Users/huangling/.ssh/id_boot2docker.pub.
+   The key fingerprint is:
+   bd:65:40:98:87:39:23:5a:45:fb:e8:3d:7d:91:4b:0c huangling@koureitekiMacBook-Air.local
+   The key's randomart image is:
+   +--[ RSA 2048]----+
+   |       oo=.      |
+   |      o Bo.      |
+   |     o ..+. E    |
+   |    .    + . o . |
+   |        S o o =  |
+   |       . . = . o |
+   |        . + . o  |
+   |           . .   |
+   |                 |
+   +-----------------+
+   Initialization of virtual machine "boot2docker-vm" complete.
+   Use `boot2docker up` to start it.
+   >>
+
+   $ ./boot2docker up
+   <<
+   WARNING: The 'boot2docker' command line interface is officially deprecated.
+
+   Please switch to Docker Machine (https://docs.docker.com/machine/) ASAP.
+
+   Docker Toolbox (https://docker.com/toolbox) is the recommended install method.
+
+   Waiting for VM and Docker daemon to start...
+   ...........................ooooooooooooooo
+   Started.
+   Writing /Users/huangling/.boot2docker/certs/boot2docker-vm/ca.pem
+   Writing /Users/huangling/.boot2docker/certs/boot2docker-vm/cert.pem
+   Writing /Users/huangling/.boot2docker/certs/boot2docker-vm/key.pem
+
+   To connect the Docker client to the Docker daemon, please set:
+   export DOCKER_CERT_PATH=/Users/huangling/.boot2docker/certs/boot2docker-vm
+   export DOCKER_TLS_VERIFY=1
+   export DOCKER_HOST=tcp://192.168.59.103:2376
+
+   Or run: `eval "$(boot2docker shellinit)"`
+   >>
+   $ ./boot2docker ssh
+   <<
+                        ##         .
+                  ## ## ##        ==
+               ## ## ## ## ##    ===
+           /"""""""""""""""""\___/ ===
+      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~~ ~ /  ===- ~~~
+           \______ o           __/
+             \    \         __/
+              \____\_______/
+
+   Boot2Docker version 1.8.2, build master : aba6192 - Thu Sep 10 20:58:17 UTC 2015
+   Docker version 1.8.2, build 0a8c2e3
+   docker@boot2docker:~$
+   >>
+   vim ~/.zshrc
+   <<
+   PATH="$PATH:$MYHOME/bin"
+   export PATH
+
+   export DOCKER_CERT_PATH=/Users/huangling/.boot2docker/certs/boot2docker-vm
+   export DOCKER_TLS_VERIFY=1
+   export DOCKER_HOST=tcp://192.168.59.103:2376
+   >>
+   source ~/.zshrc
+   $ boot2docker stop
+
+* 25. [2015-09-04 Fri 11:19]
+** 将mac osx由中文改为了英文，docker字符集问题
+*** 在docker中用svn时，报如下错误
+oot@d7107cea94a8:~/workspace/src/shejibao/api# svn up
+svn: warning: cannot set LC_CTYPE locale
+svn: warning: environment variable LC_CTYPE is UTF-8
+svn: warning: please check that your locale name is correct
+Updating '.':
+svn: E000022: Error converting entry in directory '/root/workspace/src/shejibao/api' to UTF-8
+svn: E000022: Can't convert string from native encoding to 'UTF-8':
+svn: E000022: ?\230?\142?\165?\229?\143?\163?\230?\150?\135?\230?\161?\163
+root@d7107cea94a8:~/workspace/src/shejibao/api# sudo locale-gen UTF-8
+root@d7107cea94a8:~/workspace/src/shejibao/api# svn up
+svn: warning: cannot set LC_CTYPE locale
+svn: warning: environment variable LC_CTYPE is UTF-8
+svn: warning: please check that your locale name is correct
+Updating '.':
+svn: E000022: Error converting entry in directory '/root/workspace/src/shejibao/api' to UTF-8
+svn: E000022: Can't convert string from native encoding to 'UTF-8':
+svn: E000022: ?\230?\142?\165?\229?\143?\163?\230?\150?\135?\230?\161?\163
+
+*** 查看字符集
+root@d7107cea94a8:~/workspace/src/shejibao/api# locale
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+LANG=en_US.UTF-8
+LANGUAGE=
+LC_CTYPE=UTF-8
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_COLLATE="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_PAPER="en_US.UTF-8"
+LC_NAME="en_US.UTF-8"
+LC_ADDRESS="en_US.UTF-8"
+LC_TELEPHONE="en_US.UTF-8"
+LC_MEASUREMENT="en_US.UTF-8"
+LC_IDENTIFICATION="en_US.UTF-8"
+LC_ALL=
+
+*** 发现，LC_CTYPE的值变为了UTF-8，手动将其改为en_US.UTF8就可以了
+root@d7107cea94a8:~/workspace/src/shejibao/api# export LC_CTYPE="en_US.UTF-8"
+root@d7107cea94a8:~/workspace/src/shejibao/api# locale
+LANG=en_US.UTF-8
+LANGUAGE=
+LC_CTYPE=en_US.UTF-8
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_COLLATE="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_PAPER="en_US.UTF-8"
+LC_NAME="en_US.UTF-8"
+LC_ADDRESS="en_US.UTF-8"
+LC_TELEPHONE="en_US.UTF-8"
+LC_MEASUREMENT="en_US.UTF-8"
+LC_IDENTIFICATION="en_US.UTF-8"
+LC_ALL=
+
+*** 查看mac中的zsh的字符集
+$ locale
+LANG=
+LC_COLLATE="C"
+LC_CTYPE="UTF-8"
+LC_MESSAGES="C"
+LC_MONETARY="C"
+LC_NUMERIC="C"
+LC_TIME="C"
+LC_ALL=
+
+*** 在docker的bashrc中增加修改字符集的指令
+export LC_CTYPE="en_US.UTF-8"
+这样再次进入的时候，字符集就被设置过了
+
+# 24、2015-08-31
+* 为了适应mac的shell，在镜像中增加字符集
+sudo locale-gen zh_CN.UTF-8
+
+因为在mac上，LC_CTYPE=zh_CN.UTF-8
+
+# 23、2015-07-08
+* docker的.bashrc
+  * update [2015-07-09 19:13] [2015-07-20 10:18]
+        # add by wh
+        # porgramming in docker
+        alias docker-programming='docker run -d -p 220:22 --name programming -v /root/workspace/conf/emacs.d/mine:/root/.emacs.d -v /root/workspace/:/mnt -v /root/workspace/conf/ssh/programming:/root/.ssh -v /var/lib/docker:/var/lib/docker -v /root/workspace/ctags:/root/ctags programming:v0.0.10 /usr/sbin/sshd -D'
+        alias enter-programming='ssh -p 220 127.0.0.1'
+        alias node='/root/workspace/bin/node/bin/node'
+        alias npm='/root/workspace/bin/node/bin/npm'
+        alias docker-mongodb='docker run -d -p 27017:27017 --name mongodb -v /root/workspace/conf/mongodb/:/root/conf -v /root/workspace/data/:/root/data mongodb-3.0.3:v0.0.2 /root/bin/m\
+        ongodb-linux-x86_64-ubuntu1404-3.0.3/bin/mongod -f /root/conf/mongodb.conf'
+        alias docker-monitor='docker run -d -p 80:80 --name monitor -v /root/workspace/src/mine/monitor/:/root/monitor node-0.12.3:v0.0.1 /root/bin/node/bin/node /root/monitor/app.js'
+        alias docker-tool='docker run -d --name tool -p 221:22 -p 3000:3000 -v /root/workspace/:/root/workspace -v /root/workspace/conf/ssh/programming/:/root/.ssh -v /var/lib/docker:/var/lib/docker tool:v0.007 /usr/sbin/sshd -D'
+        alias enter-tool='ssh -p 221 127.0.0.1'
+        alias docker-vocabulary='docker run -d -p 8080:80 --name vocabulary -v /root/workspace/src/mine/proxy-node/:/root/proxy-node -v /root/workspace/src/mine/database/:/root/database -v /root/workspace/src/mine/parser/:/root/parser node-petite:v0.0.2 /root/bin/node/bin/node /root/proxy-node/proxy.js'
+        alias docker-mongo-management-studio='docker run -d --name mongo-management-studio -p 8000:8000 -v /root/workspace/tools/mongo-management-studio/:/root/app node-0.12.3:v0.0.1 /root/bin/node/bin/node /root/app/server.js'
+        alias ssh-tunnel-anyplex='ssh -N -f -D 0.0.0.0:1080 -p 22 122.152.173.184'
+        alias ssh-tunnel-dongfong='ssh -N -f -D 0.0.0.0:1081 -p 5381 116.50.32.212'
+        alias docker-tool-32bit='docker run -d --name tool-32bit -p 222:22 -v /root/workspace/:/root/workspace -v /root/workspace/conf/ssh/programming/:/root/.ssh -v /var/lib/docker:/var/lib/docker 32bit/tool:v0.0.2 /usr/sbin/sshd -D'
+        alias enter-tool-32bit='ssh -p 222 127.0.0.1'
+
+* 在programming镜像中增加ctags，在启动时，挂载ctags目录
+
+      docker run -d -p 220:22 --name programming -v /root/workspace/conf/emacs.d/mine:/root/.emacs.d -v /root/workspace/:/mnt -v /root/workspace/conf/ssh/programming:/root/.ssh -v /var/lib/docker:/var/lib/docker -v /root/workspace/ctags:/root/ctags programming:v0.0.10 /usr/sbin/sshd -D
+
+  > emacs
+
+# 22、2015-06-25
+* mproxy
+
+  docker run -d --name mproxy -p 8081:8081 mproxy:v0.0.1 /root/bin/mproxy -l 8081 -h 122.152.173.184:8081 -E
+
+# 21、2015-06-17
+* 在docker中，执行svn up时，如果存在中文字符集，则会报错
+      svn: warning: cannot set LC_CTYPE locale
+      svn: warning: environment variable LANG is en_US.UTF-8
+      svn: warning: please check that your locale name is correct
+      Updating '.':
+      svn: E000022: Error converting entry in directory '/root/workspace/src/meishubao/api' to UTF-8
+      svn: E000022: Can't convert string from native encoding to 'UTF-8':
+      svn: E000022: ?\231?\190?\142?\230?\156?\175?\229?\174?\157?\229?\174?\162?\230?\136?\183?\231?\171?\175?\229?\141?\143?\232?\174?\174--by?\229?\136?\152?\233?\146?\1761.1.1.docx
+
+  执行`locale`，报错：
+      locale: Cannot set LC_CTYPE to default locale: No such file or directory
+      locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+      locale: Cannot set LC_ALL to default locale: No such file or directory
+      LANG=en_US.UTF-8
+      LANGUAGE=
+      LC_CTYPE="en_US.UTF-8"
+      LC_NUMERIC="en_US.UTF-8"
+      LC_TIME="en_US.UTF-8"
+      LC_COLLATE="en_US.UTF-8"
+      LC_MONETARY="en_US.UTF-8"
+      LC_MESSAGES="en_US.UTF-8"
+      LC_PAPER="en_US.UTF-8"
+      LC_NAME="en_US.UTF-8"
+      LC_ADDRESS="en_US.UTF-8"
+      LC_TELEPHONE="en_US.UTF-8"
+      LC_MEASUREMENT="en_US.UTF-8"
+      LC_IDENTIFICATION="en_US.UTF-8"
+      LC_ALL=
+
+  执行`locale -a`，发现没有安装en_US的local
+      locale: Cannot set LC_CTYPE to default locale: No such file or directory
+      locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+      locale: Cannot set LC_COLLATE to default locale: No such file or directory
+      C
+      C.UTF-8
+      POSIX
+
+  执行`sudo locale-gen en_US.UTF-8`安装en_US.UTF-8
+
+# 20、2015-06-16
+* 查看docker中运行服务的日志
+
+  docker -f node
+
+  > -f: follow the output  
+  node: container
+
+# 19、2015-06-11
+* ubuntu的container中安装openssh-server后，执行`/usr/sbin/sshd -D`后报如下错误：
+
+      Missing privilege separation directory: /var/run/sshd.
+
+  解决：
+  进入到container中，执行
+      /etc/init.d/ssh start
+
+* 发现在docker的container中安装openssh-server后，在另外一个docker中ssh连接，进入后的locale值如下：
+
+      LANG=en_US.UTF-8
+      LANGUAGE=
+      LC_CTYPE="C"
+      LC_NUMERIC="C"
+      LC_TIME="C"
+      LC_COLLATE="C"
+      LC_MONETARY="C"
+      LC_MESSAGES="C"
+      LC_PAPER="C"
+      LC_NAME="C"
+      LC_ADDRESS="C"
+      LC_TELEPHONE="C"
+      LC_MEASUREMENT="C"
+      LC_IDENTIFICATION="C"
+      LC_ALL=C
+
+  当从宿主机ssh连接，进入后的locale值为：
+
+      locale: Cannot set LC_CTYPE to default locale: No such file or directory
+      locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+      locale: Cannot set LC_ALL to default locale: No such file or directory
+      LANG=en_US.UTF-8
+      LANGUAGE=
+      LC_CTYPE="en_US.UTF-8"
+      LC_NUMERIC="en_US.UTF-8"
+      LC_TIME="en_US.UTF-8"
+      LC_COLLATE="en_US.UTF-8"
+      LC_MONETARY="en_US.UTF-8"
+      LC_MESSAGES="en_US.UTF-8"
+      LC_PAPER="en_US.UTF-8"
+      LC_NAME="en_US.UTF-8"
+      LC_ADDRESS="en_US.UTF-8"
+      LC_TELEPHONE="en_US.UTF-8"
+      LC_MEASUREMENT="en_US.UTF-8"
+      LC_IDENTIFICATION="en_US.UTF-8"
+      LC_ALL=
+
+  docker刚创建时，locale：
+      LANG=
+      LANGUAGE=
+      LC_CTYPE="POSIX"
+      LC_NUMERIC="POSIX"
+      LC_TIME="POSIX"
+      LC_COLLATE="POSIX"
+      LC_MONETARY="POSIX"
+      LC_MESSAGES="POSIX"
+      LC_PAPER="POSIX"
+      LC_NAME="POSIX"
+      LC_ADDRESS="POSIX"
+      LC_TELEPHONE="POSIX"
+      LC_MEASUREMENT="POSIX"
+      LC_IDENTIFICATION="POSIX"
+      LC_ALL=
+
+  用nsenter连接进入，locale值为：
+      locale: Cannot set LC_CTYPE to default locale: No such file or directory
+      locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+      locale: Cannot set LC_ALL to default locale: No such file or directory
+      LANG=en_US.UTF-8
+      LANGUAGE=
+      LC_CTYPE="en_US.UTF-8"
+      LC_NUMERIC="en_US.UTF-8"
+      LC_TIME="en_US.UTF-8"
+      LC_COLLATE="en_US.UTF-8"
+      LC_MONETARY="en_US.UTF-8"
+      LC_MESSAGES="en_US.UTF-8"
+      LC_PAPER="en_US.UTF-8"
+      LC_NAME="en_US.UTF-8"
+      LC_ADDRESS="en_US.UTF-8"
+      LC_TELEPHONE="en_US.UTF-8"
+      LC_MEASUREMENT="en_US.UTF-8"
+      LC_IDENTIFICATION="en_US.UTF-8"
+      LC_ALL=
+
+# 18、2015-06-09
+* 在docker中下载svn代码后，报错
+
+  svn: E155009: Failed to run the WC DB work queue associated with '/root/workspace/src/meishubao/api/JPush', work item 142 (file-install 44 ?\231?\190?\142?\230?\156?\175?\229?\174?\157?\229?\174?\162?\230?\136?\183?\231?\171?\175?\229?\141?\143?\232?\174?\174--by?\229?\136?\152?\233?\146?\1761.1.1.docx 1 0 1 1)
+  svn: E000022: Can't convert string from 'UTF-8' to native encoding:
+  svn: E000022: /root/workspace/src/meishubao/api/?\231?\190?\142?\230?\156?\175?\229?\174?\157?\229?\174?\162?\230?\136?\183?\231?\171?\175?\229?\141?\143?\232?\174?\174--by?\229?\136?\152?\233?\146?\1761.1.1.docx
+
+  怀疑是和字符集有关系
+
+# 17、2015-06-04
+* 发现之前导出的镜像ubuntu-14.04-ssh.tar.gz不能导入了，可以删除了
+
+* create a shell script for using nsetner conveniently
+
+      mkdir -pv workspace/bin
+      cd workspace/bin
+
+      vi nsenter-container
+      <<
+      #!/bin/bash
+
+      container_name_or_ID=$1
+      PID=$(docker inspect --format {{.State.Pid}} $container_name_or_ID)
+
+      nsenter --target $PID --mount --uts --ipc --net --pid
+      >>
+
+      vi /etc/profile
+      <<
+      export BASE=/root/workspace
+      export TOOL=$BASE/bin
+      export PATH=$PATH:$TOOL
+      >>
+
+      source /etc/profile
+
+* get a shell into a existing container with nsenter
+
+      docker run -v /usr/local/bin:/target jpetazzo/nsenter
+      PID=$(docker inspect --format {{.State.Pid}} <container_name_or_ID>)
+      nsenter --target $PID --mount --uts --ipc --net --pid
+
+* 配置Docker加速器-daocloud
+
+      echo "DOCKER_OPTS=\"\$DOCKER_OPTS --registry-mirror=http://1b9fea60.m.daocloud.io\"" | sudo tee -a /etc/default/docker
+      sudo service docker restart
+
+  启动时，报如下错误：
+      sudo: unable to resolve host docker
+
+  在/etc/hosts中将hostname docker加入即可，如下：
+      127.0.0.1       localhost docker
+
+* remove a container with volume
+
+      docker rm -v 06c52b049bce
+
+* the real path of volume
+
+      /var/lib/docker/volumes
+
+      cat f14f9fd2981a8cc4a4cbea10f95a8d5f6ef1a4e4dc2e01b289a3ced9f39384bc/config.json
+      {"ID":"f14f9fd2981a8cc4a4cbea10f95a8d5f6ef1a4e4dc2e01b289a3ced9f39384bc","Path":"/var/lib/docker/vfs/dir/f14f9fd2981a8cc4a4cbea10f95a8d5f6ef1a4e4dc2e01b289a3ced9f39384bc","IsBindMount":false,"Writable":true}
+
+      the real path is /var/lib/docker/vfs/dir/f14f9fd2981a8cc4a4cbea10f95a8d5f6ef1a4e4dc2e01b289a3ced9f39384bc
+
+      you can see the content that has changed in the container if you change the content of file in the real path.
+
+* create a docker with volume
+
+      docker run -d -p 220:22 --name tool -v /tools centos6.6:ssh /usr/sbin/sshd -D
+
+# 16、2015-05-29
+* [cSphere](https://csphere.cn/)
+
+  一站式容器管理平台
+
+# 15、2015-05-28
+* [WHY YOU DON'T NEED TO RUN SSHD IN YOUR DOCKER CONTAINERS](http://blog.docker.com/2014/06/why-you-dont-need-to-run-sshd-in-docker/)
+
+  When they start using Docker, people often ask: “How do I get inside my containers?” and people will tell them “Run an SSH server in your containers!” But, as you’ll discover in this post, you don’t need to run a SSHd daemon to get inside your containers. Well unless your container is an SSH server, of course!
+
+  > keywords: docker ssh volume
+
+# 14、2015-05-27
+* 停止并清除所有的docker容器
+
+      docker stop `docker ps -aq`
+      docker rm `docker ps -qa`
+
+# 13、2015-05-22
+* centos 6.5上安装docker
+
+      yum install epel-release
+      sudo yum -y remove docker
+      sudo yum install docker-io
+      yum upgrade device-mapper-libs //如果不执行这条的话，启动docker会报错，/usr/bin/docker: relocation error: /usr/bin/docker: symbol dm_task_get_info_with_deferred_remove, version Base not defined in file libdevmapper.so.1.02 with link time reference
+      sudo service docker start
+
+* [Installing Docker - CentOS-6.5](https://docs.docker.com/installation/centos/#installing-docker-centos-6.5)
+
+# 12、2015-05-20
+* 停止并删除所有的docker容器
+
+      cid=`docker ps -a|awk '{print $1}'|grep -v CONTAINER`
+      docker stop $cid
+      docker rm $cid
+
+* docker run -it ubuntu-node-mongodb:v0.4
+
+  这样启动镜像的话，会看到启动信息：
+      root@meishubao:~# docker run -it ubuntu-node-mongodb:v0.4
+      /usr/lib/python2.7/dist-packages/supervisor/options.py:295: UserWarning: Supervisord is running as root and it is searching for its configuration file in default locations (including its current working directory); you probably want to specify a "-c" argument specifying an absolute path to a configuration file for improved security.
+        'Supervisord is running as root and it is searching '
+      2015-05-20 09:13:31,575 CRIT Supervisor running as root (no user in config file)
+      2015-05-20 09:13:31,576 WARN Included extra file "/etc/supervisor/conf.d/monitor.conf" during parsing
+      2015-05-20 09:13:31,660 INFO RPC interface 'supervisor' initialized
+      2015-05-20 09:13:31,661 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+      2015-05-20 09:13:31,664 INFO supervisord started with pid 1
+      2015-05-20 09:13:32,670 INFO spawned: 'mongodb' with pid 8
+      2015-05-20 09:13:32,681 INFO spawned: 'sshd' with pid 9
+      2015-05-20 09:13:33,701 INFO success: mongodb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+      2015-05-20 09:13:33,704 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+# 11、2015-05-19
+* 虚拟机空间不足，导致无法导出和导入镜像，于是挂载一块50G硬盘
+
+      1) 挂载后，需要将/var/lib/docker复制到挂载点/mnt/data/
+
+      2) 开始是用链接的方式，放在了/var/lib/下，
+      cd /var/lib
+      ln -s /mnt/data/docker/
+
+      3) 启动docker报错
+      FATA[0000] Error response from daemon: Cannot start container ff82f2ef10ace5370c25701f312b903ab90cadc2ddd8b14f203d4bd3b1b33435: [7] Invalid configuration: /var/lib/docker/aufs/mnt/ff82f2ef10ace5370c25701f312b903ab90cadc2ddd8b14f203d4bd3b1b33435 is not an absolute path or is a symlink
+
+      4) 于是改为用mount --bind的方式
+      cd /var/lib
+      rm -f docker
+      mkdir docker
+      mount --bind /mnt/data/docker/ docker
+
+      5) 经测试后，可以正常启动镜像
+
+      2015-05-20:
+      6) 使用mount --bind的方式，原来导入的是可以正常启动；但是新导入的，在启动时还是会报错。
+
+      7) 最后只好用mount dev的方式了，将挂载写到/etc/fstab中，这样就没有问题了
+      /dev/sdb /var/lib/docker ext4 defaults 0 0
+
+* [私活利器，docker快速部署node.js应用](https://cnodejs.org/topic/53f494d9bbdaa79d519c9a4a)
+
+  最近研究了几天docker的快速部署，感觉很有新意，非常轻量级和方便，打算在公司推广一下，解放运维，省得每次部署一台新服务器都去跑安装脚本了，对于我们开发人员也是好事情，无需写太多重复的部署文档，直接将docker的images丢上服务器就可以运行了。
+
+  可能还有一些同学不了解docker这个项目，docker是由go语言编写的，一个快速部署的轻量级虚拟技术项目，他允许开发人员将自己的程序和运行环境一起打包，制作成一个docker的image（镜像），这样部署到服务器上，也只需要下载这个image就可以将程序跑起来，免去每次都安装各种依赖和环境的麻烦，还能够做到应用程序之间的隔离，因为我们公司部署的python程序，这样一来我也省去了每次都到新服务器配置 vitualenv了。
+
+  官网地址：http://www.docker.com/
+
+  如此看来docker非常适合做小巧的外包项目，免去每次都为客户配置一遍运行环境，费时费力。
+
+# 10、2015-05-18
+* 发现在docker中启动多个容器后，用SecureCRT就只能连上一个，但是可以在本机使用ssh连接
+
+  还不知道什么原因。
+
+  在其它服务器用ssh也可以连接。
+
+# 9、2015-05-16
+* 在ubuntu镜像中配置supervisor启动多服务
+
+      1）更新apt源，如果不更新，就找不到supervisor的资源
+      apt-get update
+
+      2）安装supervisor
+      apt-get install supervisor
+
+      3）配置
+      vi /etc/supervisor/conf.d/monitor.conf
+      <<
+      [supervisord]  
+      nodaemon=true  
+
+      [program:sshd]  
+      command=/usr/sbin/sshd -D  
+
+      [program:mongodb]
+      command=/root/monitor/bin/mongodb/bin/mongod --dbpath /root/monitor/data/mongodb --logpath /root/monitor/logs/mongodb.log --smallfiles
+      >>
+
+      4）提交镜像
+      docker commit -m "Make the ubuntu(14.04) with node and mongodb." -a "wanghao" ce612b0d5b51 ubuntu-node-mongodb:v0.1
+
+      5）启动
+      docker run -d -p 220:22 -p 27017:27017 ubuntu-node-mongodb:v0.1 /usr/bin/supervisord
+
+* [Where are Docker images stored?](http://blog.thoward37.me/articles/where-are-docker-images-stored/)
+
+  If you're just starting out with Docker, it's super easy to follow the examples, get started and run a few things. However, moving to the next step, making your own Dockerfiles, can be a bit confusing. One of the more common points of confusion seems to be:
+
+  Where are my Docker images stored?
+
+  - Everyone
+
+* [Docker镜像文件（images）的存储结构](http://www.open-open.com/lib/view/open1414222312419.html)
+
+  如果你是刚开始接触 Docker的话，按照官方文档里的例子，很容易入门并且进行一些简单的工作。但是，如果再深入一些，比如要创建自己的Dockerfile的话，你就可能会有点感到困惑了。
+
+* docker存放镜像路径
+
+  以下是总路径：  
+  /var/lib/docker
+
+  以下是某个镜像root目录：  
+  /var/lib/docker/aufs/diff/99e7fee815a00ec2acc6d7672f88c513906708231b47988e0df07ad210fdac1f/root
+
+# 8、2015-05-12
+* 使用supervisord来启动Docker里的多个服务
+
+  1) 在启动的容器中安装supervisord
+  rpm -ivh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+  yum install supervisor
+
+  2) 修改supervisor的配置/etc/supervisord.conf
+  [supervisord]  
+  nodaemon=true  
+
+  [program:sshd]  
+  command=/usr/sbin/sshd -D  
+
+  [program:lms]  
+  command=/lms/bin/start-lms d
+
+  3) 提交镜像
+  docker commit -m "Make the centos(6.6) with lms." -a "wanghao" dad99d761e56 centos-lms:v0.2
+
+  4) 启动容器
+  docker run -d -p 220:22 -p 80:80 centos-lms:v0.2 /usr/bin/supervisord
+
+  5) 备注
+  可以将以上过程写到dockerfile中，参考[Docker同时启动多个服务](http://blog.csdn.net/kongxx/article/details/42528423)
+
+* [USING SUPERVISOR WITH DOCKER TO MANAGE PROCESSES (SUPPORTING IMAGE INHERITANCE)](http://blog.trifork.com/2014/03/11/using-supervisor-with-docker-to-manage-processes-supporting-image-inheritance/)
+
+  In August I wrote a blog post on the creation of tomcat images. Since then, Docker has evolved much, and so has my own knowledge of it. I’d like to update you on what I found to be a good way to manage container processes. After reading this article, I hope you will find good use of the Supervisor image that you can find in my repository on github.
+
+* [在Docker里使用（支持镜像继承的）supervisor管理进程](http://air.googol.im/2014/03/28/supervisor-with-docker-to-manage-processes.html)
+
+  这篇文章是受Dockboard之托帮忙翻译的与 docker 有关的技术文章。Dockboard致力于在中国建立一个 Docker 技术的开放社区。
+
+  本文译自Using Supervisor with Docker to manage processes (supporting image inheritance)，作者 Quinten Krijger。
+
+# 7、2015-05-10
+## 7.3、docker镜像的导出和导入
+    docker save centos6.6:ssh > centos-6.6-ssh.tar.gz
+    docker load < centos-6.6-ssh.tar.gz
+
+## 7.2、[Docker简介与入门](http://www.pchou.info/open-source/2014/03/29/docker-introduction.html)
+
+## 7.1、制作带ssh的centos镜像
+ubuntu和centos同理
+### 7.1.1、下载centos6.6版本镜像  
+    docker pull centos:6.6
+    注：开始用的是latest的，应该版本是7，但是启动镜像后，安装openssh-server后，不能正确启动sshd；后来换到6.6版本就可以了
+
+    * 启动镜像，安装openssh-server  
+    root@meishubao:~# docker run -t -i centos:6.6 /bin/bash
+    [root@e104e78ea4fb ~]# yun intall openssh-server
+    [root@e104e78ea4fb ~]# vi /etc/ssh/sshd_config
+    去掉PermitRootLogin yes的注释
+    [root@e104e78ea4fb ~]# exit
+
+### 7.1.2、 提交修改过的镜像  
+    docker commit -m "Make the centos(6.6) with ssh." -a "wanghao" e104e78ea4fb centos6.6:ssh
+
+### 7.1.3、 启动新镜像  
+      root@meishubao:~# docker images
+      REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+      centos6.6           ssh                 364140a61043        9 minutes ago       253 MB
+      ubuntu              ssh                 92776cf2efae        6 hours ago         230.3 MB
+      ubuntu              14.04               07f8e8c5e660        8 days ago          188.3 MB
+      centos              6.6                 8b44529354f3        2 weeks ago         202.6 MB
+      hello-world         latest              91c95931e552        3 weeks ago         910 B
+      root@meishubao:~# docker run -d -p 10001:22 centos6.6:ssh /usr/sbin/sshd -D
+      root@meishubao:~# docker ps -l
+      CONTAINER ID        IMAGE               COMMAND               CREATED             STATUS              PORTS                   NAMES
+      854a8d6ead7d        centos6.6:ssh       "/usr/sbin/sshd -D"   8 seconds ago       Up 7 seconds        0.0.0.0:10001->22/tcp   lonely_engelbart
+      //使用docker ps -la可以看历史记录
+      root@meishubao:~# ssh -p 10001 127.0.0.1
+
+### 7.1.4 删除一些之前不用的镜像  
+    root@meishubao:~# docker rmi 69e1b7813384 fd44297e2ddb
+
+# 6、2015-05-07
+## 关于启动docker镜像后，如何保存修改的方法
+* 从基础镜像运行一个容器，进入到bash后，在里边添加一个文件  
+root@meishubao:~#  docker run -t -i centos /bin/bash  //启动容器
+[root@b8967972d896 /]# echo "aaaaaa" > a
+[root@b8967972d896 /]# exit
+
+* 然后查找刚刚修改的容器的ID，提交  
+root@meishubao:~# docker ps -l
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                     PORTS               NAMES
+b8967972d896        centos:latest       "/bin/bash"         3 minutes ago       Exited (0) 4 seconds ago                       dreamy_ptolemy
+root@meishubao:~# docker commit -m "Added file a" -a "Wang Hao" b8967972d896 centos:v1
+
+* 用提交后的新镜像启动容器后，就能看到刚才修改的内容了  
+root@meishubao:~# docker run -t -i centos:v1 /bin/bash
+[root@ebf8bed284c5 /]# ls
+a  bin  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+
+## [docker详细的基础用法](http://www.linuxeye.com/Linux/2019.html)
+* 2.1 在测试机启动容器，安装ssh
+>docker run -i -t ubuntu /bin/bash #此方式运行的容器，退出后容器就会关闭。  
+apt-get install openssh-server #安装ssh  
+//需要修改/etc/sshd/sshd_config文件中内容  
+PermitRootLogin yes  
+UsePAM no
+* 2.2 启动ssh，容器以后台方式运行
+>docker run -d -p 50001:22 <容器id> /usr/sbin/sshd-D  
+//容器id可通过 docker ps-a查看，最上面的为最新的。
+
+注：以上部分解答了我一直以来的疑问，就是如果要想使容器在后台运行，必须要启动一个守护进程
+
+# 5、2015-05-06
+* 查看Docker的镜像的tag，需要到[Docker Hub Registry](https://registry.hub.docker.com/)上边查看
+* [深入浅出Docker（二）：Docker命令行探秘](http://www.infoq.com/cn/articles/docker-command-line-quest)
+
+# 4、2015-05-03
+* 在ubuntu容器内安装ssh服务端  
+apt-get install openssh-server
+
+* An Interactive Container  
+sudo docker run -t -i ubuntu:14.04 /bin/bash
+
+# 3、2015-04-29
+* [如何在不同操作系统部署Docker环境](https://community.emc.com/docs/DOC-44372)
+
+# 2、2015-04-28
+* [在ubuntu上安装](https://docs.docker.com/v1.6/installation/ubuntulinux/#installing-docker-on-ubuntu)  
+wget -qO- https://get.docker.com/ | sh
+
+* [破解Docker初学者的迷惑，多容器配合实现开发环境（nginx、php、memcached、mysql）](http://www.arkulo.com/2015/04/25/dockerlnmp/)
+
+# 1、2015-04-24
+* [DaoCloud](https://www.daocloud.io/)
+DaoCloud是一家云计算创业公司，致力于以Docker为代表的容器技术，推动云计算平台和云平台原生应用（Cloud Native Application）的革命性发展。
+DaoCloud为用户提供Docker化应用开发运维平台、Docker Hub的Mirror镜像、企业培训、咨询服务和开源技术社区活动等产品和服务。
+DaoCloud总部位于中国上海，并在北京和美国硅谷设有分支机构。
+联系我们： info@daocloud.io
+
+* [玩转Docker镜像](http://code.csdn.net/news/2823143)

@@ -1,0 +1,585 @@
+* 41. [2015-09-15 Tue 13:27]
+** [[http://dbarobin.com/][温国兵的随想录]] [2015-09-15 Tue 13:28]                                        :mysql:
+   这里是 Wentasy 的个人站点。
+
+   目前就职于酷狗，担任 DBA。
+
+   我曾经是 CSDN 博客专家、DB2 中国社区专家和 InfoQ 高效运维核心编辑。除此之外，我的 51CTO 博客是推荐博客。自命英文名：Robin Wen，可以叫我 Robin，当然，沾一点李彦宏前辈的喜气。喜欢一切简洁的东西，比如，此站点的所有文章采用 Markdown 编写，比如衷爱苹果系列产品，比如自己是一个微信重度使用者。
+
+* 40. [2015-09-15 Tue 13:17]
+** [[http://coollooc.me/][coolblog]] [2015-09-15 Tue 13:17]
+
+* 39. [2015-09-14 Mon 13:08]
+** [[http://oilbeater.com/][刘梦馨(Oilbeater)]] [2015-09-14 Mon 13:19]          :docker:
+   一个什么都写一点的程序员。
+
+   乡亲们好，我是@Oilbeater，欢迎来到我的部落。
+
+   我现在在灵雀云这家创业公司搞 Docker,曾经在阿里巴巴和 Amazon 公司送快递,再之前在北大 OS 实验室挖坑。
+
+   如果想赞助域名服务器或者请博主喝汽水的话，就扫码打赏点碎银子吧。
+
+** [[http://github.tiankonguse.com/][tiankonguse's 代码世界]] [2015-09-14 Mon 13:08]
+   我是 tiankonguse, 一个安静的程序员。
+
+   关于我的详细介绍，可以看看这里
+
+   大学四年 acmer,期间用php写过一些小系统。
+
+   目前，就职与腾讯公司，从事后台开发。
+
+   工作目前涉及到的语言有:c/c++(CGI,服务,独立程序), python(独立程序), perl(独立程序), php(网站后台), 前台html+css+js开发。
+
+   涉及到技术有：　独立系统设计，　系统数据库独立设计，　sphinx搜索搭建与维护，　各种接口设计与维护。
+
+   简单的说就是一直坐着自己喜欢做的事：看书，学习新的知识，研究算法，看漫画，一周偶尔看一场电影。
+
+* 38. [2015-09-12 Sat 13:01]
+** [[http://zhang.hu/][Tiger's Blog]] [2015-09-12 Sat 14:09]                                          :erlang:realtime:
+   新浪微博 @Tiger_张虎 项目 云巴 (yunba.io) 创始人。 JPush 创始人，原CTO。JPush 是一个Android/iOS应用的第三方云推送系统。 Oracle VM。创始团队成员。 兴趣 OS/Virtualization: Linux, Xen, OpenStack, CloudStack Message System: XMPP, MQTT, RabbitMQ Cache, key/value System: Couchbase Language/Platform: C/C++, Python/Django, Erlang/OTP, Java/Scala, Javascript/Node.js Application: Nginx Library/Framework: libev Cluster Framework: Corosync, moxi To Be…
+
+** [[http://ftqq.com/][方糖气球]] [2015-09-12 Sat 13:02]
+   Easy同学，重庆北漂，80后，宅，重度萌物控。
+
+   大学毕业加入新浪，学习LAMP开发&架构；三年后离职创业；又一年后重回新浪，任云平台产品主管，三年余。曾负责过的产品包括手机新浪网发布系统、SinaAppEngine、新浪移动云、新浪云商店、微盘等。最近开始组队创业。
+
+* 37. [2015-09-07 Mon 13:12]
+** [[http://segmentfault.com/u/taowen][taowen]] [2015-09-07 Mon]                                                      :docker:
+   I write code
+
+   Data Engineer
+   Tencent
+   2013 年 6 月 – 至今 (2 年 4 个月)Shenzhen
+   Working at the operation department, building distributed systems to improve efficience and safety of daily operation. The monitoring platform we built is responsible for finding any issue of all games tencent operates instantly, also potentially to patch it up before the op people we alerted can action on it.
+
+* 36. [2015-09-06 Sun 12:49]
+** [[http://thecodist.com/][THE CODIEST]] [2015-09-06 Sun 12:50]
+   PROGRAMMERTHINK
+
+# 35、2015-09-02
+* [東北角的小徑](http://kuanyui.github.io/)
+kuanyui，不務正科的大學生一枚。愛好養企鵝、鋼琴、插畫和 ACG。
+
+毫無天份卻因為癮頭每天浪費一堆時間練琴。最喜歡的作曲家是 C.V. Alkan 和 Rachmaninoff 。
+
+小五時不慎誤入歧途種了曼陀羅花Mandrake，從此成為 RMS 與自由軟體的信徒。Emacs 狂熱愛好者，學會的第一個程式語言是 Emacs Lisp。最近在學 Django。
+
+> emacs
+
+* [图月志](http://iconmoon.com/blog2/)
+图月志，界面设计个人博客，博主 JJ Ying 是百度 MUX 上海团队的负责人，平时经常出没于知乎、新浪微博和 Dribbble 。
+
+# 34、2015-09-01
+* [Jichao Ouyang's Blog](http://blog.oyanglul.us/~jichao.ouyang.html)
+
+Hi, I'm programmer who program JavaScript, Ruby, sometime even Scala for living, meanwhile also play Clojure/Script, Haskell and my own language rù for fun.
+
+> javascript clojure functional
+
+* [tiankonguse](http://github.tiankonguse.com/index.html)
+
+我是 tiankonguse, 一个安静的程序员。
+
+关于我的详细介绍，可以看看这里
+
+大学四年 acmer,期间用php写过一些小系统。
+
+目前，就职与腾讯公司，从事后台开发。
+
+工作目前涉及到的语言有:c/c++(CGI,服务,独立程序), python(独立程序), perl(独立程序), php(网站后台), 前台html+css+js开发。
+
+涉及到技术有：　独立系统设计，　系统数据库独立设计，　sphinx搜索搭建与维护，　各种接口设计与维护。
+
+简单的说就是一直坐着自己喜欢做的事：看书，学习新的知识，研究算法，看漫画，一周偶尔看一场电影。
+
+# 33、2015-08-31
+* [wulujia](http://wulujia.com/)
+
+> security mac
+
+# 32、2015-08-30
+* [Xine2009's Blog](http://xine2009.blog.163.com/)
+
+> mac shell
+
+# 31、2015-08-29
+* [Rain Tian](https://www.gitbook.com/@laoshuterry)
+
+> gitbook mac
+
+* [Guangchuang Yu](http://ygc.name/)
+
+I studied Biology at South China Agricultural University (SCAU) and Anhui Medical University (AHMU). I am interesting in employing computer science to solve biological problems when I was in undergraduate and studied how to use the UNIX operating systems and programming in Bash scripting language. I went on to train myself in bioinformatics at Beijing Institute of Radiation Medicine. I learned programming languages Perl, R, C/C++, and Java thereafter, and contributed several Bioconductor packages to the bioinformatics community, including ChIPseeker, clusterProfiler, DOSE, ggtree, GOSemSim and ReactomePA.
+After I got my Master degree, I started to work as a bioinformatician in Jinan University (JNU) where I worked on analyzing mass spectrometry-based proteomic data. I have collaborated closely with researchers working on cancer research by providing statistical supports for analyzing genomic and proteomic data.
+Since 2013, I study systems biology at The University of Hong Kong (HKU) as a PhD student and focus my research in evolution of influenza viruses.
+
+> biology mac emacs
+
+* [GoCalf](http://www.gocalf.com/blog)
+
+  > mac
+
+# 30、2015-08-26
+* [梅玺阁之幸福生活](http://www.yuleshow.com/)
+
+  > mac
+
+* [azalea says](http://azaleasays.com/)
+
+  > linux
+
+* [宋任飞](http://www.renfei.org/)
+
+* [阿泰的菜园](http://huataihuang.github.io/)
+
+  据说这是人生的三个终极问题：
+
+  * 我是谁？
+  * 我从哪里来？
+  * 我要到哪里去？
+
+  我还没有想清楚
+
+  Your life, as you know it, is gone. Never to return.
+
+  > docker
+
+# 29、2015-08-25
+* [tankywoo](http://tankywoo.com)
+
+  * 知道创宇(Knownsec)
+
+  > devops linux
+
+# 28、2015-08-17
+* [dofy](http://dofy.net/)
+
+  于洋，男，1979年5月生于唐山，2001年毕业于唐山学院机械系。 曾服务于闪客帝国，热酷，豆瓣，酷6等多家互联网公司。 2014年与阿禅创业做轻单项目，该项目在业内取得普遍好评，后因资金问题终止了公司，轻单项目暂停更新，进入日常维护状态。 目前任极客公园 CTO，负责公园极客加速项目的启动及技术部管理工作。 同时对多个创业团队提供技术支持，关注互联网创新，热衷于帮助优秀创业项目。
+
+  [github](https://github.com/dofy)
+
+# 27、2015-08-14
+* [STORM SPIRIT](http://wulfric.me/)
+
+  > linux
+
+# 26、2015-08-10
+* [kedebug](http://kedebug.com/)
+
+  2015 年 3 月硕士毕业于上海交通大学计算机系，师从著名密码学专家、长江学者谷大武教授。
+
+  曾校招签约于雅虎北京全球研发中心，未入职便遭遇解散，卖身未遂。现狼厂核心搜索技术部门搬砖，从事大规模分布式系统后端的稳定性工程。
+
+  主要实习经历：
+
+  2014.07 - 2014.09，阿里云计算，核心系统研发，数据库组，实习研发工程师
+  2012.12 - 2013.04，微软亚太研发中心，服务器与工具事业部，实习软件开发工程师
+
+* [Fritx' Blog](http://blog.fritx.me/)
+
+  * Skills
+
+    Node.js / JavaScript Programming
+    Website Design (CSS / HTML)
+
+* [Juude的博客](http://juude.net/)
+
+  我是一个android framework工程师，在OPPO工作
+
+  博客所有内容仅代表个人观点，与公司无关。
+
+# 25、2015-08-08
+* [黄智强的独立博客](http://hunng.com/)
+「关于我」
+
+Hunng, 重庆人, 重庆邮电大学
+
+Java空城狮, Mac OSX为日常操作系统, 主要关注Java, 缓存, 搜索引擎, 大数据相关技术
+
+# 24、2015-08-06
+* [Tisoga](http://forrestchang.github.io/)
+
+  > emacs orgmode
+
+# 23、2015-07-28
+* [费伦宙](http://universefei.github.io/)
+
+  姓名： 费伦宙
+
+  学校：西安电子科技大学
+
+  > devops virtualization
+
+* [Peer Xu](http://blog.e3rp4y.me/)
+
+  职业: 程序员
+
+  爱好: 倒腾小玩意
+
+  > emacs
+
+# 22、2015-07-25
+* [杨华的专栏](http://blog.csdn.net/yanghua_kobe)
+
+  工作总结 & 技术框架/源码解读
+
+  > node.js
+
+# 21、2015-07-23
+* [王东旭的博客](http://wangdongxu.com/)
+
+  王东旭，1989年生
+
+  经历：
+  2006年：
+  从事汽车电子行业
+
+  2008年：
+  开始业余从事移动互联网
+
+  2009年末（至今）：
+  开始全职从事移动互联网
+
+# 20、2015-07-21
+* [Nada Amin](https://github.com/namin)
+
+  I am a PhD student in the LAMP lab advised by Martin Odersky. My academic interests include programming languages, type systems and computer-aided design.
+
+  > programming
+
+# 19、2015-07-16
+* [The Office Hobo](http://www.theofficehobo.com/)
+
+  The Story of a Man
+
+  Who Lived Where He Worked… For 500 Days
+
+  No rent. No commute. And most importantly, no washing dishes.
+
+  >
+
+# 18、2015-07-12
+* [Will Yager](http://yager.io/)
+
+  > go
+
+# 17、2015-07-11
+* [jcsu](http://www.cnblogs.com/JCSU/)
+
+  > assemble c
+
+* [贾吉鑫](http://jiajixin.cn/)
+
+  山东90后，男。
+  现居北京，就职于百度，专注移动开发。
+
+  > slack
+
+# 16、2015-07-10
+* [High Availability MySQL](http://mysqlha.blogspot.sg/)
+
+  > database mysql
+
+# 15、2015-07-09
+* [廖雪峰的官方网站](http://www.liaoxuefeng.com/)
+
+  技术作家，著有《Spring 2.0核心技术与最佳实践》
+
+  业余IT架构师兼业余产品经理
+
+* [开源精选](http://jingxuan.io/)
+
+# 14、2015-07-06
+* [唐巧的技术博客](http://blog.devtang.com/)
+
+  记录下自己学习的点滴
+
+  > IAP
+
+* [岽少的专栏](http://blog.csdn.net/zuoyou1314)
+
+  修行之道： 关注大师的言行， 跟随大师的举动， 和大师一并修行， 领会大师的意境， 成为真正的大师。
+
+  > alipay
+
+# 13、2015-07-04
+* [crifan](http://www.crifan.com/)
+
+  * 网名现用crifan，曾用green-waste。
+  * 80后
+  * 雄性
+  * 挨踢（IT）族
+  * 音乐爱好者
+  * 乐于分享者
+  * 关注社会公平，正义
+  * 偶像：老罗（罗永浩）
+  * 座右铭：走别人没走过的路，让别人有路可走
+
+  > embedded website
+
+# 12、2015-07-02
+* [包昊军的博客](http://baohaojun.github.io/)
+
+  I am a software engineer. I write some open source code, mainly to scratch my own back at first, but I also want it to be more useful to other people.
+
+  > emacs
+
+# 11、2015-06-29
+* [IT牛人博客列表](http://geniusblog.sinaapp.com/)
+
+  > blog expert
+
+* [秦晓辉](http://ulricqin.com/)
+
+  大家好，我是秦晓辉，工程师一枚。
+
+  混迹帝都IT圈，从狼厂到粗粮，一直从事运维自动化相关的开发工作，用过各种语言，搞过各种系统，主要关注三个Topic：部署、监控、PaaS
+
+  做过的比较典型的项目如下，按时间先后排序：
+
+  百度自动化运维平台Noah
+  百度自动化部署系统Archer
+  小米监控系统Falcon
+  小米PaaS平台DINP
+  12年从山大毕业，转瞬快三年了，风尘仆仆世俗中……各位朋友如果有远程工作机会可以联系我，过几年准备回我大山东：）
+
+  > devops remote
+
+* [黄智强](http://hunng.com/)
+
+  All things, hope to beauty, to be a beautiful thing, never fade
+  万物之中,希望至美,至美之物,永不凋零
+
+  > git
+
+# 10、2015-06-28
+* [侯振宇L4](http://www.cnblogs.com/sskyy/)
+
+  > nodejs web framework
+
+* [yansu](http://yansu.org/index.html)
+
+  * 对博客的理解
+
+    我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。
+
+    通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化，它是私人的空间。
+
+    分类有助于我们对信息的隔离，例如我把自己的记录分成这几类：技术、工具、资源、生活、读书和旅游。这是我生活重中最重要的几个类别，我希望把自己的一些心得和尝试写在相应分类中。
+
+  * 博客平台
+
+    这个博客通过 Jekyll 生成，部署在 Github，主题基于 3-Jekyll 修改生成，非常感谢 Peiwen Lu 开发出这么漂亮的主题。
+
+  > ssh tunnel study abroad
+
+* [张岭 (Zhang Ling's Blog)](http://www.zhangling.org/blog/)
+
+  本人服务于IBM中国软件开发中心（上海）。
+
+  > ssh tunnel
+
+* [星期八的博客](http://xingqiba.sinaapp.com/)
+
+  > ssh tunnel web
+
+* [Creke Blog | 梦溪博客](http://blog.creke.net/)
+
+  > ssh tunnel
+
+* [大步's Blog](http://www.dabu.info/)
+
+  本人男，非文艺青年，单身狗+读研狗。平时喜欢看漂亮妹子(尤其喜欢穿的少和不穿衣服的妹子)，也追小说和日漫。喜欢踢足球，但是已经很久没踢，基本废了。
+
+  他山之石可攻玉||不为无益之事,何以遣有涯之生
+
+  > pptpd centos
+
+* [Calvin Chen](http://www.iokay.net/)
+
+  Hello and welcome to iokay.net!My name is Calvin Chen ,A F2E engineer work at TaoBao UED.
+
+  This site is a personal experiment. It’s simply an resource & inspirational blog.Having this site has pushed me to learn more knowledge about the web,also I’ll share all of my experience in this site.And a hat tip to konan,thanks for his support and encouragement to me and sharing the DreamHost with me.
+
+  If you enjoy the content found on this website, you can copy of it,but please make a note about the reprints. Also feel free to send me any comments or suggestions about the site. I always look forward to reading your emails, even especially on the days I am swamped with my study or work.And why this page be written in english? I just want to pracice my english language skills.
+
+  > ued taobao javascript
+
+# 9、2015-06-27
+* [chenjunlu](http://www.chenjunlu.com/)
+
+  > linux docker
+
+# 8、2015-06-25
+* [贝叶书](http://bayescafe.com/)
+
+  我是一名PHP程序员，在前端方面也有涉猎。现居北京。
+
+# 7、2015-06-23
+* [郑淇木](http://zhengqm.github.io/)
+
+  我是郑淇木
+
+  北京大学信息科学技术学院计算机专业在读中。
+
+  > redis javascript
+
+* [nelson](http://nelson.logdown.com/pages/about-me)
+
+  目前是一位 iOS App 開發者、攝影愛好者、部落客、軟體中文化貢獻者
+
+  > iOS
+
+# 6、2015-06-16
+* [huaoguo](http://huaoguo.com/)
+
+  > emacs nodejs
+
+# 5、2015-06-15
+* [陈仕强](http://wohe.me/)
+
+  爱生活，爱技术，爱倒腾，爱运动
+　喜欢骑行，骑过318…..以后还想去(要带着媳妇一块儿O(∩_∩)O~)
+
+  >
+
+# 4、2015-06-13
+* [徐晨](http://121.42.140.208/view/blogIndex.html#/index/%3F)
+
+  Node攻城师，正在学习前端，致力于全桟~
+
+  > node.js
+
+* [关注专栏I Object](http://zhuanlan.zhihu.com/iobject)
+
+  > linux arm
+
+* [萧宸宇](http://iiiyu.com/)
+
+  88年大约冬季的时候，诞生在中国西南边陲的一个小城里面。城市经过20多年翻天覆地的变化还是只有三条街。
+
+  一直梦想走出边疆看一看中国的大好河山。吃遍中国各地美食。现在也只能在梦里想一下。
+
+  初中的时候学过几天C语言，就被那老师忽悠觉得自己是吃这碗饭的人。高考时候志愿表上就填了一所大学，一个专业。四年过后事实证明当时我装B了。
+
+  工作几年，现在只会编写一些简单的iOS程序来糊口。能力没咋长，各种乱七八糟的毛长不少。比如隔几天要去吃顿好的，比如看见了个软件就想买买了又不用，比如看见了书就要买，买了回来就吃灰。
+
+  > emacs
+
+# 3、2015-06-12
+* [rejoyce](http://mwfogleman.github.io/)
+
+  When I was a child, my favorite punctuation mark was the em-dash. I spoke with the em-dash, I understood with the em-dash, I thought with the em-dash. To be sure, I still like the em-dash—this very sentence has two em-dashes in it—but when I became a man, I picked up some parentheses, and I started to like them. And now they are my favorite punctuation mark!
+
+  So it could be said that I like to do LISt Processing. I have been known to use Emacs and Clojure to do so.
+
+  Usually, when you introduce people to LISt Processing, you use a book like the Little Schemer. Here is a gratuitous picture of some animals, which originates from a certain sequel to the Little Schemer:
+
+  > emacs lisp
+
+* [张静宁](https://jenny42.com)
+
+  > emacs front-end
+
+* [温馨咖啡小屋](http://warmcafe.info/)
+
+  开一间温馨的咖啡小屋，交友，品读，聆听，记录点滴人生~
+
+  绿荫尽头，临水而居，炊烟升起的地方，便是我的家，我的梦乡~
+
+  > emacs
+
+# 2、2015-06-10
+* [Bruce Dou](http://blog.eood.cn/)
+
+  关注互联网基础架构，高并发，高可用，低延迟的架构；自动化部署和持续开发集成的基础设施。
+
+  Bruce Dou
+
+  Beijing, China & UK
+
+  Email / Gtalk: doubaokun@gmail.com
+
+  Web: http://blog.eood.cn
+
+  Language Using:
+
+  PHP / NodeJS / Java / Python / Erlang / Ruby / JavaScript
+
+  Interest In:
+
+  Web Infrastructure
+
+  High Available, High performance, Low latency architecture Design
+
+  Artificial Intelligence
+
+  Drupal
+
+  Internet Application Development
+
+  Search Engine
+
+  Natural Language Process
+
+  Recommend System
+
+  Machine leaning and Data mining
+
+  Skills & Technology
+
+  Drupal module development & Drupal theme building & Drupal performance optimize
+
+  Build custom search engine based on Lucene
+
+  Build distributed chatting system based on Ejabberd
+
+  Build E-commence system based on Drupal & Ubercart
+
+  Build synchronous and asynchronous architecture
+
+  Build scalable, high available, low latency, robust architecture
+
+  Amazon EC2, S3, SimpleDB Maintenance or development
+
+  AWS EC2, ELB, CloudFormation, S3, RDS maintenance and development
+
+  Also interested in simple things, but above all clean design, music, programming, and architecture.
+
+  > node.js javascript
+
+* [michaelfeng](http://michaelfeng.github.io/blog)
+
+  Coder, Dreamer, Classic music fan, A little nerd. Gotta be a sexy coder.
+
+  > ali
+
+* [chriszheng](http://chriszheng.science/)
+
+  一个Emacs爱好者的闲言碎语
+
+  > emacs
+
+# 1、2015-06-03
+* [wulfric](http://wulfric.me/)
+
+  你好，我是 wulfric.  
+  echo ssqhbney#ciweh.yki | tr w-za-v a-z  
+  whoami  
+  whereis  
+  history  
+  pwd  
+  git status  
+  git branch
+
+* [林亮](http://fritx.github.io/blog/)
+
+  Life is short, I use JS
+
+  Major
+
+  Node.js / JavaScript Programming  
+  Website Design (CSS / HTML)  
+
+  College Studying In  
+  CS College in WYU, China

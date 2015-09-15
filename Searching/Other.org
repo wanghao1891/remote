@@ -1,0 +1,527 @@
+* 40. [2015-09-14 Mon 10:19]
+** [[http://www.zhihu.com/question/20177573][用什么软件画流程图？]] [2015-09-14 Mon 10:19]
+
+* 39. [2015-09-12 Sat 13:00]
+** [[https://www.v2ex.com/t/219353][Coding CTO 孙宇聪：《人，技术与流程》]] [2015-09-12 Sat 13:17]
+
+** [[http://36kr.com/p/203377.html][今天我们应该如何做技术招聘？]] [2015-09-12 Sat 13:01]
+
+* 38. [2015-09-11 Fri 14:45]
+** [[https://mixpanel.com/][mixpanel]] [2015-09-11 Fri 14:45]
+   The most advanced analytics platform ever for mobile and the web.
+
+* 37. [2015-09-08 Tue 22:01]
+** [[http://dreamerslab.com/tw][DreamersLab]] [2015-09-08 Tue 22:02]                                           :taiwan:
+
+* 36. [2015-09-07 Mon 13:51]
+** [[http://insights.thoughtworkers.org/learn-new-technology-quickly/][如何快速掌握一门新技术/语言/框架]] [2015-09-07 Mon 13:51]
+
+* 35. [2015-09-06 Sun 12:46]
+** [[https://zh.wikipedia.org/wiki/%25E5%2585%25A8%25E5%25B1%2580%25E5%2594%25AF%25E4%25B8%2580%25E6%25A0%2587%25E8%25AF%2586%25E7%25AC%25A6][全局唯一标识符(guid)]] [2015-09-06 Sun 14:44]
+** [[https://zh.wikipedia.org/wiki/%25E9%2580%259A%25E7%2594%25A8%25E5%2594%25AF%25E4%25B8%2580%25E8%25AF%2586%25E5%2588%25AB%25E7%25A0%2581][通用唯一识别码(uuid)]] [2015-09-06 Sun 14:34]
+** [[http://thecodist.com/article/lessons_from_a_lifetime_of_being_a_programmer][Lessons From A Lifetime Of Being A Programmer]] [2015-09-06 Sun 12:46]
+
+* 34. [2015-09-04 Fri 16:40]
+** [[http://www.woshipm.com/][人人都是产品经理]] [2015-09-04 Fri 16:47]
+
+# 33、2015-09-02
+* [工作也旅行 - 工作日常](https://ruby-china.org/topics/27162)
+
+* [跨域访问和防盗链基本原理（一）](http://codefine.co/%E8%B7%A8%E5%9F%9F%E8%AE%BF%E9%97%AE%E5%92%8C%E9%98%B2%E7%9B%97%E9%93%BE%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/)
+
+* [新时代编程字体推荐](http://zhuanlan.zhihu.com/iconmoon/20194623#comment-92577474)
+
+# 32、2015-09-01
+* [cache 的简单认识与思考](http://github.tiankonguse.com/blog/2015/08/30/cache-think-record/#rd?sukey=fc78a68049a14bb28c7ad5a8d776284f8228cb1fd1962fec067e3a73a094dce9439aa9a3a2be977604db2832e19247c5)
+
+* [《学习响应式设计》作者Clarissa Peterson：响应式设计并不是万能的（图灵访谈）](http://www.ituring.com.cn/article/203460)
+
+# 31、2015-08-26
+* [为什么vbox下host-only无法设置?](http://www.zhihu.com/question/19900112)
+
+# 30、2015-08-25
+* [Worktile 技术架构概要](https://worktile.com/tech/basic/the-worktile-tech-stack)
+
+# 29、2015-08-25
+* [Mac OS 软件](http://wiki.tankywoo.com/other/mac-os-tools.html)
+
+# 28、2015-08-24
+* [程序员常去的14个顶级开发社区](http://h2ex.com/t/27)
+
+# 27、2015-08-20
+* [如何使自由职业者有全职工作](http://blog.techbay.club/post/ru-he-shi-zi-you-zhi-ye-zhe-you-quan-zhi-gong-zuo)
+
+  > remote
+
+* [APICloud CTO邹达：用Web技术加速原生应用开发（图灵访谈）](http://www.ituring.com.cn/article/202466)
+
+  邹达，APICloud联合创始人兼CTO。他是APICloud云端一体平台的架构设计者，也是终端引擎和云端服务核心模块的技术实现者。他专注于浏览器及相关中间件技术，参与过多个主流浏览器引擎、JavaScript引擎以及移动中间件引擎的开发工作。邹达是一位拥有10年一线开发经验的资深码农，他对Web应用和本地应用开发，以及NodeJs、MongoDB、Redis等技术都有着深刻的理解，对于大规模、高并发的云端服务开发也有着丰富的实战经验。
+
+  > javascript node.js
+
+# 26、2015-08-17
+* [如何评价「轻单」？](http://www.zhihu.com/question/27430882)
+
+# 25、2015-08-14
+* [Ruby Web服务器：这十五年](http://insights.thoughtworkers.org/ruby-web-server/)
+
+* [给美国政府做外包是怎样一种体验](http://get.jobdeer.com/7862.get)
+
+  Loren Yu从他朋友Kalvin Wang处收到一份紧急求助邮件， 于是他在周末前往洛杉矶。
+
+# 24、2015-08-10
+* [Elixir: 编程语言的未来](http://blog.eood.cn/elixir?dba)
+
+* [2015 校招总结](http://kedebug.com/blog/campus-offer-2015/)
+
+  去年在知乎回答了 怎么进入 BAT 的研发部门，结合自身感受说了一些学习上的体会。 当时校招虽然 BAT 的 offer 在手，但仍被 Yahoo! 远超预期的薪水以及自由开放的工作环境所吸引， 故考虑其作为职业生涯的起点。然而时过境迁，没想到未入职就经历了这次雅虎北研的解散，不得不再次面对找工作的窘境。
+
+  > job
+
+* [一些LVS实验配置、工具和方案](http://codefine.co/%E4%B8%80%E4%BA%9Blvs%E5%AE%9E%E9%AA%8C%E9%85%8D%E7%BD%AE%E3%80%81%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%B9%E6%A1%88/)
+
+  最近做了一些LVS配置和方案的验证实验，将过程中用到的一些配置、工具和具体的解决方案记录一下。使用DR模式。验证一种不中断业务的RealServer升级或者重启方案。
+
+  > lvs
+
+* [为何软件开发时间总是那么长](http://juude.net/whytimeconsumeprogramming/)
+
+* [Mobile:2015 UI / UX Trends](https://medium.com/interactive-mind/mobile-2015-263ab694e60e)
+
+  Whether on an app screen, a web browser, or a wearable watch face, design is one of the most important drivers of consumer engagement. From flat design to Material design, I analysed what trends have evolved, and share a few of my insights with you — what are these trends? Why are they beneficial to the user? And how are they created?
+
+  > design
+
+# 23、2015-08-08
+* [对Tower网站浅显的性能分析](https://github.com/ccforward/cc/blob/master/Tower_Performance/README.md)
+
+* [使用MAT(Memory Analyzer Tool)分析内存泄漏](http://hunng.com/2015/07/08/memory-analyzer-tool/)
+
+* [2015 移动端 UI/UX 趋势](http://get.jobdeer.com/7749.get)
+
+# 22、2015-07-28
+* [谈谈DevOps和虚拟化](http://universefei.github.io/2015/07/26/%E8%B0%88%E8%B0%88DevOps%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96/#comments)
+
+  其实DevOps和虚拟化并没有多大关系，为什么要把这两个东西放在一起呢？如果有人跟我突兀的讲这两个词，我会联想到docker。其实也就是因为docker才有了这篇文章。此文只是简单的介绍，以后会抽出时间专门来分别介绍虚拟化技术、DevOps还有Docker。
+
+  > docker
+
+# 21、2015-07-22
+* [有一种 WEB 的部署方法叫 CNPAAS](http://blog.linz.im/2015/cnpaas.html)
+
+  去年一次偶然爬梯上 facebook 的时候发现香港朋友 Jimmy 在“密谋”一个计划，跟云计算有关。
+
+  后来看到他和他朋友阿扬的这个有趣的视频：
+
+  我对这个计划很感兴趣，因为我本身是一名从事网站设计和开发的自由工作者，经常需要做 demo 给客户，而且本身对各种开源的 web 程序很感兴趣，所以除了需要付费购买服务器之外，还要不断鼓捣服务器环境来跑各种代码。好几次由于搞乱了服务器的环境，而只好删除整个系统重装，在做婚礼圈的初期，也试过为一些运维工作而耗过几个深宵。
+
+  如果按照视频所介绍的，用那个云服务应该就能免却各种运维之苦而专心准备要部署的网站本身？
+
+  这个项目叫 CNPaaS 。
+
+  > devops
+
+* [再来网:第一个以ugc的形式发布创业失败案例的网站](http://www.herecake.cc/)
+
+  从失败的创业案例中吸取经验，真正对创业者有帮助，创业不怕再来！
+
+# 20、2015-07-21
+* [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
+
+* [七牛首席架构师李道兵：在开源世界里逼自己成长（图灵访谈）](http://www.ituring.com.cn/article/200305)
+
+  李道兵，七牛云存储首席架构师。他曾是北大化学专业博士研究生，中途毅然转行至自己喜欢的互联网行业。2007年加入金山实验室，2010年加入盛大创新院， 曾先后参与了盛大网盘项目和盛大云项目。2013年，李道兵加入七牛云存储，任职至今。他热爱开源，曾先后担任维基百科中文管理员，Debian Developer，协助维护 iso-codes 等开源软件。他喜欢架构，参与了不少高压力项目的结构设计，推崇高可用，可伸缩，低耦合的架构设计。
+
+  > storage
+
+# 19、2015-07-20
+* [Adapting To Canadian Culture](https://www.lingq.com/blog/2015/07/14/adapting-to-canadian-culture/)
+
+  Years and years ago I watched an episode of South Park – the cartoon about four American middle-school boys that are incredibly rude, but also very insightful. The episode was about Canada (all of it) being on strike because Canadians wanted more money (from the internet or something).
+
+  > english
+
+# 18、2015-07-17
+* [LFS command log (7.3) 2013](http://pastebin.com/zz77D7uw)
+
+  That's not the LFS book, that's a collection of commands, which might not be correct for your situation.
+
+  > lfs
+
+# 17、2015-07-16
+* [我在办公室秘密地住了 500 天](http://www.labazhou.net/2015/05/i-secretly-lived-in-my-office-for-500-days/)
+
+  无力支付洛杉矶的房租，我就睡在桌子后面。做为一种快速的财务举措，却很快成为了一种生活方式。 —Terry K
+
+* [《学习响应式设计》作者Clarissa Peterson访谈问题有奖征集（图灵访谈）](http://www.ituring.com.cn/article/200909)
+
+  Clarissa Peterson是一位用户体验设计师、Web开发者。她是蒙特利尔的一家响应式网站设计咨询公司Peterson/Kandy的联合创始人。她曾在美国公共交通联合会任Web经理，在此期间她对该组织的网站进行了大规模的改革，在此之前，她曾分别在公益组织AARP以及国会图书馆担任编辑和开发者。Clarissa是一位很受欢迎的演讲者，她经常在北美和欧洲举办的开发者会议及研讨会上发表关于响应式设计、移动策略和用户体验方面的演讲，在过去的3年中，她一共做过40场演讲。
+
+* [How to build a happy and productive remote team](http://thenextweb.com/insider/2015/06/18/how-to-build-a-happy-and-productive-remote-team/?utm_campaign=Remotive%2B-%2BProductive%2BRemote%2BWorkers&utm_medium=email&utm_source=Remotive_-_Productive_Remote_Workers_34)
+
+  It’s no secret that it’s hard to find top technical talent in Silicon Valley. The problem has been exacerbated as more and more founders have bought into the belief that they need to build an in-house team.
+
+  Another issue is that the rising cost of living makes it almost impossible for growth-stage startups to afford technical talent, and they have been forced to compete with the market-rate salaries offered by larger tech companies.
+
+  > remote
+
+# 16、2015-07-15
+* [近期准备找下一份远程工作，求建议](https://www.v2ex.com/t/200681)
+
+  毕业就要满6年，前1年半全职上班，然后自由职业一年多，再后来在一家公司远程工作到现在(刚辞职)。
+
+  > remote
+
+* [远程工作两个月后的体会](http://chuansong.me/n/1526536)
+
+  自己开公司，就是自己在定规矩。你自己决定如何使用手头上的钱，如何建立公司的组织结构，以及你在何时何地工作。
+
+  默认方案，是在像纽约（我们的所在地）这样的地方拥有一间办公室，按正常上下班时间工作。我和 John 都渴望打破常规，建立一支远程工作的团队。
+
+  最近我们体验了两个月，每个人都在不同的地方办公。
+
+  > remote
+
+* [[远程] CitrusByte 招聘 Simplicity Driven Developer](https://ruby-china.org/topics/26469)
+
+  首先，我想说，我不是专职的 HR 人员，我只是一名工程师。所以这里我不想发一个传统的招聘广告，如果大家喜欢传统的招聘广告的话，我老板在 这边 已经发过一个很好的招聘广告了，欢迎大家直接去那边应聘。这里我只想从一个工程师的角度出发，跟大家聊一下我在 CitrusByte 的一些感受。
+
+  > remote
+
+# 15、2015-07-12
+* [Why Go Is Not Good](http://yager.io/programming/go.html)
+
+  I like Go. I use it for a number of things (including this blog, at the time of writing). Go is useful. With that said, Go is not a good language. It's not bad; it's just not good.
+
+  We have to be careful using languages that aren't good, because if we're not careful, we might end up stuck using them for the next 20 years.
+
+  This is a list of my chief complaints about Go. Some of these are mentioned frequently, and some are rarely discussed.
+
+  I've also included some comparisons to both Rust and Haskell (which I consider to be good languages). This is to show that all the problems listed here have already been solved.
+
+  > go
+
+# 14、2015-07-11
+* [C语言详解 - 枚举类型](http://www.cnblogs.com/jcsu/articles/1299051.html)
+
+  在程序中，可能需要为某些整数定义一个别名，我们可以利用预处理指令#define来完成这项工作，您的代码可能是：
+
+      #define MON  1
+      #define TUE   2
+      #define WED  3
+      #define THU   4
+      #define FRI    5
+      #define SAT   6
+      #define SUN   7
+
+  在此，我们定义一种新的数据类型，希望它能完成同样的工作。这种新的数据类型叫枚举型。
+
+* [有态度的Slack群组](http://jiajixin.cn/2015/07/09/slack-android/)
+
+  今年，机缘巧合中，加入了一个比较Geek的创业公司，团队沟通一直使用Slack这个工具。使用了三四个月，感觉非常方便，Slack有如下优点：
+
+  加强版的QQ群+讨论组
+  有不同的Channel分流不同的话题，你可以只关注自己喜欢的话题。可以方便的新建Channel，加一些人进来讨论。
+
+  弱干扰
+  QQ群是强干扰的，有新消息弹窗提示，如果设为免打扰，又怕错过重要信息。而Slack默认当别人提到你或者触发了你关注的关键词后才会弹出桌面通知。
+
+  第三方集成
+  之前在创业公司我们使用的Github，Asana，HockyApp，Travis CI等服务，都可以很方便的集成到Slack中，有代码提交、打包完成等都可以收到通知。
+
+  > slack
+
+# 13、2015-07-10
+* [文本相似度计算-JaccardSimilarity和哈希签名函数](http://blog.csdn.net/ygrx/article/details/12748857)
+
+  在目前这个信息过载的星球上，文本的相似度计算应用前景还是比较广泛的，他可以让人们过滤掉很多相似的新闻，比如在搜索引擎上，相似度太高的页面，只需要展示一个就行了，还有就是，考试的时候，可以用这个来防作弊，同样的，论文的相似度检查也是一个检查论文是否抄袭的一个重要办法。
+
+  > similarity algorithm
+
+* [文本相似度比较](https://cnodejs.org/topic/5413a9b08895083262c7a934)
+
+  > similarity algorithm
+
+* [余弦定理的应用：基于文字的文本相似度计算](http://my.oschina.net/leejun2005/blog/116291)
+
+  最近由于工作项目，需要判断两个txt文本是否相似，于是开始在网上找资料研究，因为在程序中会把文本转换成String再做比较，所以最开始找到了这篇关于 距离编辑算法 Blog写的非常好，受益匪浅。
+
+  > similarity algorithm
+
+* [Modern databases](http://mysqlha.blogspot.sg/2014/01/modern-databases.html)
+
+  What is a modern database? We have some terms that wander between marketing and technical descriptions - NewSQL, NoSQL. We have much needed work on write-optimized database algorithms - Tokutek, LevelDB, RocksDB, HBase, Cassandra. We also get reports of amazing performance. I think there is too much focus on peak performance and not enough on predictable performance and manageability.
+
+  > database
+
+# 12、2015-07-09
+* [MobaXterm](http://mobaxterm.mobatek.net/)
+
+  Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more
+
+  > ssh
+
+* [Clojure驱动的Web开发](http://www.liaoxuefeng.com/article/0014171500694729a42a2c8b7f245e0bd54612c88d78a03000)
+
+  Clojure是运行在JVM之上的Lisp方言，提供了强大的函数式编程的支持。由于Java语言进化的缓慢，用Java编写大型应用程序时，代码往往十分臃肿，许多语言如Groovy、Scala等都把自身设计为一种可替代Java的，能直接编译为JVM字节码的语言。Clojure则提供了Lisp在JVM的实现。
+
+  > lisp clojure
+
+* [全能型开源远程终端MobaXterm](http://jingxuan.io/?p=182)
+
+  破解Securecrt怕中毒，Xshell 用着不爽，Putty太单薄，手头没Mac用不了iterm2。那就试试这个全能开源的终端吧(MobaXterm)!
+
+  > ssh
+
+* [Ceph在高IO下的死锁故障](http://my.oschina.net/brinlike/blog/472783?from=20150705)
+
+  在一台高性能PC服务器上，使用ceph做虚拟机镜像的存储。在做压力测试的情况下，出现了该服务器所有虚拟机不能访问的故障。
+
+  引发原因：
+
+  1.在虚拟机当中安装了一个网站服务，网站服务中使用了redis作为缓存服务器。在压力比较大的情况下（8000千次访问每秒），发生了宿主机所有的虚拟机全部不能访问的情况
+
+  2.发生故障时，部分虚拟机不能ping到，部分虚拟机是能ping到，但是不能ssh登陆
+
+  > ceph
+
+# 11、2015-07-08
+* [The Comprehensive Guide to Remote Working](http://blog.remotive.io/the-comprehensive-guide-to-remote-working/)
+
+  Walter Chen (co-founder of iDoneThis) and Eric Bieller (co-founder of Sqwiggle) present The Comprehensive Guide to Remote Working !
+
+  > remote
+
+* [为什么有些人用一年时间获得了你十年的工作经验？](http://www.managershare.com/post/191156)
+
+  你是有十年工作经验呢，还是把一年工作经验用了十年？
+
+* [《小决心》作者Caroline Arnold：你的决心为什么总是以失败告终（图灵访谈）](http://www.ituring.com.cn/article/200116)
+
+  Caroline L. Arnold是华尔街投行里为数不多的女性技术部门高管，现为高盛董事总经理。在此之前，她在摩根士丹利工作了21年，从开发人员做起，逐步做到了董事总经理。她领导的团队曾为Google的首次公开募股（IPO）搭建拍卖系统，这是当时最大规模的IPO。她不仅是一位事业有成的职业女性，也是一位尽职尽责的妻子和母亲。但和许多人一样，她也屡屡经历下定决心与决心往往落空的恶性循环，这促使她开始了一个不同以往的新尝试，不是下大决心或下更大决心，而是制定一个小决心。她把自己的经验总结成《小决心》和更多的人分享，越来越多的人开始实践小决心，而所有的实践都得出同一个结论：小决心确实奏效。
+
+# 10、2015-07-07
+* [Top 10 Successful Web Designs Trends of 2015](http://everydaydesigner.net/design/top-10-successful-web-designs-trends-of-2015)
+
+  If you’re redesigning your website in 2015, you probably need to know what all goes towards building a good web design. It’s always a great idea to begin considering design features as early as possible.
+
+  > front-end
+
+* [2015 Top10 最成功的网页设计趋势](http://codecloud.net/top-10-successful-web-designs-trends-of-2015-4836.html)
+
+  如果你打算在2015年重新设计你的网站，那么你可能有必要了解设计优秀网页的趋势。尽可能早地考虑网页设计特点是一个好主意。
+
+  > front-end
+
+* [使用consul实现分布式服务注册和发现](http://tonybai.com/2015/07/06/implement-distributed-services-registery-and-discovery-by-consul/)
+
+  Consul是HashiCorp公司推出的开源工具，用于实现分布式系统的服务发现与配置。与其他分布式服务注册与发现的方案，比如 Airbnb的SmartStack等相比，Consul的方案更“一站式”，内置了服务注册与发现框 架、分布一致性协议实现、健康检查、Key/Value存储、多数据中心方案，不再需要依赖其他工具（比如ZooKeeper等）。使用起来也较 为简单。Consul用Golang实现，因此具有天然可移植性(支持Linux、windows和Mac OS X)；安装包仅包含一个可执行文件，方便部署，与Docker等轻量级容器可无缝配合。
+
+  > service discovery
+
+* [自由职业平台 Upwork 教你如何在线招聘和远程工作](http://tech2ipo.com/99198)
+
+  其实，我们早已经闯入了「远程工作」时代。在这个高弹性、分布式、高效率的团队协作中，公司该如何进行线上招聘，又该把握哪些原则来进行远程工作呢？今天，Upwork 有话要说。如今，作为自由职业平台的它，所拥有的工作团队中有超过 500 名的自由职业者，来自全世界的各个地方，还有 300 名全职工作者。它是怎么做到这一切的？
+
+  > remote
+
+* [The One Hiring Mistake You Didn’t Know You Were Making](https://medium.com/work-reimagined/the-hiring-mistake-you-didn-t-know-you-were-making-b64d0bff06b8)
+
+  Imagine trying to hire for a critical project, knowing that you know just the right person for the job, but not being able to work with them.
+
+  > remote
+
+* [How Pairing Powers Remote Teams](http://customer.io/is-open/How-Pairing-Powers-Remote-Teams.html?utm_campaign=Remotive%2B-%2BProductive%2BRemote%2BWorkers&utm_medium=email&utm_source=Remotive_-_Productive_Remote_Workers_33)
+
+  Over the past few months, Customer.io has grown from ten people to almost 20, and our engineering team has more than doubled in size. With such rapid growth, getting everyone up to speed is a major challenge.
+
+  > remote
+
+# 9、2015-07-06
+* [axure rp](http://baike.baidu.com/view/3332366.htm)
+
+  Axure RP是一个专业的快速原型设计工具。Axure（发音：Ack-sure），代表美国Axure公司；RP则是Rapid Prototyping（快速原型）的缩写。
+
+  > axure rp
+
+* [iOS应用内支付(IAP)的那些坑](http://blog.devtang.com/blog/2013/04/07/tricks-in-iap/)
+
+  udacity中的在线课程《How to build a startup》中提到，所谓创业，就是尝试寻找新的赢利模式。正因为这是一种尝试，所以不可避免地需要调整产品方向，寻找市场中还未被发现的用户需求，给用户创造价值，进而获得收入。最近很火的精益创业的观点，则是强调将这种尝试成本降到最小，使得自己可以根据市场反馈迅速调整产品。
+
+* [最新最全的支付宝SDK的使用说明](http://blog.csdn.net/zuoyou1314/article/details/39855649?utm_source=tuicool)
+
+  现在电商类的应用与日俱增,直接导致了我们需要集成支付宝SDK的功能,从而完成能实现在线支付,手机支付的功能.说到在线支付,手机支付,这里还是有区别的,在线支付,一般指的是用UIWebView显示用于支付的网页,说实话本人感觉这样的用户体验很不好.
+
+  > alipay
+
+# 8、2015-07-04
+* [FREELANCING: 2 YEARS, $230,000+ AND 9 BIG LESSONS LATER](http://joelklettke.com/)
+
+* [手机是如何安装操作系统的？](http://www.zhihu.com/question/27338074)
+
+  现在的智能手机和平板电脑上在出厂前都预装了操作系统，比如 Android，iOS ,BlackBerry ,Windows,Windows Phone等等，除了现在的 PC 端可以用户自由更换掉原来的操作系统外，其余的手机或者平板都是不能用户自己更换操作系统的，而且常见的 Android 手机也是如此，有人会说刷机不就是更换了系统了吗？但是刷机在本质上是没有更换系统内核的，比如 PC 上可以将 Windows 内核的操作系统直接删除掉，然后安装上 Linux 内核的系统，我有一款 Intel X86 构架的 CPU 的 Android 平板，现在想换成 Ubuntu 系统或者 Windows 8.1,简直无法下手，不知道如何删除原有的 Android 4.1,也不知道如何在手机上安装 Ubuntu，求手机制造行业的大师专家指教！多谢！
+
+  * mobile
+
+# 7、2015-07-03
+* [我常用的补齐方法](http://baohaojun.github.io/blog/2015/06/29/0-my-often-used-completion-methods.html)
+
+* [学习新技能的37个最佳网站](http://codecloud.net/the-37-best-websites-to-learn-something-new-4772.html)
+
+  忘了过于褒奖的学校、整天呆在拥挤的教室而效果却差得可怜。这些网站和应用涵盖了科学、艺术和技术的无数话题。它们可以教会你实践练习任何技能，从制作豆沙到用 node.js 开发 app，而且它们都是免费的。你绝对没有任何理由不去掌握一个新技能、拓展你的知识，或最终助长你的职业发展。你可以根据自己的节奏呆在自己舒适的家里交互式地学习。无法想象还有比这更容易的了，坦诚地说，你还在等什么呢？
+
+# 6、2015-06-30
+* [Bruce Tate：恐惧是我写作《七周七语言》的初衷（图灵访谈）](http://www.ituring.com.cn/article/199590)
+
+  Bruce Tate现任icanmakeitbetter.com的CTO，他的团队主要工作语言是Elixir以及Ruby on Rails。他曾任职于IBM公司13年，并担任过多家公司的客户解决方案总监和CTO。Bruce是一位受欢迎的国际讲师，他曾在丹麦、班加罗尔、华盛顿、斯特哥尔摩等世界各地发表过主题演讲。Bruce著有十余本技术书，其中包括3本JavaOne畅销书，以及两本Jolt大奖获奖图书：《七周七语言》和Better, Faster, Lighter Java。
+
+  > programming
+
+* [迅雷“星域”打通最后一公里重新定义CDN](http://www.infoq.com/cn/news/2015/06/xunlei-CDN)
+
+  2015年6月25日，迅雷携手小米公司在北京正式发布“星域CDN”系统。新一代CDN采用并实现了无限节点布局，这是国内首家提出并实现无限节点的CDN服务商。迅雷CTO、网心科技CEO陈磊透露，迅雷CDN在原有的200多个自建CDN节点基础上，按照新的部署结构，节点数已突破了10万，实现了对现有CDN行业节点数量高达百倍级的增长。
+
+# 5、2015-06-29
+* [豆瓣数据架构实践 by 员旭鹏](http://airjd.com/view/ib90fqeo000dbro#18)
+
+  > architecture
+
+# 4、2015-06-27
+* [Working at Netflix](http://www.brendangregg.com/blog/2015-01-20/working-at-netflix.html)
+
+  I've been at Netflix now for several months, and have found it to be an amazing place to work. What has surprised me most is the culture, how different it is to other companies, and how well it works.
+
+  > Brendan Gregg Netflix
+
+* [Richard Saul Wurman](https://en.wikipedia.org/wiki/Richard_Saul_Wurman)
+
+  Richard Saul Wurman (March 26, 1935) is an American architect and graphic designer. Wurman has written and designed over 83 books, and cofounded the TED (Technology, Entertainment, and Design) conference,[1] as well as the EG conference, TEDMED and the WWW suite of gatherings, in development as of July 2014.
+
+  >
+
+* [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes)
+
+  A few years ago I used to be a hothead. Whenever anyone said anything, I’d think of a way to disagree. I’d push back hard if something didn’t fit my world-view.
+
+  > 37signals Jason Fried
+
+* [给它五分钟](http://nalaginrut.com/blog/articles/5minutes/index.html)
+
+  几年前我还是个头脑发热的家伙。每当有人说点啥，我总是想方设法去否定。如果不能符合我的世界观，我就会硬生生地顶回去。
+
+  > Jason Fried, Nala Ginrut
+
+* [还没中年危机，中层危机已经来了](https://members.linkedin.com/zh-cn/zhuanti/articles/2015/Feb/midage?trk=eml-cn-2015warmup2)
+
+  你终于抵达中层管理这一阶层了。在此，你需要独立承担起整支团队的工作表现，却又常常苦恼于在组织内部不够充足的权威与影响力。我只能说，欢迎来到中层管理这一危险地带！
+
+  > job
+
+* [领英发布：2014年中美最热门的25个技能](https://members.linkedin.com/zh-cn/zhuanti/articles/2015/Mar/skills?trk=eml-cn-2015warmup2)
+
+  近日，全球最大职业社交网站LinkedIn（领英）发布了“2014年中美最热门的25个技能”榜单。本榜单是基于2014年更换工作的人才所具备的技能及2014年HR与猎头搜索的技能的频率，并对二者数据综合分析得出。
+
+  > job
+
+# 3、2015-06-25
+* [GFW翻墙小结](http://wsgzao.github.io/post/fq/)
+
+  > proxy
+* [带你在墙外飞：对话翻墙软件开发者菲斯克](http://cn.nytimes.com/china/20150401/c01censor/)
+
+  近月来，中国网络监管人员对6.48亿国内网民访问有限网站的权利进行了进一步的限制。包括Gmail和Gchat在内的一些谷歌的服务早已无法进入。那些曾让网友躲过在线监控的虚拟私人网络(简称VPN)也被屏蔽了。像GreatFire.org“镜像”网站、以及提供网络宽带共享服务的Lantern等工具，迄今仍能让网友畅游开放的互联网。这些服务使用的是所谓云服务商提供的加密信息托管，这些服务商遍布全球，中国境内也有。要想把这种躲避网络审查的工具停掉，中国网络监管者将不得不关闭包括亚马逊(Amazon)和微软(Microsoft)经营的这类云服务。
+
+  > lantern p2p proxy
+
+* [翻墙七种武器之霸王枪：Shadowsocks](https://pao-pao.net/article/130)
+
+* [翻墙七种武器](https://pao-pao.net/tags/78)
+
+* [哈希表](https://zh.wikipedia.org/wiki/%E5%93%88%E5%B8%8C%E8%A1%A8)
+
+  散列表（Hash table，也叫哈希表），是根据关键字（Key value）而直接访问在内存存储位置的数据结构。也就是说，它通过计算一个关于键值的函数，将所需查询的数据映射到表中一个位置来访问记录，这加快了查找速度。这个映射函数称做散列函数，存放记录的数组称做散列表。
+
+  > hash
+
+* [散列函數](https://zh.wikipedia.org/wiki/%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B8)
+
+  散列函数（或散列算法，又称哈希函数，英语：Hash Function）是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用来代表一个短的随机字母和数字组成的字符串。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。
+
+  > hash
+
+* [高级加密标准(（英语：Advanced Encryption Standard，缩写：AES）)](https://zh.wikipedia.org/wiki/%E9%AB%98%E7%BA%A7%E5%8A%A0%E5%AF%86%E6%A0%87%E5%87%86)
+
+  進階加密标准（英语：Advanced Encryption Standard，缩写：AES），在密码学中又称Rijndael加密法，是美国联邦政府采用的一種區塊加密标准。这个标准用来替代原先的DES，已經被多方分析且廣為全世界所使用。經過五年的甄選流程，進階加密標準由美國國家標準與技術研究院（NIST）於2001年11月26日發佈於FIPS PUB 197，並在2002年5月26日成為有效的標準。2006年，進階加密标准已然成為对称密钥加密中最流行的演算法之一。
+
+  > aes
+
+* [SHA家族](https://zh.wikipedia.org/wiki/SHA%E5%AE%B6%E6%97%8F)
+
+  安全散列演算法（英语：Secure Hash Algorithm）是一种能計算出一個數位訊息所對應到的，長度固定的字串（又稱訊息摘要）的算法。且若輸入的訊息不同，它們對應到不同字串的機率很高；而SHA是FIPS所認證的五種安全雜湊演算法。這些演算法之所以稱作「安全」是基於以下兩點（根據官方標準的描述）：
+
+  由訊息摘要反推原輸入訊息，從計算理論上來說是很困難的。
+
+  想要找到兩組不同的訊息對應到相同的訊息摘要，從計算理論上來說也是很困難的。任何對輸入訊息的變動，都有很高的機率導致其產生的訊息摘要迥異。
+
+  SHA家族的五個演算法，分別是SHA-1、SHA-224、SHA-256、SHA-384，和SHA-512，由美國國家安全局（NSA）所設計，並由美國國家標準與技術研究院（NIST）發佈；是美國的政府標準。後四者有時並稱為SHA-2。SHA-1在許多安全協定中廣為使用，包括TLS和SSL、PGP、SSH、S/MIME和IPsec，曾被視為是MD5（更早之前被廣為使用的雜湊函數）的後繼者。但SHA-1的安全性如今被密碼學家嚴重質疑；雖然至今尚未出現對SHA-2有效的攻擊，它的演算法跟SHA-1基本上仍然相似；因此有些人開始發展其他替代的雜湊演算法。緣於最近[何时？]對SHA-1的種種攻擊發表，「美國國家標準與技術研究院（NIST）開始設法經由公開競爭管道（類似高級加密標準AES的發展經過），發展一個或多個新的雜湊演算法。」
+
+  > sha
+
+* [MD5](https://zh.wikipedia.org/zh-cn/MD5)
+
+  MD5消息摘要算法（英语：MD5 Message-Digest Algorithm），一种被广泛使用的密码散列函数，可以产生出一个128位（16字节）的散列值（hash value），用于确保信息传输完整一致。MD5由罗纳德·李维斯特设计，于1992年公开，用以取代MD4算法。这套算法的程序在 RFC 1321 中被加以规范。
+
+  将数据（如一段文字）运算变为另一固定长度值，是散列算法的基础原理。
+
+  1996年后被证实存在弱点，可以被加以破解，对于需要高度安全性的数据，专家一般建议改用其他算法，如SHA-1。2004年，证实MD5算法无法防止碰撞，因此无法适用于安全性认证，如SSL公开密钥认证或是数字签章等用途。
+
+  > md5
+
+* [VPS丢包优化记](http://michaelfeng.github.io/blog/2015/06/21/VPS%E4%B8%A2%E5%8C%85%E4%BC%98%E5%8C%96%E8%AE%B0.html)
+
+  最近本农用的Linode节点VPS丢包率增高，而且链路时间变长了，尤其晚上更是让人无法忍受。遂想要改善下，查了下Google发现有几种优化方式：
+
+  * 使用Tcp加速产
+  * 修改Tcp拥塞算法
+  * 修改Linux系统配置
+
+  > tcp
+
+* [理想的应用框架](http://www.cnblogs.com/sskyy/p/4592353.html)
+
+  在过去对框架的设计中，我收到过的最有用的建议是：“不要一开始就根据现有的技术去整合和改进。而是先搞清楚你觉得最理想的框架应该是怎样的，再根据现在的技术去评估，的确实现不了时再妥协。这样才能做出真正有意义的框架。”
+  在这篇文章里，就让我们按照这样一条建议来探索一下现在的 web 框架最终可以进化成的样子，你绝对会被惊艳到。
+
+  前端，还是从前端说起。前端目前的现状是，随着早期的 Backbone，近期的 Angular、React 等框架的兴起，前端在 模块化、组件化 两个方向上已经形成了一定的行业共识。在此基础上，React 的 FLUX、Relay 则是进一步的对前端应用架构的探索。这些技术在目前国内的大公司、大团队内部实际上都落地得非常好，因为很容易和公司内部已有的后端技术栈结合。而且这些纯前端框架的配套技术方案一般比较成熟，例如在支付宝确定使用 React，其实有一部分原因是它兼容 IE8，并且有服务器端渲染方案来加速首屏。
+
+  > architecture
+
+* [也谈并发与并行](http://tonybai.com/2015/06/23/concurrency-and-parallelism/)
+
+  在一般人的眼中，“并行”就是并行，即你干你的，我干我的，两个“并行”的执行过程可能是两条毫无瓜葛的平行线，也可能是有交叉，但瞬即分开的两条线。不 过在程序员的世界里，有关“并行”的概念却有两个单词：Concurrency和Parallelism，对应的比较主流的中文翻译为并发 (Concurrency)和并行(Parallelism)。
+
+# 2、2015-06-23
+* [Self (programming language)](https://en.wikipedia.org/wiki/Self_(programming_language))
+
+  Self is an object-oriented programming language based on the concept of prototypes. Self was a dialect of Smalltalk, being dynamically typed and using just-in-time compilation (JIT) as well as the prototype-based approach to objects: it was first used as an experimental test system for language design in the 1980s and 1990s. In 2006, Self was still being developed as part of the Klein project, which was a Self virtual machine written fully in Self. The latest version is 4.5.0 released in January 2014.
+
+  * programming
+
+* [网站前端架构的一些原则和总结](http://blog.eood.cn/front_end)
+
+  每个架构师设计架构的时候都应该考虑的几条原则：高性能 High Performance，可扩展 Scalable，可维护 Maintainable。
+
+  网站前端的架构也是如此。
+
+  前端开发也从服务器端开发借鉴了很多东西：比如 MVC 的分层，小内核和模块化。
+
+* [CoffeeScript – 未来可以取代 JavaScript 的语言](http://blog.eood.cn/coffeescript-2)
+
+* [開發產品學到的一些事（上）](http://nelson.logdown.com/posts/2015/06/17/what-i-ve-learned-when-i-built-a-product-part-one)
+
+  這幾年都在 start-up 打滾，跟著做了一些產品，也有一些小小心得，就紀錄下來跟各位分享討論。
+
+  [開發產品學到的一些事（下）](http://nelson.logdown.com/posts/2015/06/19/what-i-ve-learned-when-i-built-a-product-part-two)
+
+# 1、2015-06-17
+* [为什么创业公司开除员工的速度越快越好（fire fast）？](http://www.zhihu.com/question/30991569/answer/50763087?utm_campaign=weekly176&utm_source=weekly-digest&utm_medium=email)

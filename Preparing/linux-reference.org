@@ -1,0 +1,218 @@
+* 16. [2015-09-14 Mon 13:07]
+** [[http://github.tiankonguse.com/blog/2015/09/13/linux-remove-recovery/][Linux下恢复删除的文件]] [2015-09-14 Mon 13:07]
+
+* 15. [2015-09-13 Sun 15:54]
+** [[http://tinycorelinux.net/][Tiny Core Linux]] [2015-09-13 Sun 15:54]
+   The Core Project is a highly modular based system with community build extensions.
+
+# 14、2015-08-30
+* [LS_COLORS的妙用](http://xine2009.blog.163.com/blog/static/16330934520125260435688/)
+
+# 13、2015-08-14
+* [一些命令行效率工具](http://wulfric.me/2015/08/zsh/)
+
+  > htop
+
+# 12、2015-07-18
+* [理解网络IO模型（一）](http://weibo.com/p/1001603859761618673167)
+
+  作者：新浪微博（@NP等不等于P）
+
+  计算机学习微信公众号（jsj_xx）
+
+  1 前言
+
+  本系列从模型谈起，然后源码级分析其中的（流行的高效的）IO复用模型（select+poll+epoll），最后给出针对IO复用模型的具体实现对比。
+
+  > epoll
+
+* [[转载]理解网络IO模型](http://codefine.co/%E8%BD%AC%E8%BD%BD%E7%90%86%E8%A7%A3%E7%BD%91%E7%BB%9Cio%E6%A8%A1%E5%9E%8B/)
+
+  本系列从模型谈起，然后源码级分析其中的（流行的高效的）IO复用模型（select+poll+epoll），最后给出针对IO复用模型的具体实现对比。
+
+  > io epoll
+
+# 11、2015-07-17
+* [How to Build a GCC Cross-Compiler](http://preshing.com/20141119/how-to-build-a-gcc-cross-compiler/)
+
+  GCC is not just a compiler. It’s an open source project that lets you build all kinds of compilers. Some compilers support multithreading; some support shared libraries; some support multilib. It all depends on how you configure the compiler before building it.
+
+  > gcc cross-compiler
+
+* [How do I apt-get a 32-bit package on a 64-bit installation? [duplicate]](http://askubuntu.com/questions/29665/how-do-i-apt-get-a-32-bit-package-on-a-64-bit-installation)
+
+  Yes, having a chroot environment is the way to go, it allows even to have previous releases side by side your existing Ubuntu.
+
+  It is simple to do it;
+
+  sudo apt-get install debootstrap schroot
+
+  > i386 chroot
+
+* [How to install ia32-libs in Ubuntu 14.04 LTS (Trusty Tahr)](http://stackoverflow.com/questions/23182765/how-to-install-ia32-libs-in-ubuntu-14-04-lts-trusty-tahr)
+
+# 10、2015-07-09
+* [SSH原理与运用（一）：远程登录](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html)
+
+  > ssh
+
+* [SSH原理与运用（二）：远程操作与端口转发](http://www.ruanyifeng.com/blog/2011/12/ssh_port_forwarding.html)
+
+  > ssh tunnel
+
+* [SSH Tunnel - Local and Remote Port Forwarding Explained With Examples](http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html)
+
+  There are two ways to create an SSH tunnel, local and remote port forwarding (there’s also dynamic forwarding, but we won’t cover that here). The best way to understand these is by an example, let’s start with local port forwarding.
+
+  > ssh tunnel
+
+* [Choosing a Linux Tracer (2015)](http://www.brendangregg.com/blog/2015-07-08/choosing-a-linux-tracer.html)
+
+  A tracer is an advanced performance analysis and troubleshooting tool, but don't let that intimidate you... If you've used strace(1) or tcpdump(8) – you've used a tracer. System tracers can see much more than just syscalls or packets, as they can typically trace any kernel or application software.
+
+* [raw - Linux IPv4 raw sockets](http://man7.org/linux/man-pages/man7/raw.7.html)
+
+  Raw sockets allow new IPv4 protocols to be implemented in user space. A raw socket receives or sends the raw datagram not including link  level headers.
+
+  > socket raw
+
+* [[c/c++] raw socket講解](http://blog.yam.com/hn12303158/article/35207136)
+
+  sock_raw原始通訊端程式設計可以接收到本機網卡上的資料幀或者資料包,對與監聽網路的流量和分析是很有作用的.一共可以有3種方式創建這種 socket
+
+  * 1.socket(AF_INET, SOCK_RAW, IPPROTO_TCP|IPPROTO_UDP|IPPROTO_ICMP)發送接收ip資料包
+  * 2.socket(PF_PACKET, SOCK_RAW, htons(ETH_P_IP|ETH_P_ARP|ETH_P_ALL))發送接收乙太網資料幀
+  * 3.socket(AF_INET, SOCK_PACKET, htons(ETH_P_IP|ETH_P_ARP|ETH_P_ALL))過時了,不要用啊
+
+  > socket raw
+
+# 9、2015-07-08
+* [使用pptpd搭建VPN](http://blog.atime.me/note/pptpd.html)
+
+  因为众所周知的原因，pptp早已沦陷，本文不再维护。
+
+  pptpd存在安全隐患，详情可参考[这里](http://pptpclient.sourceforge.net/protocol-security.phtml)。
+
+  Virtualbox上的系统无法使用pptp vpn
+
+  Virtualbox的NAT实现不支持GRE协议，解决方案可参考[PPTP VPN connections from VirtualBox guests](http://angryfifer.blogspot.com/2012/03/pptp-vpn-connections-from-virtualbox.html)
+
+  > pptpd
+
+* [Fedora Zhongwen User Group](https://github.com/FZUG/)
+
+  This is a group for Chinese Fedora hobbyists.
+
+* [Fedora中文社区](http://www.fdzh.org/)
+
+  现在选定你的 专属 Fedora，并开始工作/娱乐/享受 Linux 带来的乐趣吧！
+
+* [Linux 发行版是什么，它又与Linux内核有什么联系？](http://www.fdzh.org/blog/2015/06/20/linux-distr/)
+
+  Linux内核是计算机操作系统的核心。一个完整的 Linux发行版包括了内核与一些其他与文件相关的操作，用户管理系统，和软件包管理器等一系列软件。每个工具都是整个系统的一小部分。这些工具通常都是一个个独立的项目，有相应的开发者来开发及维护。
+
+# 8、2015-06-28
+* [Setting up an SSH Tunnel with Your Linode for Safe Browsing](https://www.linode.com/docs/networking/ssh/setting-up-an-ssh-tunnel-with-your-linode-for-safe-browsing/)
+
+  This is a Linode Community guide. Write for us and earn $100 per published guide.
+
+  > ssh tunnel
+
+* [entos 6.4 6.5安装搭建pptp vpn服务](http://www.dabu.info/centos6-4-structures-pptp-vpn.html)
+
+  今天在vps上装pptp ，和以往一样，只不过不是在自己的vps上，上次ssh代理被封ip，对我的身心造成了深深的影响，所以，这次拿网友放我这的vps来搭建vpn环境。pptp的搭建比openvpn容易多了。以下是我的配置过程，其实和网上差不多
+
+  > pptpd centos vpn
+
+* [在Ubuntu上安装PPTP VPN服务](http://blog.fens.me/ubuntu-vpn-pptp/)
+
+  此图完整的阐述了身为帝国平民的必备技能之一，VPN服务则是此种技能的技术实现，虚拟专用网络（Virtual Private Network ，简称VPN)指的是在公用网络上建立专用网络的技术。它涵盖了跨共享网络或公共网络的封装、加密和身份验证链接的专用网络的扩展。VPN主要采用了彩隧道技术、加解密技术、密钥管理技术和使用者与设备身份认证技术。
+
+  > pptpd ubuntu
+
+* [在ubuntu下搭建pptp vpn服务器](http://yansu.org/2013/12/11/deploy-pptp-vpn-in-ubuntu.html)
+
+  最近弄了digitalocean的vps，研究了一下搭建一个vpn自己用，因为有些系统代理goagent还是搞不定。但是事实证明digitalocean线路还是很不稳，基本上没啥帮助=0=
+
+  > pptpd ubuntu
+
+# 7、2015-06-27
+* [Netflix Instance Analysis Requirements](http://www.brendangregg.com/blog/2015-06-23/netflix-instance-analysis-requirements.html)
+
+  Most instance analysis and monitoring products of today are neither interesting nor are solving new problems. It's usually the same old sar metrics as line graphs. That was great... 20 years ago.
+
+  > sar linux monitor
+
+* [Linux Performance](http://www.brendangregg.com/linuxperf.html)
+
+  This page links to various Linux performance material I've created, including the tools maps on the right.
+
+  > performance
+
+* [Linux 性能监控、测试、优化工具](http://www.chenjunlu.com/2014/09/linux-performance-tools/)
+
+  Linux 平台上的性能工具有很多，眼花缭乱，长期的摸索和经验发现最好用的还是那些久经考验的、简单的小工具。系统性能专家 Brendan D. Gregg 在最近的 LinuxCon NA 2014 大会上更新了他那个有名的关于 Linux 性能方面的 talk (Linux Performance Tools) 和幻灯片。
+
+  > performance
+
+* [理解 pkg-config 工具](http://www.chenjunlu.com/2011/03/understanding-pkg-config-tool/)
+
+  你在 Unix 或 Linux 下开发过软件吗？写完一个程序，编译运行完全正常，在你本机上工作得好好的，你放到源代码管理系统中。然后，告诉你的同事说，你可以取下来用了。这时，你长长的出了一口气，几天的工作没有白费，多么清新的空气啊，你开始飘飘然了。
+
+  > pkg-config
+
+# 6、2015-06-26
+* [关于usr/bin/ld: cannot find -lxxx问题总结](http://eminzhang.blog.51cto.com/5292425/1285705)
+
+  /usr/bin/ld: cannot find -lxxx问题总结
+  linux下编译应用程序常常会出现如下错误：
+    /usr/bin/ld: cannot find -lxxx
+         意思是编译过程找不到对应库文件。其中，-lxxx表示链接库文件 libxxx.so。
+         注：有时候，由于库文件是编译过程临时生成的，如果前面出错也会导致出现这种情况，下面针对的是由于本机系统环境缺失而引起的。。
+         一般出现这种错误有以下几种原因：
+  1.系统缺乏对应的库文件；
+  2.版本不对应；
+  3.库文件的链接错误；
+  4.库文件路径设置问题。
+
+  对应第一第二种情况，可以通过下载安装lib来解决，ubuntu大多数可以直接通过apt-get来安装：
+  apt-get install libxxx-dev
+
+# 5、2015-06-17
+* [修改locale](http://wiki.ubuntu.org.cn/%E4%BF%AE%E6%94%B9locale)
+
+  把语言环境变量改为英文
+  将Ubuntu系统语言环境改为英文的en_US.UTF-8
+
+  > locale
+
+# 4、2015-06-16
+* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+
+  Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and productivity as an engineer in both obvious and subtle ways. This is a selection of notes and tips on using the command-line that I've found useful when working on Linux. Some tips are elementary, and some are fairly specific, sophisticated, or obscure. This page is not long, but if you can use and recall all the items here, you know a lot.
+
+  > command-line
+
+# 3、2015-06-13
+* [如何拯救一台glibc被干掉的Linux服务器?](http://zhuanlan.zhihu.com/iobject/20062978)
+
+  今天正要下班，旁边部门的PM过来问我：
+  『我们有个小伙子把生产系统上的glibc给删了，现在什么命令都跑不了了，还有救吗？』
+
+# 2、2015-06-12
+* [Arch Linux](https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+
+  Arch Linux是一种独立开发的通用i686/x86-64 GNU/Linux发行版，灵活度高可用于各种场合。其开发注重设计简便、简洁和优雅编程。初始安装的Arch只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统。官方并未提供图形界面配置工具，大多数系统配置需要通过命令行。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。
+
+* [archlinux](https://www.archlinux.org/)
+
+  A simple, lightweight distribution
+
+# 1、2015-06-11
+* [Linux常用命令全集](http://www.jb51.net/linux/index.htm)
+
+  Linux虽然是免费的，但它的确是一个非常优秀的操作系统，与MS－WINDOWS相比具有可靠、 稳定、速度快等优点,且拥有丰富的根据UNIX版本改进的强大功能。下面，作为一个典型的DOS 和WINDOWS用户，让我们一起来学习Linux的一些主要命令，希望大家能尽快进入到Linux的世界里，成为玩转Linux高手.....
+
+* [（总结）Linux的chattr与lsattr命令详解](http://www.ha97.com/5172.html)
+
+  PS：有时候你发现用root权限都不能修改某个文件，大部分原因是曾经用chattr命令锁定该文件了。chattr命令的作用很大，其中一些功能是由Linux内核版本来支持的，不过现在生产绝大部分跑的linux系统都是2.6以上内核了。通过chattr命令修改属性能够提高系统的安全性，但是它并不适合所有的目录。chattr命令不能保护/、/dev、/tmp、/var目录。lsattr命令是显示chattr命令设置的文件属性。

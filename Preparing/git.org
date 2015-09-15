@@ -1,0 +1,54 @@
+* 4. [2015-09-11 Fri 17:37]
+** 查看配置信息
+   git config --list
+
+** 修改提交人得信息
+   vi ~/.gitconfig
+   <<
+   [user]
+   name = wanghao
+   email = wanghao@local.hosting
+   >>
+
+# 3、2015-06-12
+* 当修改app.js文件后，想恢复到之前的状态，执行如下命令
+
+      git checkout -- app.js
+
+# 2、2015-05-19
+* 如果只提交部分文件，指定文件路径，去掉-a参数
+
+      git commit -m "get the channels from mongodb, instead of config." app.js config.js
+
+# 1、2015-05-11
+* 制作远程仓库，并在本地添加，采用ssh协议
+      1）在服务端创建仓库
+        mkdir /home/ubuntu/workspace/meishubao/test.git
+
+      2）在本地生成公私钥
+        ssh-keygen
+
+      3）将本地公钥添加到服务器上
+        echo "the content of public key" > /home/ubuntu/.ssh/authorized_keys
+        chmod 600 /home/ubuntu/.ssh/authorized_keys
+
+      4）本地clone
+        git clone ssh://ubuntu@54.169.10.157/home/ubuntu/workspace/meishubao/test.git test
+
+      5）本地添加远程仓库
+        git remote add origin ssh://ubuntu@54.169.10.157/home/ubuntu/workspace/meishubao/test.git
+
+      6）本地提交到服务器
+        git push origin master
+
+* [Pro Git Book](http://git-scm.com/book/en/v2)
+
+  The entire Pro Git book, written by Scott Chacon and Ben Straub and published by Apress, is available here. All content is licensed under the Creative Commons Attribution Non Commercial Share Alike 3.0 license. Print versions of the book are available on Amazon.com.
+
+* [progit2](https://github.com/progit/progit2)
+
+  Pro Git 2nd Edition
+
+* [服务器上的 Git - 协议](http://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E5%8D%8F%E8%AE%AE)
+
+  Git 可以使用四种主要的协议来传输数据：本地传输，SSH 协议，Git 协议和 HTTP 协议。

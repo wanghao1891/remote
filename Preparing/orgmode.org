@@ -1,0 +1,22 @@
+* [2015-09-15 Tue 14:31]
+** Learn how to user org mode in emacs
+*** `M-x org-insert-todo-subheading` -- Insert a new subheading with TODO keyword or checkbox and demote it.
+*** `M-x org-insert-todo-heading` -- Insert a new heading with the same level and TODO state as current heading.
+
+* [2015-09-07 Mon 13:37]
+** Learn how to use org mode in emacs
+*** `M-x org-open-at-point` -- Open link at or after point
+
+* [2015-09-04 Fri 10:43]
+** Learn how to use org mode in emacs
+*** `M-x org-set-tags` -- Set the tags for the current headline [2015-09-04 Fri 10:45] :learn:function:
+
+* [2015-09-03 Thu 16:01]
+** Learn how to use org mode in emacs
+*** `C-c C-o` -- `M-x org-open-at-point` -- Open link at or after point
+*** `M-x org-move-subtree-down` -- Move the current subtree down past ARG headlines of the same level
+*** `M-x org-move-subtree-up` -- Move the current subtree up past ARG headlines of the same level
+*** `M-x org-insert-link` -- Insert a link
+*** `tab` -- `M-x org-cycle` -- Show and hide the current line, tab-action and visibility cycling for Org-mode
+*** `shift-tab` -- `M-x org-shifttab` -- Show and hide the outliner, global visibility cycling or move to previous table field
+*** `C-u M-x org-time-stamp-inactive` -- Add timestamp which includes hour and minute.

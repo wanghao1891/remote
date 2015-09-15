@@ -1,0 +1,34 @@
+* 5. [2015-09-07 Mon 10:34]
+** [[https://zh.wikipedia.org/zh-cn/Scheme][Scheme]] [2015-09-07 Mon 11:24]                                                :scheme:
+** [[https://zh.wikipedia.org/wiki/%25E7%25B7%25A8%25E8%25AD%25AF%25E5%2599%25A8][编译器]] [2015-09-07 Mon 10:35]                                                :compiler:
+
+* 4. [2015-09-06 Sun 13:11]
+** [[https://zh.wikipedia.org/wiki/%25E5%25AE%25A3%25E5%2591%258A%25E5%25BC%258F%25E7%25B7%25A8%25E7%25A8%258B][声明式编程]] [2015-09-06 Sun 13:13]
+** [[https://zh.wikipedia.org/wiki/%25E6%258C%2587%25E4%25BB%25A4%25E5%25BC%258F%25E7%25B7%25A8%25E7%25A8%258B][命令式编程]] [2015-09-06 Sun 13:12]
+** [[https://zh.wikipedia.org/wiki/%25E5%2587%25BD%25E6%2595%25B8%25E7%25A8%258B%25E5%25BC%258F%25E8%25AA%259E%25E8%25A8%2580][函数编程语言]] [2015-09-06 Sun 13:12]
+
+# 3、2015-07-31
+* [Elixir: 编程语言的未来](http://blog.eood.cn/elixir?v2)
+
+  这篇文章谈一谈最近火爆的 Elixir，同时说一下对编程语言选择的看法。同时作为 Erlang 发烧友，Elixir 不可不提。即使有了那么多编程语言 Elixir 也值得接触。
+
+  > elixir
+
+# 2、2015-07-21
+* [PROGRAMMING METHODS LABORATORY LAMP](http://lamp.epfl.ch/)
+
+  Today, we experience an unprecedented integration of previously disconnected systems. Consequently, there is a leap in the complexity of the software controlling these systems. The challenge we are facing is how to master this complexity while at the same time increasing the reliability of programs. A key element for tackling that challenge will be a better understanding of software composition. We need good answers to questions like these:
+  How can we build interesting structures from simple parts?
+  What is the right kind of "glue" to connect parts?
+  How can we reuse and adapt existing components?
+  How can we ensure scalability of our systems and our methods for constructing them?
+  Good techniques for software composition are the keys to scalable systems. The principal means of writing and composing software is a programming language. Consequently, advances in programming language design are an important factor in solutions of the software composition problem. This is what we work on in our group.
+
+# 1、2015-07-20
+* [Self-hosting](https://en.wikipedia.org/wiki/Self-hosting)
+
+  The term self-hosting was coined to refer to the use of a computer program as part of the toolchain or operating system that produces new versions of that same program—for example, a compiler that can compile its own source code. Self-hosting software is commonplace on personal computers and larger systems. Other programs that are typically self-hosting include kernels, assemblers, command-line interpreters and revision control software.
+
+  If a system is so new that no software has been written for it, then software is developed on another self-hosting system and placed on a storage device that the new system can read. Development continues this way until the new system can reliably host its own development. Writing new software development tools "from the metal" (that is, without using another host system) is rare and in many cases impractical.
+
+  > self-hosting compiler

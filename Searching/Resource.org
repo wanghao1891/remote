@@ -1,0 +1,751 @@
+* 68. [2015-09-14 Mon 10:21]
+** [[https://www.processon.com/][ProcessOn]] [2015-09-14 Mon 10:21]
+   ProcessOn是一个方便易用、免费高效的在线作图工具，运用它可以免费制作多种图，例如：Flowchart流程图，BPMN图，Org组织结构图，EVC企业价值链图，EPC事件过程链图，并且图形支持正在不断丰富。
+
+# 67、2015-08-27
+* [知道创宇研发技能表v3.0](http://blog.knownsec.com/Knownsec_RD_Checklist/v3.0.html)
+
+# 66、2015-08-25
+* [iodocs](https://github.com/mashery/iodocs)
+
+  Interactive API documentation system
+
+* [犀鸟](https://github.com/edgeSuperman/hornibills)
+
+  犀鸟是一个在线文档系统，致力于快速解决团队内部接口文档的编写和沉淀。
+
+* [ButCoder](http://butcode.com/#/)
+
+  我们是ButCoder，我们远程工作。
+
+* [小圆桌](http://www.xyuanzhuo.com/)
+
+  一个创业者实现MVP，程序员和设计师接私活的社区。
+
+* [快码](http://www.kuaima.co/)
+
+  让开发更快速。
+
+* [猿团](http://www.0hi.cn/)
+  用业余时间投资未来
+
+  一个促进程序员发展的平台
+
+# 65、2015-07-29
+* [云通讯](http://www.yuntongxun.com/)
+
+  以开放API及SDK的方式向开发者提供通讯服务
+
+  > real-time communication
+
+* [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job)
+
+  A curated list of awesome remote jobs and resources.
+
+  > remote
+
+# 64、2015-07-24
+* [NodeCopter.js](http://www.nodecopter.com/)
+
+  NodeCopter.js is a full day event where 15 - 60 developers team up in groups of 3.
+
+  Each team receives one Parrot AR Drone 2.0 and spends the day programming and playing with it. At the end of the day, each team gets to present their work to the other attendees.
+
+  > node.js
+
+* [Salesforce](https://www.salesforce.com/homepage/index-e.jsp?r=X&s_tnt=81013:1:0)
+
+  The Salesforce Customer Success Platform helps companies connect to their customers in a whole new way with our sales, service, marketing, community, and analytics apps.
+
+  > saas
+
+# 63、2015-07-23
+* [实验楼](https://www.shiyanlou.com/)
+
+  通过动手实践的方式学会IT技术。
+
+  > online educate
+
+# 62、2015-07-22
+* [CNPaaS](http://www.cnpaas.io/)
+
+  为何我们创建 CNPaaS?
+
+  现时云计算服务百花齐放，已有不少公司在为国内的开发人员带来更好更优惠的基础设施服务（IaaS）。但我们也看到另一个事实，设置 IaaS 还是很复杂。设置简单的 Web 应用还需要 ssh 到服务器运行指令行，而更复杂的应用要求，如按并发量增减应用单元、主从数据库、内容分发（CDN）等，则需要整合不同的供应商才能办到。
+
+  我们认为可以有更简单的办法：不再以服务器，而是以应用为单元的来部署管理。你可以用一条指令来部署应用。它自带数据库，支持 RDBMS 及 NoSQL。有一模块实时监控应用，在高并发量时自动生成更多单元处理，或发送警告信息告诉你。
+
+  简言之，作为开发者，你可专注回产品开发上，而服务器运维一事，就放心交给我们。
+
+  我们在努力打造这样的平台。这是我们的的初衷。
+
+  > devops
+
+# 61、2015-07-20
+* [Knowmad Society](http://www.knowmadsociety.com/)
+
+  Knowmad Society explores the future of learning, work, and how we relate with each other in a world driven by accelerating change, value networks, and the rise of knowmads.
+
+  >
+
+# 60、2015-07-15
+* [活动行](http://www.huodongxing.com/)
+
+  活动行品牌介绍：
+
+  ﻿[huó dòng]
+  活动 是被共同目的联合起来完成一定的社会职能的各种动作的总和。
+  ——列克谢·列昂捷夫（A·N Leontyev 1903－1979）
+
+  活动行是全球最大的中文活动平台。实现了海量活动信息发布，数据管理，活动推广功能。
+
+  2009年9月活动行（Accuvally Inc.）在台湾完成公司登记，由罗子文与谢耀辉共同创立。同年12月http://www.accupass.com/作为全球最大中文活动电子票券平台正式上线。
+
+* [Worktile](https://worktile.com/)
+
+  让工作更简单
+
+  一款免费、好用的团队协同工具，让你的团队随时随地一起工作
+
+  > communication cooperation
+
+* [BearyChat](https://bearychat.com/)
+
+  BearyChat 是深圳市一熊科技有限公司推出的团队沟通工具
+
+  我们是追求效率的 12 人小型团队
+
+  分散在深圳和北京协同办公
+
+  > communication
+
+* [CodeUndoer](http://codeundoer.com/#!/)
+
+  程序员的在线编程训练平台
+
+  在这里自我训练，强化Coding Interview技能，更好地准备IT技术面试
+
+  * job interview
+
+# 59、2015-07-12
+* [多云](http://duoyun.org/)
+
+  > mongodb
+
+# 58、2015-07-08
+* [码市](https://mart.coding.net)
+
+  Coding 码市--言下之意是“代码/市场”。在原有的云端开发工具平台基础上，Coding 码市里给开发者们提供了各种各样的悬赏项目，你可以随时来申请成为项目的开发者，从而得到高额的回报！悬赏的项目范围包括不限于**：客户端、微信后台、网站、或各种特殊功能模块等**！
+
+  > remote job
+
+# 57、2015-07-07
+* [EVERYDAY DESIGNER](http://everydaydesigner.net/)
+
+  Articles, resources and tutorials for everyday designers and developers working on the web
+
+  > design remote
+
+* [Upwork](https://www.upwork.com/?from=verify)
+
+  Where will great work take you?
+
+  Find freelancers to tackle any job, any size, any time
+
+  > remote freelancer
+
+* [Customer.io](http://customer.io/)
+
+  Communicate Better
+
+  Customer.io helps you send targeted human messages to your users, by utilizing their unique interactions with your business.
+
+  > communication
+
+* [Slack](https://slack.com/)
+
+  Slack is a messaging app for teams: everything in one place, instantly searchable. And it's free for as long as you want, with an unlimited number of people.
+
+  > slack remote communication
+
+* [Screenhero](https://screenhero.com/)
+
+  Screenhero has joined Slack
+
+  Screenhero and Slack
+
+  Slack is a brilliant product for team communication, and we’re excited to bring our unique combination of voice, video and screen sharing to it.
+
+  > slack screenhero
+
+# 56、2015-07-06
+* [Axure RP](http://www.axure.com/)
+
+  Create Prototypes of Websites & Apps Without Coding.
+
+  > prototype
+
+* [Ping++](https://pingxx.com/)
+
+  Ping++ 是为移动应用量身打造的下一代支付系统，开发者不需要编写冗长的代码，应付复杂的入网申请流程，简单几步就可以使你的移动应用获得支付功能，从而更专注于开发应用本身。
+
+  > pay
+
+# 55、2015-07-03
+* [Exuberant Ctags](http://ctags.sourceforge.net/)
+
+  A multilanguage implementation of Ctags
+
+* [CSTO](http://www.csto.com/home)
+
+  CSTO-全球最大的中文软件外包和项目交易平台
+
+  CSTO是由百联优力（北京）投资有限公司开发和运营的中文软件外包与项目交易平台，隶属于为CSDN旗下。依托CSDN的人才与媒体资源优势，CSTO汇聚全球50万家IT企业部门，千万IT人士，为企业和个人提供各类软件外包解决方案。
+
+  网站服务内容涵盖移动应用开发、网站建设，应用软件开发、设计及多媒体、其他项目，共5大领域，30多个小类。
+
+
+
+  特色服务：
+
+  项目管理：积累多年项目交易经验，专人项目顾问，提供高级项目管理工具；
+
+  项目交易：异地远程团队协作，无需见面，无需纸张，在线提交项目成果，在线支付托管项目金；
+
+  更多功能：交易双方线上即时沟通；免费发布项目；项目评价；案例展示；会员等级、邮箱、手机、实名认证等打造会员自身品牌价值的服务。
+
+  > remote
+
+# 54、2015-07-01
+* [feedly](https://feedly.com)
+
+  Rss reader.
+
+  > rss
+
+# 53、2015-06-27
+* [SZDIY](http://szdiy.org//)
+
+  SZDIY is a Hacker/Maker community in Shenzhen. We love old-school fashion technics, but we're not old-fashion. We make cool stuffs like electronic boards, game cubes, even solar devices - all built by our own hands, that's why we call our community SZDIY.
+
+  > hardware scheme guile artanis
+
+# 52、2015-06-25
+* [Lantern](https://getlantern.org/#/en_US)
+
+  An app to end Internet censorship
+
+  Internet censorship hurts all of us, but we can stop it. Lantern is the app you install on your computer that opens the Internet for everyone.
+
+  > p2p
+
+* [pm2-webshell](https://github.com/pm2-hive/pm2-webshell)
+
+  Expose a fully capable terminal in your browser
+
+  > ssh nodejs
+
+# 51、2015-06-23
+* [StrongLoop](https://strongloop.com/)
+
+  Enterprise Node to Power the API Economy
+
+  Node is Ready for the Enterprise
+
+  The future of business demands rich, data-driven mobile experiences.
+
+  The power of Node’s asynchronous programming model, huge ecosystem of modules
+
+  and perfect fit for creating APIs, will make these experiences a reality.
+
+  > nodejs consulting
+
+# 50、2015-06-17
+* [腊八粥](http://www.labazhou.net/)
+
+  一个关于计算机、极客的英文文章的翻译网站
+
+* [让硬编码成为你的默认选择](http://www.labazhou.net/2015/06/make-hard-coding-your-default-choice/)
+
+  硬编码【注1】经常被认为反面模式【注2】。把随着时间而变化的这些值，硬编码到源代码里，每当这些值真正变化时，都需要重新编译。
+
+* [I quit the tech industry](http://eev.ee/blog/2015/06/09/i-quit-the-tech-industry/)
+
+  This Friday, June 12, will be my last day at Yelp.
+
+  I don’t intend to look for another tech job.
+
+  Or another job at all.
+
+  Ever.
+
+  > technology
+
+* [我离开了技术行业](http://www.labazhou.net/2015/06/i-quit-the-tech-industry/)
+
+  本周五，6 月 12 号，将是我在 Yelp 的最后一天。我不打算寻找下一份技术岗位了。根本就不会再找下一份工作了。再也不找了。
+
+  > technology
+
+* [云巴创始人兼CEO张虎访谈：推送服务架构选型与程序员成长](http://www.infoq.com/cn/news/2014/11/interview-yunba-zhanghu)
+
+  移动互联网时代，推送服务是很重要的基础服务之一。很多公司都推出了自己的推送服务。推送服务对稳定性、高并发等有很高的要求，之前我们报道过小米的推送服务，今天我们又采访了云巴的创始人兼CEO张虎，探讨了推送服务的技术选型、编程语言的选择和程序员的成长等话题。
+
+  > os expert
+
+# 49、2015-06-16
+* [云巴创始人张虎：一个优秀的软件工程师必然是全栈工程师（图灵访谈）](http://www.ituring.com.cn/article/199457)
+
+  张虎，云巴 (yunba.io) 创始人兼CEO，致力于为开发者提供优质云后端服务。他有十几年的软件研发经验，精通嵌入式系统、服务器端架构、虚拟化等。张虎曾就职于华为、Oracle，他是Oracle VM 的创始团队成员。离开Oracle后，他创立了极光推送，曾任CTO，他创意并主导开发的系统为过万开发者、过亿终端用户提供推送服务。张虎长期关注业界新技术、新实践，并持续引入到团队实践验证。
+
+  > os erlang expert
+
+# 48、2015-06-11
+* [SCSI/SAS硬盘恢复](http://www.fix.com.cn/fuwuxiangmu/20120411/13.html)
+
+  SCSI/SAS/FC硬盘独特的设计与过硬的质量一直是速度和高强度传输的象征，同时也是高价消费品的象征，绝大多数在服务器领域使用。然而由于其结构复杂， 一旦内部磁头与盘片或是电机出现问题，绝大多数数据恢复服务商都无能为力。普通硬盘在数据恢复过程中常用的“开盘”手段面对SCSI硬盘的成功率并不高， 据飞客数据恢复中心统计，此前SCSI/SAS/FC硬盘的开盘成功率仅10％不到。然而更加令数据恢复从业者感到不安的是，大量的RAID磁盘阵列都使用SCSI/SAS/FC硬盘，而且使用SCSI/SAS/FC硬盘的用户一般对于数据有着更高的重视程度——不少用户就是担心普通硬盘出现故障而选择稳定性与性能都出类拔萃的SCSI/SAS/FC硬盘。
+
+  > recovery harddisk
+
+# 47、2015-06-10
+* [What Is SSH?](http://www.bitvise.com/ssh2)
+
+  The Secure Shell protocol version 2, or SSH2, specifies how a client can connect securely to an SSH server, and then use the resulting secure link to access the server's resources. Among other things, the client can run programs; transfer files; and forward other TCP/IP connections over the secure link.
+
+  The SSH2 protocol is a descendant of the SSH v1.x series of protocols. SSH version 2 is standardized at IETF, and the vast majority SSH implementations now support SSH version 2. SSH version 1 is less secure, and is almost no longer being used.
+
+  > ssh
+
+* [互联网真的繁荣吗](http://michaelfeng.github.io/blog/2015/06/05/%E4%BA%92%E8%81%94%E7%BD%91%E7%9C%9F%E7%9A%84%E7%B9%81%E8%8D%A3%E5%90%97.html)
+
+  互联网真的繁荣吗? 也许你会给出一个毫不犹豫的回答，也许不是...那互联网真的改变了我们的生活吗？
+
+  > keywords: thinking
+
+# 46、2015-06-09
+* [TECHNOLOGIES](http://www.litixsoft.de/english/technology/)
+
+  As a service provider we are of course prepared to solve any occuring problem. However, we have made the experience to better focus on a specific area of technology and to cover this part perfectly. Our customers can be sure that the decisions to use certain solutions or technologies are based on in-depth knowledge and not on personal preferences or contractual dependencies. Instead of using a particular architecture in any case, we observe the development of both well-known and proven technologies aswell as innovative emerging new ones. Without the usual anxieties we decide from case to case together with the customer, on what basis their needs can be best implemented.
+
+  > keywords: node.js mongodb
+
+# 45、2015-06-07
+* [不翻墙访问谷歌的几种替代方法](http://xuhehuan.com/2063.html)
+
+  之前已经写过一篇类似文章——不翻墙稳定使用Google的几种方法，但时间已经过去很久，原来的有些方法已经不能适应越来越严峻形势了。所以作为补充，今天再整理一些基于Google技术提供搜索或反向代理访问Google的网站，供大家使用。其中不乏一些提供稳定搜索服务的网站，应该能长久的满足你对Google的搜索需求。
+
+# 44、2015-06-03
+* [Getting Things Done](http://en.wikipedia.org/wiki/Getting_Things_Done)
+
+  Getting Things Done is a time-management method, described in a book of the same title by productivity consultant David Allen. It is often referred to as GTD.
+
+  > keywords: gtd
+
+* [Remote Working in Beijing : The Meetup](http://blog.remotive.io/remote-working-in-beijing-the-meetup/?utm_campaign=Remotive%2B-%2BProductive%2BRemote%2BWorkers&utm_medium=email&utm_source=Remotive_-_Productive_Remote_Workers_28)
+
+  Arriving at the first Remote Workers Meetup in Beijing, organized by Remotive.io and Saent, nobody really knows what to   expect of this initial get-together.
+
+  > keywords: remote
+
+* [Tony Robbins : Why We Do What We Do](http://blog.remotive.io/tony-robbins-why-we-do-what-we-do/?utm_campaign=Remotive%2B-%2BProductive%2BRemote%2BWorkers&utm_medium=email&utm_source=Remotive_-_Productive_Remote_Workers_28)
+
+  This week, we share this speech of Tony Robbins, self proclaimed "The Why Guy", right at the beginning of this clip :)
+
+  > keywords: remote
+
+# 43、2015-06-01
+* [前端外刊评论](http://zhuanlan.zhihu.com/FrontendMagazine)
+
+  关注前端前沿技术，探寻业界深邃思想
+
+  > keywords: javascript react frontend
+
+* [React Native Tutorial: Building Apps with JavaScript](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript)
+
+  A few months ago Facebook announced React Native, a framework that lets you build native iOS applications with JavaScript – and the official repository just came out of beta today!
+
+* [深入浅出 React Native：使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445)
+
+  数月前，Facebook 对外宣布了正在开发的 React Native 框架，这个框架允许你使用 JavaScript 开发原生的 iOS 应用——就在今天，Beta 版的仓库释出了！
+
+* [如何评价 React Native？](http://www.zhihu.com/question/27852694)
+
+  > keywords: react native
+
+# 42、2015-05-29
+* [mxvpn](http://www.mxvpnjsq.org/)
+
+  合肥市软可信息科技有限公司是一家专注于为广大网民提供虚拟专用网络的高新技术企业，成功建立行业内知名的MXVPN等知名品牌，公司在近8年的运营过程中，服务全球网民超过200万人，目前常规活跃用户为90万成，是中国虚拟专用网络的第一梯队品牌。
+
+* [How I learned to stop worrying and love React](http://firstdoit.com/react-1/?utm_source=ourjs.com)
+
+  If you asked me what I thought of React two months ago, I would probably say...
+
+  Where are my templates? What's that crazy HTML doing in my JavaScript? JSX looks weird! Hurry! Kill it with fire!
+
+  > keywords: react javascript angularjs dom
+
+* [我是怎么从顾虑到热爱ReactJS的(与AngularJS经典MVC数据绑定的对比)](http://ourjs.com/detail/5567c046d11a73aa4d000003)
+
+  如果你问我两个月前怎么看 React，我可能会说：
+
+  我的模板在哪？在我的JavaScript里写这么多HTML干什么？JSX看起来很怪！赶快把它从我的项目里面去掉！  
+  这是因为我还不了解它。现在我保证，React决定是正常的路径，请听我尾尾道来。
+
+  > keywords: react javascript angularjs dom
+
+# 41、2015-05-28
+* [Wine](https://www.winehq.org/)
+
+  Run Windows applications on Linux, BSD, Solaris and Mac OS X.
+
+  > keywords: windows linux wine
+* [recall](https://recalll.co/app/)
+
+  Search Engine for programmers and developers
+
+* [Docker + DigitalOcean + Shadowsocks 5分钟科学上网](http://liujin.me/blog/2015/05/27/Docker-DigitalOcean-Shadowsocks-5-%E5%88%86%E9%92%9F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/)
+
+  5分钟？就能科学上网？！！！！  
+  有人肯定要说我标题党了，  
+  如果你已经有一个 DigitalOcean(以下简称 DO) 账号或者 一个 VPS，  
+  5 分钟已经算多了。  
+  不信你自己掐表算，不废话，上教程。
+
+  > keywords: docker shadowsocks digitalOcean
+
+* [《七周七并发模型》作者Paul Butcher：用并发计算实现最大效率（图灵访谈）](http://www.ituring.com.cn/article/198079)
+
+  Paul Butcher是一位资深程序员，涉猎广泛，从单片机编码到高级声明式编程无所不精，现在他开办了独立咨询公司Ten Tenths。他曾任SwiftKey的首席软件架构师，并先后担任Texperts和Smartner的CTO。他从1989年开始攻读博士学位，在并行计算和分布式计算的领域深造，当时他便深信并发编程将成为主流。二十年后，他的观点终于得以验证——整个世界都在讨论多核以及如何发挥其优势。Paul Butcher的著作《七周七并发模型》延续了《七周七语言》的写作风格，通过七个精选的模型帮助读者了解并发领域的轮廓。除《七周七并发模型》外，Paul还著有在亚马逊获得全五星好评的《软件调试修炼之道》。
+
+  > keywords: programming concurrency
+
+# 40、2015-05-27
+* [YAML](http://www.yaml.org/)
+
+  YAML: YAML Ain't Markup Language
+
+  What It Is: YAML is a human friendly data serialization  
+  standard for all programming languages.
+
+# 39、2015-05-26
+* 使用搜索引擎快速查询某个网站的关键字
+
+  touch site:"docs.mongodb.org/"
+
+  touch 是要查询的关键词
+
+# 38、2015-05-25
+* [服务器被黑给我上了一课](http://www.jianshu.com/p/97b9dc47b88c)
+
+  当你作为一个独立开发者的时候总要面临这样那样的问题，以前认为的小概率事件也总是某个时间点蜂拥而至考验你的耐心，前一阵阵刚刚经历了一次木马惊魂 (参见文章猎豹清理大师值得我们信任么? )，这次又遇到了服务器被黑。
+
+  > keywords: security linux
+
+# 37、2015-05-24
+* [Xanadu](http://xanadu.com/)
+
+  The computer world is not just technicality and razzle-dazzle.  It is a continual war over software politics and paradigms.  With ideas which are still radical, WE FIGHT ON.
+  Project Xanadu is a much-misunderstood initiative to create a different kind of computer world, based on a different kind of electronic document--
+
+  PARALLEL PAGES,
+  VISIBLY CONNECTED !
+  We should have stressed that point from the beginning.
+
+* [Xanadoc](http://xanadu.com/xanademos/MoeJusteOrigins.html)
+
+* [计算机历史 — Ted Nelson](https://medium.com/@yang140/computer-history-ted-nelson-730dd7e2ca9a)
+
+  Ted Nelson 在计算机世界里是一个争议较多的人物，知道他的人要不就很喜欢他，要不就讨厌他。他于1965年创造了 “超链接 Hypertext”和 “超媒体Hypermedia” 这两个词。在他的个人网站上，他介绍自己是“Someone has to have a different point of view”。 与Licklider和Engelbart一样，Ted Nelson 想要改变这个我们了解世界的和我获取信息的方法。他想提高人们理解复杂知识的能力。现在已经70多岁的年纪的他，对计算机科技和对他所畅想的未来仍然充满热情，他仍然在为他的愿景奋斗。Ted 认为 Tim Berners-Lee发明的万维网Word Wide Web解决了超链接的部分问题，但是他并不喜欢这个Web。他认为现在的Web过度的简化了他原有的愿景。
+
+  > keywords: history computer information
+
+# 36、2015-05-22
+* [15 Ways to Stop DDoS Attacks in your Network](http://securitywing.com/15-ways-to-stop-ddos-attacks-in-network/)
+
+  To stop DDoS (distributed denial of service) attack, one needs to have a clear understanding of what happens when an attack takes place. In short, a DDoS attack can be accomplished by exploiting vulnerability in the server or by consuming server resources (for example, memory, hard disk, and so forth).
+
+* [防范 DDoS 攻击的 15 个方法](http://www.oschina.net/translate/15-ways-to-stop-ddos-attacks-in-network?from=20150517)
+
+  为了对抗 DDoS(分布式拒绝服务)攻击，你需要对攻击时发生了什么有一个清楚的理解. 简单来讲，DDoS 攻击可以通过利用服务器上的漏洞，或者消耗服务器上的资源(例如 内存、硬盘等等)来达到目的。DDoS 攻击主要要两大类: 带宽耗尽攻击和资源耗尽攻击.
+
+# 35、2015-05-21
+* [汇智](http://www.hubwiz.com/)
+
+  世界那么大，却让我们在汇智网相遇。 汇智网的小伙伴们每天都在努力学习中。 现在分享你在汇 智网上学习的任意一门课程，就会有一大波妹子..咳咳 是 IT图书袭来。
+
+* [远程协作-替代外包的最佳实践](https://www.v2ex.com/t/191917)
+
+  在做程序员客栈 http://proginn.com 之前总有朋友问我：“我需要做一个App找外包太不靠谱了，你能不能帮我找个人兼职一直帮我做下去，远程的也行啊。”确实当下在一般有经验的技术需求方的观念里，外包是越来越不靠谱了。但是受制于各种因素暂时也不能有自己的开发团队，前期兼职，甚至远程协作的兼职成为了一种出路。
+
+  > keywords: remote parttime
+
+* [我为什么创办书巢？](http://www.ishuchao.com/topic/2)
+
+  在 2011 年，第一次去车库咖啡的时候，走到楼下听到了吆喝声，“正版图书，8 块钱一斤”，这声音算不上大，可总觉得那么刺耳，就在那一刻我决定要为那些书找到更好的归属，而不是在这里被论斤出售。
+
+# 34、2015-05-18
+* [程序的零点：CPU到底是什么](http://mp.weixin.qq.com/s?__biz=MjM5Njc0MjIwMA==&mid=205028689&idx=1&sn=06283ce89e3004a52df05556a2f53bd7&wm=20005_0002#rd)
+
+  Coding这么多年，还记得初次接触计算机的情形吗？写了几万行代码，为啥水平提升越来越缓慢？想写个源程序，是否感觉非常不给力？难倒你也在为这些问题苦恼？
+
+  高手说，你不熟悉程序运行的根本机制。
+
+# 33、2015-05-16
+* [去中心化网络的探究](去中心化网络的探究)
+
+  去中心化是当今非常流行的一个词，去中心化更加符合Geek们崇尚自由的精神。另外最近我也在考虑建立一个开放的分布式去中心化实时通信网络。从比特币到电驴，去中心化网络已经有很多成熟的应用。那么到底什么是去中心化？为什么传统网络架构中需要一个中心？中心，从字面意义来说，就是核心的意思。那么为什么一个网络中需要核心？首先想一个问题，用户A想和用户B通信，首先用户A要先找到用户B，那么用户A如何找到用户B呢？首先用户A向一个服务器询问用户B的地址，服务器返回相应信息后用户A才能找到用户B，这就是中心的作用——传达室，或者叫注册中心，所有用户上线后第一件事就是向中心报告自己的情况，以便其他用户连接前进行查询。
+
+  > keywords: net kad bt route p2p
+
+# 32、2015-05-15
+* [ngrok原理浅析](http://tonybai.com/2015/05/14/ngrok-source-intro/)
+
+  之前在进行微信Demo开发时曾用到过ngrok这个强大的tunnel(隧道)工具，ngrok在其github官方页面上的自我诠释是 “introspected tunnels to localhost"，这个诠释有两层含义：
+  1、可以用来建立public到localhost的tunnel，让居于内网主机上的服务可以暴露给public，俗称内网穿透。
+  2、支持对隧道中数据的introspection（内省），支持可视化的观察隧道内数据，并replay（重放）相关请求（诸如http请 求）。
+
+  因此ngrok可以很便捷的协助进行服务端程序调试，尤其在进行一些Web server开发中。ngrok更强大的一点是它支持tcp层之上的所有应用协议或者说与应用层协议无关。比如：你可以通过ngrok实现ssh登录到内 网主 机，也可以通过ngrok实现远程桌面(VNC)方式访问内网主机。
+
+  > keywords: tunnel ngrok
+
+# 31、2015-05-13
+* [《算法的乐趣》作者王晓华：“玩”过就是收获（图灵访谈）](http://www.ituring.com.cn/article/198010)
+
+  王晓华是一位热衷于算法研究的程序员，他是CSDN算法专栏的超人气博主，也是《算法的乐趣》一书的作者。他2005年毕业于华中科技大学，目前在中兴通讯上海研发中心从事光纤接入网通讯设备开发，担任EPON（以太网无源光网络）业务软件开发经理，参与开发的PON设备在全球部署过亿线，为数亿家庭提供宽带接入服务。
+
+  王晓华最大的乐趣就是用程序解决生活中的问题。当年为了方便使用Visual Studio 6.0开发软件，他特意编写了一个tabbar插件，并随后开源了这个软件。为了文档安全，他开发了一个基于layerFSD技术的透明文件加密系统，在朋友圈内广为流传。后来他在使用Source Insight软件的时候，又以外挂的形式为Source Insight开发了TabSiPlus插件，受到了很多程序员朋友的欢迎。
+
+  > keywords: algorithm
+
+* [Please stop calling databases CP or AP](https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html)
+
+  In his excellent blog post Notes on Distributed Systems for Young Bloods, Jeff Hodges recommends that you use the CAP theorem to critique systems. A lot of people have taken that advice to heart, describing their systems as “CP” (consistent but not available under network partitions), “AP” (available but not consistent under network partitions), or sometimes “CA” (meaning “I still haven’t read Coda’s post from almost 5 years ago”).
+
+  I agree with all of Jeff’s other points, but with regard to the CAP theorem, I must disagree. The CAP theorem is too simplistic and too widely misunderstood to be of much use for characterizing systems. Therefore I ask that we retire all references to the CAP theorem, stop talking about the CAP theorem, and put the poor thing to rest. Instead, we should use more precise terminology to reason about our trade-offs.
+
+  (Yes, I realize the irony of writing a blog post about the very topic that I am asking people to stop writing about. But at least it gives me a URL that I can give to people when they ask why I don’t like them talking about the CAP theorem. Also, apologies if this is a bit of a rant, but at least it’s a rant with lots of literature references.)
+
+  > keywords: database cap
+
+# 30、2015-05-12
+* [Installing Genymotion](https://www.genymotion.com/#!/developers/user-guide#installing-genymotion)
+
+* [genymotion](https://www.genymotion.com/#!/)
+
+  Genymotion is a fast and easy-to-use Android emulator to run and test your Android apps
+
+* [Genymotion - 强大好用高性能的 Android 模拟器 (在电脑流畅运行APK安卓软件游戏的利器)](http://www.iplaysoft.com/genymotion.html)
+
+  随着 Android 系统的应用和游戏越来越丰富，甚至有些比起Windows、Mac上的软件更加好用好玩，因此很多人都希望能在电脑上也能玩到安卓的游戏或APP。
+
+  我们曾推荐过 BlueStacks，而 Genymotion 则是另一款更加优秀专业高性能的安卓 Android 模拟器！它支持 Windows、Mac、Linux，由于其模拟运行速度很快画面流畅、且支持 OpenGL 3D 加速、多开、全屏等特性，并提供 Eclipse、IntelliJ IDEA 的开发插件，不仅是开发者们也是普通玩家们测试和运行 Android 软件/游戏的利器……
+
+* [Upgrading GitHub to Rails 3 with Zero Downtime](http://shayfrendt.com/posts/upgrading-github-to-rails-3-with-zero-downtime/)
+
+  GitHub is a fairly large production Ruby on Rails application. From a scale perspective, it serves hundreds of millions of requests per day.
+
+  Until now, we’ve been running an outdated, heavily-modified, unsupported fork of Rails, which we called 2.3.github. This choice has bitten us in the form of gem incompatibility, having to manually backport security patches, missing out on core framework performance and feature improvements, and being unable to easily contribute back to the open source rails project.
+
+  For those of you keeping score:
+
+  Yes, Rails 3 was released four years ago
+  Yes, the current stable version is Rails 4.1, which left us two major versions behind
+  We had work to do in order to live in the modern world again.
+
+* [聊聊移动端跨平台开发的各种技术](http://fex.baidu.com/blog/2015/05/cross-mobile/)
+
+  最近出现的 React Native 再次让跨平台移动端开发这个话题火起来了，曾经大家以为在手机上可以像桌面那样通过 Web 技术来实现跨平台开发，却大多因为性能或功能问题而放弃，不得不针对不同平台开发多个版本。
+
+  但这并没有阻止人们对跨平台开发技术的探索，毕竟谁不想降低开发成本，一次编写就处处运行呢？除了 React Native，这几年还出现过许多其它解决方案，本文我将会对这些方案进行技术分析，供感兴趣的读者参考。
+
+  为了方便讨论，我将它们分为了以下 4 大流派：
+
+  Web 流：也被称为 Hybrid 技术，它基于 Web 相关技术来实现界面及功能
+  代码转换流：将某个语言转成 Objective-C、Java 或 C#，然后使用不同平台下的官方工具来开发
+  编译流：将某个语言编译为二进制文件，生成动态库或打包成 apk/ipa/xap 文件
+  虚拟机流：通过将某个语言的虚拟机移植到不同平台上来运行
+
+* [Firefox Hello](https://www.mozilla.org/zh-CN/firefox/37.0.2/hello/start/?utm_source=firefox-browser&utm_medium=firefox-browser&utm_campaign=getting-started)
+
+  最简单的视频聊天方式
+
+  通过 Firefox 随时随地邀请任何人聊天。他们要做的仅仅是点击链接加入。无需账号或者登录。
+
+* [Facebook如何实现PB级别数据库自动化备份](http://www.infoq.com/cn/news/2013/02/facebook-mysql-backup)
+
+  Facebook的MySQL数据库，是世界上最庞大的MySQL数据库之一，在不同地区有数千个数据库服务器。因此，备份对他们来说是个巨大的挑战。为了解决这个问题，他们构建了一个高度自动化、非常有效的备份系统，每周移动多个PB的数据。Facebook数据团队的Eric Barrett通过一篇文章分享了他们的做法。
+
+* [Baidu运维](http://op.baidu.com/)
+
+* [大型网站的 HTTPS 实践（一）—— HTTPS 协议和原理](http://op.baidu.com/2015/04/https-s01a01/)
+
+* [Productive Remote Workers](https://remoteworking.curated.co)
+
+  Remotive is a weekly curated publication full of interesting, relevant links. Subscribe now and never miss an issue, by @rdutel
+
+* [NoSQLFan](http://blog.nosqlfan.com/)
+
+  NoSQLfan建立的初衷在于关注和分享NoSQL方面的各种新闻和知识。无任何商业及政治目的。
+
+# 29、2015-05-11
+* [推酷](http://www.tuicool.com)
+
+  推酷专注于IT领域的信息挖掘和推荐，期望通过技术解决信息获取方面的诸多问题。 更长远地，推酷期望能成为IT知识整合社区，给你一站式阅读、学习、交流的平台。目前主推的产品有：
+
+  1）个性化文章推荐服务，提供的内容涵盖科技、技术、设计、营销等方面。我们没有小编，聚合和推荐的内容完全依赖于分分钟不停歇的推荐系统。
+
+  2）IT类的线下线上活动聚合推荐，目前收录的活动应该是国内最丰富的，但活动频道还有很长的路要走。
+
+  3）IT类的公开课、活动演讲、节目视频等内容的聚合推荐。
+
+  推酷起步于2011年，历经种种于2013年4月网站正式上线。 2014年1月安卓客户端正式启航，功能也日趋完善，访问量也接近网站。iOS客户端也已上线，正努力追赶安卓客户端。
+
+  其实，你现在看到的推酷和我们所规划的，还有着很长很长的道路要走。我们还是个小团队，如果你有创业热情并认可我们的愿景，欢迎加入我们。
+
+  如果你有闲和兴趣，可以看看我们最近都做了哪些[改进](http://www.tuicool.com/changelog)。
+
+* [open-open](http://www.open-open.com)
+
+  汇集各种技术文档
+
+# 28、2015-05-10
+* [How to find the perfect remote working setup for you](http://blog.pickcrew.com/how-to-find-the-perfect-remote-working-setup-for-you/)
+
+* [远程工作：解决现代城市发展难题的一个有效选择](http://www.nsa.gov.cn/web/a/zixunbaogao/20150502/5659.html)  
+国家行政学院 > 决策咨询 > 咨询报告 >
+
+# 27、2015-05-09
+* [diaspora*](https://github.com/diaspora/diaspora)  
+a privacy-aware, distributed, open source social network  
+[Why You Should Never Use MongoDB](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/)
+
+* [快速编辑 Shell 命令行](http://blog.sina.com.cn/s/blog_531bb76301013umb.html)
+
+# 26、2015-05-06
+*  [Cmd Markdown 编辑阅读器](https://www.zybuluo.com/mdeditor)
+
+# 25、2015-05-03
+* [计算机历史 — Doug Engelbart](https://medium.com/@yang140/computer-history-doug-engelbart-6cc9896677a9)
+
+# 24、2015-05-02
+* [“编辑器到底哪家好”——技术分享 @ 2015-01-10](http://beansmile.com/blog/posts/2015-01-10)
+
+# 23、2015-05-01
+* [《我要上头条》第一期：MWeb 作者 Otis](http://mp.weixin.qq.com/s?__biz=MzA4Njk2NDAzMA==&mid=204770863&idx=1&sn=92caad013866939c1fc6941d093b6ba4)
+
+# 22、2015-04-30
+* [Excellent Open Source Go Projects](http://herman.asia/open-source-go-projects-to-learn-from)
+* [优秀的Go语言项目推荐](http://blog.lembed.com/excellent-open-source-go-projects/)
+
+# 21、2015-04-29
+* [If you want to code from home, start learning JavaScript](http://www.itworld.com/article/2703069/mobile/if-you-want-to-code-from-home--start-learning-javascript.html)
+
+# 20、2015-04-28
+* [OneAPM Blog](http://code.oneapm.com/)
+
+# 19、2015-04-24
+* [Get社区](http://get.jobdeer.com/)
+GET社区由 「 JobDeer.com 」互联网人才竞拍 提供
+
+# 18、2015-04-23
+* [图灵社区](http://www.ituring.com.cn)
+技术改变世界，阅读塑造人生
+
+# 17、2015-04-22
+* [计算机历史 — J.C.R. Licklider](https://medium.com/@yang140/computer-history-j-c-r-licklider-7490d8df7c26)
+
+# 16、2015-04-17
+* [高并发Web服务的演变——节约系统内存和CPU](http://saebbs.com/forum.php?mod=viewthread&tid=34407&extra=page%3D4)
+
+# 15、2015-04-16
+* [RethinkDB](http://rethinkdb.com/)
+The open-source database
+for the realtime web
+* [MEMECT](http://memect.com/)
+Memory Connected
+互联最精彩的发现
+Discover and Connect Things You Like
+* [How I built Remote | OK and launched it to 1 on Product Hunt](https://levels.io/remote-ok/)
+* [Docker基础技术：Linux Namespace](http://coolshell.cn/articles/17010.html)
+* [支付宝前端架构的涅槃](http://airjd.com/view/i8gmaghl000pt9e#1)
+
+# 14、2015-04-15
+* [OurJS](http://ourjs.com/)
+OurJS-我们的JS, 我们的技术-IT文摘; 专注JS相关领域;
+我们热爱编程, 我们热爱技术;我们是高大上, 有品味的码农;
+欢迎您订阅我们的技术周刊
+我们会向您分享我们精心收集整理的，最新的行业资讯，技术动态，外文翻译，热点文章;
+我们使用第三方邮件列表向您推送，我们不保存您的任何个人资料，注重您的隐私，您可以随时退订,
+欢迎分享您的观点，经验，技巧，心得
+让我们一起找寻程序员的快乐，探索技术, 发现IT人生的乐趣;
+* [The State of JavaScript in 2015](http://www.breck-mckye.com/blog/2014/12/the-state-of-javascript-in-2015/?utm_source=ourjs.com)
+* [编写高性能HTML网页应用](http://ourjs.com/detail/552e1f7965d4672d0f000001)
+* [大型网站技术架构的演进](http://insights.thoughtworkers.org/zhijun-zhai/)
+* [about.me](https://about.me)
+The Big Picture of You
+Make a personal page and inspire people to connect with you.
+
+# 13、2015-04-14
+* [KanbanFlow](https://kanbanflow.com/)
+张淼推荐的一个个人记录工具
+* [Nginx/LVS/HAProxy 负载均衡软件的优缺点详解](http://linux.cn/article-5253-shareweibo.html)
+
+# 12、2015-04-12
+* [Got the first job on Elance](http://en.yafeilee.me/blogs/5526a18b6c69343eff010000)
+* [自由职业的第一步: 200 元与 200 美刀](http://yafeilee.me/blogs/552963636c693454c8000000)
+* [IaaS之后](http://www.jianshu.com/p/6f6e48717bc4?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo)
+* [开发者头条](http://toutiao.io/)
+开发者的首选阅读分享平台
+
+# 11、2015-04-09
+* [专访Livid：不仅仅是V站站长](http://www.jianshu.com/p/201d755496dc)
+
+# 10、2015-04-08
+* [这些年，我工作上走过的路](https://github.com/allwefantasy/my-life/blob/master/career.md)
+
+# 9、2015-04-07
+* [We Work Remotely](https://weworkremotely.com)
+We Work Remotely is the best place to find and list jobs that aren’t restricted by commutes or a particular geographic area. Find the most qualified people in the most unexpected places: Hire remote! Follow us on Twitter @weworkremotely
+
+# 8、2015-04-07
+* [D&D.io](http://dandd.io/)
+雇顶级互联网公司的前员工为您做外包或顾问
+注：和我之前想到的汇集行业专家的平台，不谋而合
+所以还是看谁能做出来，谁能够做的更好
+
+# 7、2015-04-07
+* [Out Of Box](http://www.oobox.pro/)
+We are a mighty, creative agency that will help to improve your business and reach your goals
+
+# 6、2015-04-02
+* [中国Github开源人排行榜](http://outofmemory.cn/github/)
+里边有中国代码界的各种牛人。
+我今天刚想到是否可以做一个汇集行业专家的平台，而且他们愿意提供咨询服务，小公司可以通过这个平台找到他们需要的大牛。
+* [百度脑图](http://naotu.baidu.com/)
+控制创意，如此简单
+* [百度Doc](http://word.baidu.com/)
+分享文档，如此简单
+
+# 5、2015-04-01
+* [朝露](http://www.littledew.com/)
+「朝露」旨在和大家分享讨论一种更加自由简单的工作方式。我们一直努力让自己的工作和生活能够像设计师的思想一样天马行空，像极客精神一样专注和勇于创新。同时我们又追随一种不忘初心，回归本真的简单生活态度，恰如禅意所在。如果你拥有同样的态度和追求，请关注我们。
+我们会持续分享所有参与朝露创作的作者们个人的工作体会和生活观点，同时也会翻译一些国外各行业出色的人们他们的经验和主张，内容主要涵盖了生活、工作、设计、阅读、发现 五个方面，希望朝露可以连接所有有理想崇尚自由工作方式的朋友，彼此伴随一同成长。
+* [Brian Hoff 访谈：像自由网页设计师一样的生活](http://www.littledew.com/blog/works/871)
+
+# 4、2015-03-30
+* [跨平台开发时代的 (再次) 到来？](http://onevcat.com/2015/03/cross-platform/)
+* [bower解决js的依赖管理](http://blog.fens.me/nodejs-bower-intro/)
+
+# 3、2015-03-27
+* [从零开始nodejs系列文章](http://blog.fens.me/series-nodejs/)
+* [websocket服务器监控](http://blog.fens.me/nodejs-websocket-monitor/)
+
+# 2、2015-03-16
+* [Seven Concurrency Models in Seven Weeks: When Threads Unravel](https://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
+书籍，已下载到尾盘中
+[下载地址](http://it-ebooks.info/book/3758/)
+
+# 1、2015-03-14
+* [V2EX](https://www.v2ex.com/) 是一个关于分享和探索的地方
+* [一早一晚](http://yizaoyiwan.com/) 远程工作者社区

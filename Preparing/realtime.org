@@ -1,0 +1,9 @@
+* 2. [2015-09-12 Sat 10:49]
+** engine.io重连
+   测试了下[[https://github.com/cayasso/engine.io-reconnect][cayasso/engine.io-reconnect]] ，发现重连机制不好用，这个项目已经有两年没有维护了，估计是engine.io后来有修改导致的
+
+* 1. [2015-09-11 Fri 18:32]
+** socket.io和engine.io的区别
+*** socket.io的client端有断线重连；engine.io没有
+*** socket.io是更上层的抽象，具备房间等的概念
+*** 有人测试，当相同并发和包大小时，发现engine.io占用内存更少

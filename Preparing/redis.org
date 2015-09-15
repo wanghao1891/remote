@@ -1,0 +1,2 @@
+* 1. [2015-09-14 Mon 16:14]
+** 当redis client进入到subscribe模式后，就不能发布消息了

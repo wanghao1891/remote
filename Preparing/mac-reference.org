@@ -1,0 +1,88 @@
+* 11. [2015-09-13 Sun 15:40]
+** [[http://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/mac_osboot2docker.html][Mac OS下的boot2docker]] [2015-09-13 Sun 15:45]
+
+** [[http://penandpants.com/2014/03/09/docker-via-homebrew/][DOCKER VIA HOMEBREW]] [2015-09-13 Sun 15:42]
+
+** [[http://yansu.org/2014/04/10/install-docker-in-mac.html][在Mac下安装使用Docker]] [2015-09-13 Sun 15:40]
+
+* 10. [2015-09-13 Sun 09:27]
+** [[https://support.apple.com/en-us/HT201302][Import photos and videos from your iPhone, iPad, or iPod touch to your Mac or Windows PC]] [2015-09-13 Sun 09:27]
+
+* 9. [2015-09-08 Tue 21:41]
+** [[http://dreamerslab.com/blog/tw/how-to-setup-a-node-js-development-environment-on-mac-osx-lion/][如何在 Mac OSX Lion 上設定 node.js 的開發環境]] [2015-09-08 Tue 21:41]         :node.js: :mongodb:
+
+* 8. [2015-09-04 Fri 10:23]
+** [[http://www.zhihu.com/question/20094264][Mac OS X 如何才能用快捷键锁屏？]] [2015-09-04 Fri 10:40]                       :lock:power:
+** [[http://www.douban.com/group/topic/9387706/][MacOSX 数据备份及恢复方法 + 时间机器(Time Machine)优势]] [2015-09-04 Fri 10:33]
+** [[https://support.apple.com/en-us/HT204350][Move your content to a new Mac]] [2015-09-04 Fri 10:24]
+
+* 7. [2015-09-03 Thu 22:53]
+** [[https://support.apple.com/kb/PH18848?locale%3Dzh_CN&viewlocale%3Dzh_CN][OS X Yosemite: 恢复整个系统]]
+** [[https://support.apple.com/zh-cn/HT201250][Mac 基础知识：Time Machine 备份 Mac]]
+
+* 6、2015-09-01
+* [如何将NTFS格式的移动硬盘挂接到Mac OS上进行读写（Read/Write）操作](http://www.yunweipai.com/archives/1839.html)
+
+> ntfs3g mount_ntfs
+
+* [解决Mac和Win之间移动硬盘不兼容读写问题附赠TimeMachine使用法](http://blog.sina.com.cn/s/blog_6f1452d10101axhb.html)
+
+* [新买的移动硬盘该格式化为 NTFS 还是 exFAT？](http://www.zhihu.com/question/20448164)
+
+# 5、2015-08-31
+* [Mac优秀软件记录](http://wulujia.com/2014/02/06/mac-software-list/)
+
+* 定时休息软件
+[timeout](http://www.dejal.com/timeout/)
+
+* [10款经典Mac To-Do软件](http://www.waerfa.com/fiften-classical-gtd-app-in-mac)
+
+* [Vitamin-R 2.0](http://www.waerfa.com/vitamin-r-2-0)
+
+* [How to skip system hotkeys when using terminal emacs?](http://apple.stackexchange.com/questions/1006/how-to-skip-system-hotkeys-when-using-terminal-emacs)
+
+* [What's a good graphical SFTP utility for OS X?](http://apple.stackexchange.com/questions/25661/whats-a-good-graphical-sftp-utility-for-os-x)
+
+* [大家在 Mac OS X 中用的是什么客户端工具来管理 ssh 连接？](https://www.v2ex.com/t/24994)
+
+* [Mac OS X 平台有哪些好用的 SSH 客户端？](http://www.zhihu.com/question/20541129)
+
+# 4、2015-08-30
+* [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+
+# 3、2015-08-29
+* [solarized](http://ethanschoonover.com/solarized)
+
+* [Mac OS X Setup Guide](https://www.gitbook.com/book/laoshuterry/mac_os_setup_guide/details)
+
+* [配置iTerm2](http://laoshuterry.gitbooks.io/mac_os_setup_guide/content/4_ZshCon\
+fig.html)
+
+* [adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro)
+
+* [Install Emacs on Mac](http://ygc.name/2013/09/11/install-emacs-on-mac/)
+
+* [Emacs on Mac-OS: Configuration for Alt- and Meta-Key](http://it-and-more.blogspot.tw/2013/09/emacs-on-mac-os-configuration-for-alt.html)
+
+* [在iterm2修改字體](http://blog.sammylin.tw/iterm2-change-font/)
+
+# 2、2015-08-27
+* [在苹果系统上打造舒服的开发环境](http://www.gocalf.com/blog/make-mac-better-for-development.html)
+
+* [折腾了一下 Terminal](http://xingrz.me/2013/2013-06-19/terminal-zhuangbility.html)
+
+# 1、2015-08-26
+* [程序员如何优雅地使用 Mac？](http://www.zhihu.com/question/20873070)
+
+* [robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+  A delightful community-driven framework for managing your zsh configuration. Includes 180+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+
+* [配置iTerm2](http://laoshuterry.gitbooks.io/mac_os_setup_guide/content/4_ZshConfig.html)
+
+* [Mac OS X Terminal 101：终端使用初级教程](http://www.renfei.org/blog/mac-os-x-terminal-101.html)
+
+* [Mac OSX 新手入門](http://mac-osx-for-newbie-book.kejyun.com/software/SoftwareTooliTerm.html)
+
+* [iterm2](https://www.iterm2.com)
+  Term2 is a replacement for Terminal and the successor to iTerm. It works on Macs with OS 10.5 (Leopard) or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.

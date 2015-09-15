@@ -1,0 +1,787 @@
+* 31. [2015-09-15 Tue 14:41]
+** `M-x org-insert-subheading` -- Insert a new subheading and demote it.
+** `M-x org-insert-heading` -- Insert a new heading or an item with the same depth at point.
+
+* 30. [2015-09-12 Sat 22:55]
+** org-mode的自动换行
+   M-x toggle-truncate-lines
+   或者
+   M-x visual-line-mode
+
+# 29、2015-08-18
+* `M-u`，后面的字符变为大写，对应命令：`M-x upcase-word`
+* `M-l`，后面的字符变为小写，对应命令：`M-x downcase-word`
+* `M-c`，后面的首字符变为大写，对应命令：`M-x capitalize-word`
+
+# 28、2015-08-15
+* 另外一种在配置文件中启动hs-minor-mode的方法
+  (add-hook 'js2-mode-hook (lambda () (hs-minor-mode 1)))
+
+# 27、2015-08-07
+* C-u runs the command universal-argument, which is an interactive
+  compiled Lisp function in `simple.el'.
+
+# 26、2015-08-04
+* 当一行有空格时，光标在最左边时，使用tab，可以直接跳到文字的开头
+
+# 25、2015-07-24
+* 使当前光标居中
+  执行`C-l`，对应命令`recenter-top-bottom`
+
+  C-l runs the command recenter-top-bottom, which is an interactive compiled Lisp function in `window.el'.
+
+* Automatically activate hs-minor-mode for js2-mode.
+  (add-hook 'js2-mode-hook 'hs-minor-mode)
+
+# 24、2015-07-15
+* 在chrome的Secure Shell中，使用`C-up`或者`C-down`，会跳转到段落的前后位置
+
+# 23、2015-07-14
+* 在chrome的Secure Shell中，使用`C-left`或者`C-right`，会跳转到单词的前后位置
+
+# 22、2015-07-09
+* 选择一个区域使用`C-Space`，但是目前测试，只是在chrome的Secure Shell下可以，今天新安装一个叫MoabXterm的，也不能用这个快捷键
+
+  或者用`C-@`，对应命令：`cua-set-mark`
+
+  官方帮助文档：
+  C-@ runs the command cua-set-mark, which is an interactive compiled
+
+  Lisp function in `cua-base.el'.
+
+  It is bound to C-@, C-., C-SPC.
+
+  (cua-set-mark &optional ARG)
+
+  Set mark at where point is, clear mark, or jump to mark.
+
+* 在init-ctags.el中增加`view-tag-other-window`
+
+  Same as `find-tag-other-window' but doesn't move the point.
+
+  > ctags
+
+# 21、2015-07-08
+* 在`hs-minor-mode`下，使用`hs-hide-block`隐藏代码段后，再用`C-Space`选择文本，然后`C-y`，这样是可以全部复制粘贴的
+
+* elisp字符串拼接
+
+  用format函数
+  (format "ctags -f %s%s -e -R %s" path-to-ctags tag-name (directory-file-name dir-name))))
+  %s 代表字符串
+
+  > elisp
+
+* elisp的interactive接收参数
+
+  (intera ctive "DDirectory: \nsTag name:")
+
+  * 在interactive后边在""中把参数提示和类型填写，D代表路径，s代表字符串
+  * 注意多个参数，需要用\n来分开
+
+  > elisp
+
+* 在emacs中创建tags
+      (setq path-to-ctags "/root/ctags/") ;; <- your ctags path here
+
+      (defun create-tags (dir-name tag-name)
+        "Create tags file."
+        (interactive "DDirectory: \nsTag name:")
+        (shell-command
+         (format "ctags -f %s%s -e -R %s" path-to-ctags tag-name (directory-file-name dir-name))))
+
+      (provide 'init-ctags)
+  > elisp ctags
+# 20、2015-07-07
+* 编写js文件时，保存时，自动将多余的空格删除
+  如果是完全有emacs编写的文件，是可以的；
+  如果是在用其它编辑器编写的，则不会自动删除
+
+# 19、2015-07-04
+* Minibuffer历史
+
+  `M-p` 移到Minibuffer历史中的前一条，previous-history-element
+
+　`M-n` 移到Minibuffer历史中的后一条，next-history-element
+
+* 自动换行 `M-q`
+
+  命令：`M-x fill-paragraph`
+
+  M-q runs the command fill-paragraph, which is an interactive compiled Lisp function in `fill.el'.
+
+* 使用ctags实现函数跳转
+  * 安装ctags
+    cd /root/workspace/tools
+    wget http://ncu.dl.sourceforge.net/project/ctags/ctags/5.8/ctags-5.8.tar.gz
+    tar -zxvf ctags-5.8.tar.gz
+    cd ctags-5.8
+    ./configure --prefix=/root/workspace/bin/ctags-5.8
+    make
+    make install
+    cd /root/workspace/bin/
+    ln -s ctags-5.8 ctags
+    cd /root/bin
+    rsync -avl /root/workspace/bin/ctags-5.8 .
+    rsync -avl /root/workspace/bin/ctags .
+    vi /etc/profile
+    <<
+    export BASE=/root
+    export NODE=$BASE/bin/node
+    export MONGODB=$BASE/bin/mongodb
+    export CTAGS=$BASE/bin/ctags
+    export PATH=$PATH:$NODE/bin:$MONGODB/bin:$CTAGS/bin
+    >>
+    source /etc/profile
+
+  * 生成Emacs用的TAG文件，用来实现跳转
+    cd /root/workspace/src/meishubao/api/
+    ctags -e -R
+
+  * 在Emacs中，将光标放到函数上，然后执行`M-. RET`，就可以实现跳转了
+
+    对应命令：`M-x find-tag`
+
+    M-. runs the command find-tag, which is an interactive autoloaded compiled Lisp function in `etags.el'.
+
+    It is bound to M-., <menu-bar> <edit> <goto> <find-tag>.
+
+    > ctags goto definition
+
+    > reference: [用emacs打造node.js开发环境(2014.05.06更新)](http://blog.csdn.net/luckyan315/article/details/18948815)中的[2.3 exuberant-ctags 提供类似Go To Definition 功能]
+
+# 18、2015-07-03
+* 移动光标到单词的前部`M-b`
+
+  对应命令： `M-x backward-word`
+
+* 移动光标到单词的后部`M-f`
+
+  对应命令: `M-x forword-word`
+
+# 17、2015-07-02
+* 去掉菜单栏
+
+  `M-x eval-expression (menu-bar-mode -1)`
+
+* exuberant-ctags 提供类似Go To Definition 功能
+
+* gtags，代码跳转
+
+# 16、2015-06-29
+* 快速复制一行文字
+
+  `M-x whole-line-or-region-copy-region-as-kill`
+
+  description:
+  whole-line-or-region-kill-ring-save is an interactive autoloaded
+  compiled Lisp function in `whole-line-or-region.el'.
+
+  It is bound to <C-insertchar>, <C-insert>, M-w, <menu-bar> <edit>
+  <copy>.
+
+  (whole-line-or-region-kill-ring-save PREFIX)
+
+  Copy region or PREFIX whole lines.
+
+* 使用ido-find-file创建一个不同目录，但是同名的文件时，总会提示用存在的那个
+
+  可以使用`C-f`来关闭提示，然后修改文件信息
+
+* 使用grep按照关键字查找文件
+
+  执行：`M-x grep RET grep -nH -e Format -r /mnt/src/meishubao/api/controllers/ RET`
+
+  RET代表回车键
+
+  会在一个新buffer中显示文件列表，光标移动到一个文件后，点击回车键，就可以在原来的buffer中显示文件内容
+
+# 15、2015-06-27
+* 向前删除一个单词`M-d`或`C-delete`，It is bound to <C-delete>, M-d.
+
+  命令：kill-word
+
+* 向后删除一个单词`M-DEL`(即按住Alt和Backspace)或`C-backspace`（在chrome下是不好用的），It is bound to <C-backspace>, M-DEL.
+
+  命令：backward-kill-word
+
+# 14、2015-06-26
+* 删除一个选中区域的内容
+
+  用`C-Space`选中后，直接按`Delete`即可，或者用`M-x kill-region`
+
+# 13、2015-06-24
+* 执行js代码块，首先执行`C-Space`，然后移动光标选中，执行`M-x js-send-region-go`，这样就可以打开*js*窗口，并能看到执行结果，光标也切换到*js*窗口了
+
+  如果执行`M-x js-send-region`，则不能打开*js*窗口，一旦窗口打开，执行这个命令，则可以看到结果，光标会保留在代码区域
+
+  其它如js-send-last-sexp和js-send-last-sexp-and-go同理
+
+# 12、2015-06-23
+* 在用`M-x`调用命令时，可以使用简写，比如`switch-to-buffer`，可以简写为`stb`
+
+  这个功能是[smex](https://github.com/nonsequitur/smex)模块提供的
+
+* 书签
+  * 添加`C-x r m`，命令：bookmark-set
+  * 跳转`C-x r b`，命令：bookmark-jump
+  * 执行后，会多出一个buffer - *Bookmark List*
+
+* 在todo list中添加时间后，再次打开发现时间折叠了，打开方法
+
+  `M-x org-show-entry` 或 `M-x org-show-subtree`
+
+  或者 `M-x org-cycle`，这个命令对应的快捷键是`Tab`，重复执行会折叠/打开，注意，光标要放到条目上，否则不起作用。
+
+* 在org-mode中添加当前时间，执行`C-u C-c .`
+
+  对应执行命令，首先执行`C-u`，然后执行`M-x org-time-stamp`
+
+# 11、2015-06-16
+* kill-some-buffers 删除多个缓冲
+
+* ido-find-file `C-x C-f` 查找文件
+
+* switch-window `C-x o` 切换窗口
+
+* eval-last-sexp `C-x C-e`执行一条语句的执令
+
+* find-file-other-window 在另一个窗口打开文件
+
+* 将一个buffer中选中的内容，复制到另外一个buffer中
+  * append-to-buffer 将区域中内容加入到一个buffer中
+  * prepend-to-buffer 将区域中内容加入到一个buffer光标前
+  * copy-to-buffer 区域中内容加入到一个buffer中，删除该buffer原有内容
+  * insert-buffer 在该位置插入指定的buffer中所有内容
+  * append-to-file 将区域中内容复制到一个文件中
+
+# 10、2015-06-15
+* org-mode的todo list
+
+  由于有些shell终端不支持中文，有些不支持org-mode的快捷键，所以只能使用命令了
+
+  * 设置todo list状态的命令`M-x org-todo`，然后输入相应状态的代码字符
+
+# 9、2015-06-13
+* 列模式
+
+  首先执行`C-Space`选中区域，然后执行相应快捷键或命令(`M-x`)：
+
+        C-x r k 剪切一个矩形块
+        C-x r y 粘贴一个矩形块
+        C-x r o 插入一个矩形块
+        C-x r c 清除一个矩形块(使其变成空白)
+        C-x r t 在选定区域的所有列前插入样的字符 string-rectangle //会替换字符
+
+        string-insert-rectangle //在选中区域的前边加上字符
+
+
+* 开发环境中的.bashrc -- 2015-06-16更新 2015-06-17更新
+
+  * docker宿主机
+        vi ~/.bashrc
+        <<
+        # add by wh
+        # porgramming in docker
+        alias docker-programming='docker run -d -p 220:22 --name programming -v /root/workspace/conf/emacs.d/mine:/root/.emacs.d -v /root/workspace/:/mnt -v /root/workspace/conf/ssh/programming:/root/.ssh programming:v0.0.7 /usr/sbin/sshd -D'
+        alias enter-programming='ssh -p 220 127.0.0.1'
+        alias node='/root/workspace/bin/node/bin/node'
+        alias npm='/root/workspace/bin/node/bin/npm'
+        alias docker-mongodb='docker run -d -p 27017:27017 --name mongodb -v /root/workspace/conf/mongodb/:/root/conf -v /root/workspace/data/:/root/data mongodb-3.0.3:v0.0.2 /root/bin/m\
+        ongodb-linux-x86_64-ubuntu1404-3.0.3/bin/mongod -f /root/conf/mongodb.conf'
+        alias docker-monitor='docker run -d -p 80:80 --name monitor -v /root/workspace/src/mine/monitor/:/root/monitor node-0.12.3:v0.0.1 /root/bin/node/bin/node /root/monitor/app.js'
+        alias docker-tool='docker run -d --name tool -p 221:22 -p 3000:3000 -v /root/workspace/:/root/workspace -v /root/workspace/conf/ssh/programming/:/root/.ssh tool:v0.005 /usr/sbin/sshd -D'
+        alias enter-tool='ssh -p 221 127.0.0.1'
+        alias docker-vocabulary='docker run -d -p 8080:80 --name vocabulary -v /root/workspace/src/mine/proxy-node/:/root/proxy-node -v /root/workspace/src/mine/database/:/root/database -v /root/workspace/src/mine/parser/:/root/parser node-petite:v0.0.2 /root/bin/node/bin/node /root/proxy-node/proxy.js'
+        alias docker-mongo-management-studio='docker run -d --name mongo-management-studio -p 8000:8000 -v /root/workspace/tools/mongo-management-studio/:/root/app node-0.12.3:v0.0.1 /root/bin/node/bin/node /root/app/server.js'
+        >>
+
+  * docker with programming
+        vi ~/.bashrc
+        <<
+        # add by wh
+        function start-emacs(){
+            /root/workspace/bin/emacs/bin/emacs --daemon
+        }
+
+        pid=`ps -ef|grep "emacs --daemon"|grep -v grep|awk '{print $2}'`
+
+        if [ "$pid" = "" ]; then
+            start-emacs
+        fi
+
+        # some more emacsclient aliases
+        alias e='emacsclient -t'
+        >>
+
+# 8、2015-06-12
+* 设置平滑翻页
+
+  执行，`M-x eval-expression RET (setq scroll-margin 5 scroll-conservatively 10000) RET`
+
+  或者放到配置文件中
+
+  放到了配置文件init.el中，只用(setq scroll-conservatively)就可以 -- 2015-06-13
+
+* 使用hs-minor-mode来折叠js代码
+
+  * 在当前buffer中加载hs-minor-mode，执行`M-x hs-minor-mode`，在状态栏会看到(JS2 hs InfJS WSC AC)，JS2后多出了hs
+
+  * 将光标放到代码块的`{`后边，执行`M-x hs-toggle-hiding`，代码块会隐藏，在执行一次会展开
+
+  * 将光标放到代码块的`{`后边，执行`M-x hs-hide-block`，代码块会隐藏，执行`M-x hs-show-block`会展开
+
+  * 感觉和js控制元素显隐的方法很像
+
+  * 完整的函数列表
+
+    {hs-show-block | hs-hide-block | hs-toggle-hiding | hs-minor-mode | hs-hide-all | hs-show-all | hs-hide-level | hs-minor-mode-menu | hs-mouse-toggle-hiding | hs-hide-initial-comment-block}
+
+* 替换文本
+
+      M-x replace-string old new
+
+  在使用的时候，发现要执行多次才能成功，不知道什么原因，难道和运行在docker中有关吗？
+
+* 快速复制
+
+  选中区域：
+
+  `C-Space`设置起点，移动光标选择
+
+  执行如下命令复制：
+
+  append-to-buffer 将区域中内容加入到一个buffer中。
+
+  prepend-to-buffer 将区域中内容加入到一个buffer中，不过加入位置在该buffer的光标前。
+
+  copy-to-buffer 将区域中内容加入到一个buffer中，删除该buffer原有内容。
+
+  insert-buffer 在该位置插入指定的buffer中所有内容。
+
+  append-to-file 将区域中内容复制到一个文件中。
+
+  这些命令都只能通过`M-x`来调用。
+
+* 在chrome中滚动其它窗格的内容
+  * 向下滚动
+        M-PgUp
+
+    or
+        C-M v
+
+  * 向上滚动
+        M-PgDn
+
+# 7、2015-06-11
+* 安装petite到docker container
+
+      wget http://www.scheme.com/download/pcsv8.4-ta6le.tar.gz
+      tar -zxvf pcsv8.4-ta6le.tar.gz
+      cd csv8.4/custom
+      ./configure --installprefix=/root/workspace/bin/pcsv8.4-ta6le
+      make install
+      cd /root/workspace/bin/
+      ln -s pcsv8.4-ta6le/ petite
+      cd /usr/lib/
+      ln -s /root/workspace/bin/petite/lib/csv8.4/
+      cd ../bin/
+      ln -s /root/workspace/bin/petite/bin/petite
+
+* 测试js代码
+
+  进入到scratch，然后执行`M-x js2-mode`切换到js模式
+
+  编写代码后，比如：
+
+      console.log("test");
+
+  将光标放在行尾，执行`C-x C-e`，然后执行`M-x switch-to-js`，就可以调出执行结果的窗口了
+
+* 在chrome中使用emacs，复制的快捷键是
+
+  Alt-Shift W
+
+* 用Bitvise来连接shell，即使配置成theme，也不像chrome显示的那样，会有不加的一样
+
+* 切换到文件头和尾
+  * 切换到文件头  
+    `C-home`
+
+  * 切换到文件尾
+    `C-end`
+
+* openssh-server和nsenter在启动`emacs --daemon`的区别
+  * 启动一个docker
+
+      docker run -it --name emacs-mine-1 -v /root/workspace/conf/emacs.d/mine:/root/.emacs.d -v /root/workspace/:/mnt emacs:24.5 /bin/bash
+
+  * 用nsenter连接，然后执行：
+
+      emacs --daemon
+
+  * 用emacsclient连接：
+
+      emacsclient -t
+
+    报如下错误：
+
+      emacsclient: could not get terminal name
+
+  * 在docker启动成功后的bash中，做上面的步骤就可以成功连接
+
+  * 在docker中安装openssh-server后，用ssh连接该container，可以用`emacsclient -t`连接
+
+  * 在nsenter连接中，启动`emacs --daemon`，在ssh连接和bash中都可以用`emacsclient -t`连接
+
+  * 这样看来，用nsenter连接，貌似是缺失了一些东西。
+
+* 在同一台机器上，启动两个emacsclient后，当在scratch下的话，两个会显示相同的内容
+
+  但是打开其他文件的话，则每个显示的是不同的
+
+* 以tcp socket方式启动emacs daemon
+
+      ./emacs --daemon --eval '(setq server-use-tcp t server-host "192.168.56.3")'
+  用emacsclient连接
+      ./emacsclient -t -f ~/.emacs.d/server/server
+
+  发现在另外一台机器上，执行emacsclient不能连接，会报如下错误：
+      emacs-24.5/bin/emacsclient: connected to remote socket at 192.168.56.3
+      emacs-24.5/bin/emacsclient: connect: Connection refused
+      emacs-24.5/bin/emacsclient: error accessing server file "/root/server"
+
+* 以socket name方式启动emacs daemon
+
+      emacs --daemon="server1"
+
+  用emacsclient方式连接server1
+
+      emacsclient -t -s server1
+
+  以某种颜色背景启动emacs daemon
+
+      emacs --daemon=edit --background-color=yellow
+
+# 6、2015-06-10
+* 关闭以daemon方式启动的emacs
+
+  emacsclient -e "(kill-emacs)"
+
+  或者
+
+  emacsclient -e "(save-buffers-kill-emacs)" ;但是我测试会卡住不动
+
+* 全选整个buff -- mark-whole-buffer
+
+  `C-x h`
+
+* [BvSshClient](http://www.bitvise.com/ssh-client-download)
+
+  这个ssh工具可以在emacs中工作良好。
+
+* 关闭buffer
+
+  `C-x k`
+
+* 在.bashrc中增加如下内容
+
+      alias e='emacsclient -t'
+      alias ec='emacsclient -c'
+      alias vim='emacsclient -t'
+      alias vi='emacsclient -t'
+
+  这样可以简化emacsclient的调用
+
+* 使用node.js来对js文件进行解析，使用js-comint模块来实现
+
+  purcell的配置：
+      (setq inferior-js-program-command "node")
+
+      (defvar inferior-js-minor-mode-map (make-sparse-keymap))
+      (define-key inferior-js-minor-mode-map "\C-x\C-e" 'js-send-last-sexp)
+      (define-key inferior-js-minor-mode-map "\C-\M-x" 'js-send-last-sexp-and-go)
+      (define-key inferior-js-minor-mode-map "\C-cb" 'js-send-buffer)
+      (define-key inferior-js-minor-mode-map "\C-c\C-b" 'js-send-buffer-and-go)
+      (define-key inferior-js-minor-mode-map "\C-cl" 'js-load-file-and-go)
+
+  官网的配置示例：
+      (require 'js-comint)
+      (setq inferior-js-program-command "/usr/bin/java org.mozilla.javascript.tools.shell.Main")
+      (add-hook 'js2-mode-hook '(lambda ()
+      			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+      			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
+      			    (local-set-key "\C-cb" 'js-send-buffer)
+      			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+      			    (local-set-key "\C-cl" 'js-load-file-and-go)
+      			    ))
+
+  使用方法：  
+    将光标放在一行的最后，然后执行`C-x C-e`
+    这个时候，会产生一个叫`*js`的buffer，执行`M-x switch-to-js`，就可以调出窗口了
+
+  将输出提示符格式化：
+      (setq inferior-js-mode-hook
+        (λ ()
+          ;; We like nice colors
+          ;(ansi-color-for-comint-mode-on)
+          ;; Deal with some prompt nonsense
+          (add-to-list 'comint-preoutput-filter-functions
+                       (λ (output)
+                         (replace-regexp-in-string ".*1G\.\.\..*5G" "..."
+                                                   (replace-regexp-in-string ".*1G.*3G" ">" output))))))
+
+* 当用daemon方式启动时，报如下错误：
+
+      app.js has auto save data; consider M-x recover-this-file
+      Desktop: 1103.93ms to restore ~/src/mine/monitor/app.js
+      index.html has auto save data; consider M-x recover-this-file
+      Could not find config file "~/.tidyrc".  Winging it.
+      Not enabling jit-lock: it does not work in indirect buffer
+      Could not find config file "~/.tidyrc".  Winging it.
+      Desktop: 1264.39ms to restore ~/src/mine/monitor/index.html
+      style.css has auto save data; consider M-x recover-this-file
+      Desktop: 1275.59ms to restore ~/src/mine/monitor/public/css/style.css
+      Desktop: 25.66ms to restore ~/src/mine/monitor/public/js/index.js
+      Desktop: 69.29ms to restore ~/src/mine/database/base.ss
+      Desktop: 20.59ms to restore /tmp/a.md
+      Could not find config file "~/.tidyrc".  Winging it.
+      Not enabling jit-lock: it does not work in indirect buffer
+      Could not find config file "~/.tidyrc".  Winging it.
+      Desktop: 78.99ms to restore /tmp/a.html
+      user.js has auto save data; consider M-x recover-this-file
+      Desktop: 2557.56ms to restore ~/src/meishubao/api/controllers/user.js
+      Wrote /root/.emacs.d/.emacs.desktop.lock
+      Desktop: 1 frame, 12 buffers restored.
+      Desktop restored in 7075.56ms
+      Starting Emacs daemon.
+      Unable to start the daemon.
+      Another instance of Emacs is running the server, either as daemon or interactively.
+      You can use emacsclient to connect to that Emacs process.
+      Wrote /root/.emacs.d/ac-comphist.dat
+      Wrote /root/.emacs.d/.session
+      Saving file /root/.emacs.d/ido.last...
+      Wrote /root/.emacs.d/ido.last
+      Error: server did not start correctly
+
+  首先删除.session文件，发现不起作用
+
+  删除.emacs.desktop后，就可以了
+
+* 当打开一个el文件时，再次打开emacs时，报如下错误：
+
+      contains values that may not be safe (*).
+
+      Do you want to apply it? You can type
+      y -- to apply the local variables list.
+      n -- to ignore the local variables list.
+      ! -- to apply the local variables list, and permanently mark these
+      values (*) as safe (in the future, they will be set
+      automatically.)
+
+  解决：
+    选择!，再次启动就不会提示了，可以参考[48.2.4.2 Safety of File Variables](http://www.gnu.org/software/emacs/manual/html_node/emacs/Safe-File-Variables.html)
+
+
+* 本来想减少一些emacs的体积，用redguardtoo的编译参数，发现有一些已经不支持了
+
+  编译完成后，和不加这些参数出来的是一样大的，看了下emacs程序的大小是20多MB，剩下的是一些package和帮助信息。
+
+  如果将package删除掉：
+  cd /workspace/bin/emacs/share/emacs/24.5/lisp
+  rm -fr *
+
+  在启动的时候，会报错说找不到文件，但是还可以用，只是没办法在后台执行。
+
+  root@c51a33fb8f62:~# emacs --daemon
+  Warning: Could not find simple.el or simple.elc
+  Error in post-command-hook (global-font-lock-mode-check-buffers): (file-error "Cannot open load file" "No such file or directory" "time-date")
+
+  '
+
+# 5、2015-06-09
+* Could not find config file "~/.tidyrc".  Winging it.
+
+* docker中的字符集设置
+      export LANG=en_US.UTF-8
+      export LANGUAGE=
+      export LC_CTYPE="en_US.UTF-8"
+      export LC_NUMERIC="en_US.UTF-8"
+      export LC_TIME="en_US.UTF-8"
+      export LC_COLLATE="en_US.UTF-8"
+      export LC_MONETARY="en_US.UTF-8"
+      export LC_MESSAGES="en_US.UTF-8"
+      export LC_PAPER="en_US.UTF-8"
+      export LC_NAME="en_US.UTF-8"
+      export LC_ADDRESS="en_US.UTF-8"
+      export LC_TELEPHONE="en_US.UTF-8"
+      export LC_MEASUREMENT="en_US.UTF-8"
+      export LC_IDENTIFICATION="en_US.UTF-8"
+      export LC_ALL=
+
+  这样才能在emacs中显示中文，具体是哪个变量起作用，以后再看吧
+
+* 在某个mode中载入其它模式
+
+      (add-hook 'scheme-mode-hook
+      	  (lambda ()
+      	    (paredit-mode 1)))
+
+* 为了能够在scheme mode中使用C-<left>和C-<right>，将purcell的lisp/init-paredti.el换为我自己的
+
+* 后台运行emacs
+
+  emacs --daemon
+
+  客户端连接
+  emacsclient -t
+
+* purcell包的作用
+  *
+  * (require 'init-ido) ;查找文件的模式
+  * (require 'init-themes) ;打开时，提示是否用lisp的theme
+
+* 清理emacs/share下的el.gz文件
+
+  find . -name *.el.gz -exec rm -f {} \;
+
+* 统计emacs/share下的el.gz文件大小
+      find . -name *.el.gz -exec ls -l {} \; |awk 'BEGIN{count=0;size=0;} \
+      {count = count + 1; size = size + $5/1024/1024;} \
+      END{print "Total count " count; \
+      print "Total Size " size/1024 " GB" ; \
+      print "Avg Size " size / count "MB"; \
+      print "—"}'
+
+# 4、2015-06-08
+* 发现purcell配置不能复制是由于init.el中的以下内容引起的
+
+  (require 'init-benchmarking) ;; Measure startup time
+
+  后来发现注释到这个可以复制，是因为报错没有继续执行导致的 -- 2015-06-09
+
+  最终发现是这个控制能否复制的：-- 2015-06-09
+  (require 'init-xterm)
+
+  而且用--debug-init方式启动emacs，也不会出现不能复制的问题
+
+
+* 经过这几天的折腾，发现靠自己一点一点把配置弄好，还是有些困难的，看来需要用已有的配置了，目前看，是选用谁的
+  * purcell
+    配置比较清晰，但是目前不能复制内容
+
+  * prelude
+    配置比较复杂，作者做了很多的抽象，需要理解，配色方案不是很喜欢
+
+# 3、2015-06-05
+* 经过初步测试，prelude的配置比较符合我的要求
+
+  不过，这个配置的颜色是黄色的，不是我喜欢的。
+
+* 安装Prelude的配置时，需要执行安装脚本
+
+  curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
+
+  或
+
+  wget --no-check-certificate https://github.com/bbatsov/prelude/raw/master/utils/installer.sh -O - | sh
+
+  如果直接下载zip包，解压放到/root/.emacs.d下的话，启动emacs会报缺少一些依赖包  
+  error: Package `ace-window-' is unavailable
+
+* 在docker中使用purcell的配置，出现Recursive load的解决方法
+
+  * 修改.emacs.d中的init.el文件，去掉clojure相关
+
+      (when (>= emacs-major-version 25) ;将原来的24改为了25，也就是在24版本的不会执行了
+        (require 'init-clojure)
+        (require 'init-clojure-cider))
+      (require 'init-common-lisp)
+
+      这个改完后，在启动，报如下错误：
+      Recursive load: "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/jka-compr.el.gz", "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/jka-compr.el.gz", "/root/workspace/b\
+      in/emacs-24.5/share/emacs/24.5/lisp/jka-compr.el.gz", "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/jka-compr.el.gz", "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lis\
+      p/jka-compr.el.gz", "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/xt-mouse.el.gz"
+
+  * 将/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/jka-compr.el.gz文件改名，这样在启动就不报错了
+
+      cd workspace/bin/emacs/share/emacs/24.5/lisp/
+      mv jka-compr.el.gz jka-compr.el.gz-20150605
+
+  * 等这些都改完后，发现在chrome的secure shell下，这套配置不能复制文本
+
+# 2、2015-06-04
+* 在docker container中运行purcell的版本，会报如下错误：
+
+      Recursive load: "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/jka-compr.el.gz", "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/jka-compr.el.gz", "/root/workspace/b\
+      in/emacs-24.5/share/emacs/24.5/lisp/jka-compr.el.gz", "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/jka-compr.el.gz", "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lis\
+      p/jka-compr.el.gz", "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/net/trampver.el.gz", "/root/workspace/bin/emacs-24.5/share/emacs/24.5/lisp/net/tramp-compat.elc", "/root\
+      /workspace/bin/emacs-24.5/share/emacs/24.5/lisp/net/tramp.elc", "/root/.emacs.d/elpa/cider-20150531.252/nrepl-client.elc", "/root/.emacs.d/elpa/cider-20150531.252/cider-client.el\
+      c", "/root/.emacs.d/elpa/flycheck-clojure-20150116.234/flycheck-clojure.elc"
+  在虚拟机里，则不会出现，怀疑和docker的文件系统有关系
+
+* 启动container
+
+  docker run -it --name emacs -v /root/workspace/conf/emacs.d/purcell/:/root/.emacs.d emacs:24.5
+
+5 /bin/bash
+
+* 利用docker制作emacs镜像
+
+  将在其它container中编译好的emacs复制到一个基于ubuntu 14.04.2启动的container中
+
+  然后配置环境变量，构想在使用时，挂载外部卷，卷中存储emacs的配置文件，这样没启动一个docker就可以配置一套新的环境
+
+  docker commit -m "emacs 24.5." -a "wanghao" 57a01768035e emacs:24.5
+
+* Install on ubuntu 14.04.2
+      apt-get update
+      apt-get install gcc make libc6-dev libncurses-dev
+      wget http://mirrors.ustc.edu.cn/gnu/emacs/emacs-24.5.tar.gz
+      tar -zxvf emacs-24.5.tar.gz
+      cd emacs-24.5
+      ./configure --prefix=/root/workspace/bin/emacs-24.5
+      << output:
+      Configured for `x86_64-unknown-linux-gnu'.
+
+        Where should the build process find the source code?    .
+        What compiler should emacs be built with?               gcc -std=gnu99 -g3 -O2
+        Should Emacs use the GNU version of malloc?             yes
+            (Using Doug Lea's new malloc from the GNU C Library.)
+        Should Emacs use a relocating allocator for buffers?    no
+        Should Emacs use mmap(2) for buffer allocation?         no
+        What window system should Emacs use?                    none
+        What toolkit should Emacs use?                          none
+        Where do we find X Windows header files?                NONE
+        Where do we find X Windows libraries?                   NONE
+        Does Emacs use -lXaw3d?                                 no
+        Does Emacs use -lXpm?                                   no
+        Does Emacs use -ljpeg?                                  no
+        Does Emacs use -ltiff?                                  no
+        Does Emacs use a gif library?                           no
+        Does Emacs use a png library?                           no
+        Does Emacs use -lrsvg-2?                                no
+        Does Emacs use imagemagick?                             no
+        Does Emacs support sound?                               yes
+        Does Emacs use -lgpm?                                   no
+        Does Emacs use -ldbus?                                  no
+        Does Emacs use -lgconf?                                 no
+        Does Emacs use GSettings?                               no
+        Does Emacs use a file notification library?             yes -lglibc (inotify)
+        Does Emacs use access control lists?                    no
+        Does Emacs use -lselinux?                               no
+        Does Emacs use -lgnutls?                                no
+        Does Emacs use -lxml2?                                  no
+        Does Emacs use -lfreetype?                              no
+        Does Emacs use -lm17n-flt?                              no
+        Does Emacs use -lotf?                                   no
+        Does Emacs use -lxft?                                   no
+        Does Emacs directly use zlib?                           no
+        Does Emacs use toolkit scroll bars?                     no
+
+      make
+      make install
+
+# 1、2015-06-03
+* Install on ubuntu 14.04.2
+  prepare

@@ -1,0 +1,38 @@
+* 7. [2015-09-15 Tue 13:25]
+** [[http://dbarobin.com/2015/09/15/migration-of-mysql-on-different-scenes/][不同场景下 MySQL 的迁移方案]] [2015-09-15 Tue 13:26]
+
+# 6、2015-08-25
+* [MySQL 存储过程](http://blog.tankywoo.com/2015/04/01/mysql-stored-procedure.html)
+
+  MySQL 存储过程(Stored Procedure) 是通过给定的语法格式编写自定义的数据库API, 包含一系列sql语句的集合, 完成一个复杂的功能. 这个API可以反复使用, 执行效率也很高.
+
+  > procedure
+
+# 5、2015-08-17
+* [MySQL索引背后的数据结构及算法原理](http://outofmemory.cn/mysql/mysql-index-arithmetic)
+
+# 4、2015-08-07
+* [MySQL 事务没有提交导致 锁等待 Lock wait timeout exceeded](http://my.oschina.net/jiaoya/blog/92194)
+
+# 3、2015-08-04
+* [MySQL 当记录不存在时插入，当记录存在时更新](http://fenley.iteye.com/blog/626355)
+
+# 2、2015-08-01
+* [查看文章 mysql:表注释和字段注释](http://blog.csdn.net/chamtianjiao/article/details/6698690)
+
+  查看字段注释的方法
+  --show
+  show full columns from test1;
+  --在元数据的表里面看
+  select * from COLUMNS where TABLE_SCHEMA='my_db' and TABLE_NAME='test1' \G
+
+# 1、2015-07-27
+* [13.1.7 ALTER TABLE Syntax](http://dev.mysql.com/doc/refman/5.6/en/alter-table.html)
+
+* [Increment value in mysql update query](http://stackoverflow.com/questions/2259155/increment-value-in-mysql-update-query)
+
+  You can do this without having to query the actual amount of points, so it will save you some time and resources during the script execution.
+
+  mysql_query("UPDATE `member_profile` SET `points`= `points` + 1 WHERE `user_id` = '".intval($userid)."'");
+
+  > increment

@@ -1,0 +1,265 @@
+* 11. [2015-09-09 Wed 11:30]
+** petite安装配置
+   cd /Users/huangling/wanghao/tools/
+   wget http://www.scheme.com/download/pcsv8.4-ta6osx.tar.gz
+   tar -zxvf pcsv8.4-ta6osx.tar.gz
+   cd csv8.4/custom
+   ./configure --installprefix=/Users/huangling/wanghao/bin/csv8.4
+   make install
+   cd /Users/huangling/wanghao/bin/
+   mv csv8.4 pcs
+   cd /Users/huangling/wanghao/conf/zsh
+   vim .zshrc
+   <<
+   MYHOME=/Users/huangling/wanghao
+
+   PETITE_HOME=$MYHOME/bin/pcs
+   SCHEMEHEAPDIRS=".:$PETITE_HOME/lib/csv8.4/%m:"
+   PATH="$PATH:$PETITE_HOME/bin"
+   export SCHEMEHEAPDIRS PATH
+   >>
+
+** Mac下查看英文释义的方法
+将鼠标放到英文单词上，然后三个手指同时敲击触摸板
+
+* 10. [2015-09-09 Wed 10:25]
+** mac下查看wifi密码
+   进入"Keychain Access"中，搜索wifi的名称，会看到两个，随便选一个，右键选择"Copy Password to Clipboard"，然后随便找个地方粘贴就好了
+
+* 9. [2015-09-08 Tue 21:43]
+** node.js安装配置
+   cd /Users/huangling/wanghao/tools/
+   wget https://nodejs.org/dist/v0.12.7/node-v0.12.7-darwin-x64.tar.gz
+   cd /Users/huangling/wanghao/bin/
+   tar -zxvf /Users/huangling/wanghao/tools/node-v0.12.7-darwin-x64.tar.gz
+   ln -s node-v0.12.7-darwin-x64 node
+   vim ~/.zshrc
+   <<
+   alias node='/Users/huangling/wanghao/bin/node/bin/node'
+   alias npm='/Users/huangling/wanghao/bin/node/bin/npm'
+   >>
+   source ~/.zshrc
+
+** mongodb安装配置
+   cd /Users/huangling/wanghao/tools/
+   wget https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-3.0.6.tgz
+   cd /Users/huangling/wanghao/bin/
+   tar -zxvf /Users/huangling/wanghao/tools/mongodb-osx-x86_64-3.0.6.tgz
+   ln -s mongodb-osx-x86_64-3.0.6 mongodb
+   vim ~/.zshrc
+   <<
+   alias mongo='/Users/huangling/wanghao/bin/mongodb/bin/mongo'
+   alias mongod='/Users/huangling/wanghao/bin/mongodb/bin/mongod'
+   >>
+
+** redis安装配置
+   cd /Users/huangling/wanghao/tools/
+   wget http://download.redis.io/releases/redis-3.0.4.tar.gz
+   tar -zxvf redis-3.0.4.tar.gz
+   cd redis-3.0.4
+   make
+   make PREFIX=/Users/huangling/wanghao/bin/redis-3.0.4 install
+   cd /Users/huangling/wanghao/bin/
+   ln -s redis-3.0.4 redis
+   vim .zshrc
+   <<
+
+   >>
+
+** 在mac上安装node，可以使用.pkg文件安装，可以使用homebrew、port等工具安装，也可以下载二进制包安装，也可以编译安装
+** mac上切换窗口的快捷键，三个手指按住触摸板，然后左右滑动
+** mac上滑动的快捷方式，两个手指按住触摸板，然后上下左右滑动
+
+# 8、2015-09-03
+* [Mac 入門：設定偏好設定](https://support.apple.com/zh-tw/HT201726)
+有讲解如何修改mac osx的语言显示
+
+# 7、2015-09-02
+* 今天发现在使用emacs的undo-tree-visualize时，看不到东西，选中后才有，后来经查发现是由于solaires配色方案导致的。
+在[iterm2colorschemes](http://iterm2colorschemes.com/)上看，Solarized Dark配色中的1;30颜色在背景色下显示不出来
+尝试修改undo-tree.el中的颜色，发现不起作用，试了下其它配色方案发现大部分都可以
+
+** 修改~/.emacs.d/elpa/undo-tree-20140509.522/undo-tree.el的如下内容：
+(defface undo-tree-visualizer-active-branch-face
+'((((class color) (background dark))
+(:foreground "white" :weight bold))
+(((class color) (background light))
+(:foreground "blue" :weight bold)))
+"Face used to highlight active undo-tree branch in visualizer."
+:group 'undo-tree)
+
+注：(:foreground "blue" :weight bold))) 的blue，原来为black，所以不能显示出来
+另外需要删除该目录下得undo-tree.elc，这个是编译后的，如果没有重新编译，就要将其删除，否则修改不生效。
+
+# 6、2015-09-01
+* 同步音频到ios设备
+* 连接ios设备到mac，然后打开itunes，在"摘要"中，选择"仅同步选中的歌曲和视频"，接下来，在"音乐"中，选择"选定的播放列表、表演者专辑和类型"，
+* 勾选"包括音乐视频"和"包括语音备忘录"，在右侧"表演者"中选择需要同步的内容，前提是要在itunes的"文件"菜单中，选择"添加到资料库"，将需要的音频资料增加。
+* 如果出现有音频不能同步的问题，可以点击"iPhone"->"我的设备上"->"音乐"，点击右侧的"添加到..."，然后将本地库中的音乐拖拽到音乐列表中，这样就可以添加了
+
+# 5、2015-08-31
+* 将调出sportlight的control + space组合键改为control + command + f
+这样的话，就可以再emacs中使用control + space来选择文本了
+
+* 设置显示、隐藏iterm2
+"Preferences" -> "Keys" ->"Hotkey"
+我参照网上的帖子，改为了command + .
+
+* 安装字符集
+报错：
+root@d7107cea94a8:~/workspace/src/meishubao/api# svn up
+svn: warning: cannot set LC_CTYPE locale
+svn: warning: environment variable LC_CTYPE is zh_CN.UTF-8
+svn: warning: please check that your locale name is correct
+Updating '.':
+svn: E000022: Error converting entry in directory '/root/workspace/src/meishubao/api' to UTF-8
+svn: E000022: Can't convert string from native encoding to 'UTF-8':
+
+安装：
+sudo locale-gen zh_CN.UTF-8
+
+* The ports tree has been updated. To upgrade your installed ports, you should run
+  port upgrade outdated
+
+* ftp/sftp工具，选用filezilla，免费，相对轻量
+cyberduck，这个功能很多，但是体积太大，运行起来占用内存也有小200MB
+其它一些好的，都是要收费的了
+
+* 打开来自身份不明的开发者的应用
+按下 Control 键，然后点按应用程序图标，然后从快捷菜单中选取“打开”。
+
+* 管理远程连接的方法
+iterm2和alias
+
+# 4、2015-08-30
+* 设置远程ssh连接的终端配色
+export LS_COLORS="di=34"
+//设置ls列出目录的文本颜色，di代表目录，34代表文本蓝色
+
+# 3、2015-08-29
+* next
+
+* done
+** iterm2
+*** color
+solaries
+*** font
+source code pro
+
+* emacs 24.5 local
+** configuration
+** alias
+
+* zsh
+** oh-my-zsh
+** theme
+*** ys and arrow
+
+* 在zsh中配置emacs后台启动，emacsclient别名
+# add by wh
+function start-emacs(){
+    /Users/huangling/wanghao/bin/emacs/bin/emacs --daemon
+}
+
+pid=`ps -ef|grep "emacs --daemon"|grep -v grep|awk '{print $2}'`
+
+if [ "$pid" = "" ]; then
+    start-emacs
+fi
+
+# some more emacsclient aliases
+alias e='/Users/huangling/wanghao/bin/emacs/bin/emacsclient -t'
+
+* 配置command为meta
+* 经测试，发现在图形界面的emacs中，使用如下语句应该可以配置
+(setq mac-option-key-is-meta nil mac-command-key-is-meta t mac-command-modifier 'meta mac-option-modifier 'none)
+
+## 记录文件
+* 使用百度网盘来同步数据，因为新浪微盘没有mac版本
+* 账号：wanghao1891@126.com
+
+* 配置iterm2的配色方案
+  * 开始总觉得iterm2的配色比原生terminal要差，黑色背景，字体感觉不清晰
+  * 后来发现，可以调整配色方案
+    * 首先在"Profiles"->"Load Presets"中选择"Light Backgroud"，这是背景变为白色，整体配色发生改变，字体也变的清晰起来
+    * 修改"Basic Colors"->"Backgroud"的配色
+      * 将"Apple"换为"Emacs"，颜色选cornsilks3，这样出来的效果，就和terminal的novell的配色差不多了
+    * 修改"Basic Colors"->"Cusor"的配色
+      * 将"Apple"换为"Emacs"，颜色选DimGray
+    * 修改"Basic Colors"->"Selection"的配色
+      * 将"Apple"换为"Emacs"，颜色选NavajoWhite4
+    * "Text"选用14pt [Menlo Regular for Powerline](https://gist.githubusercontent.com/qrush/1595572/raw/417a3fa36e35ca91d6d23ac961071094c26e5fad/Menlo-Powerline.otf)
+  * 在网上搜索，发现有一种成熟的配色方案，solarized
+  * 字体最终选择[soure code pro](https://github.com/adobe-fonts/source-code-pro)-> light
+
+* 编译安装emacs 24.5
+  * 在configure阶段就报错，查看config.log，发现是编译器报错，缺少一些库
+  * 于是准备升级macport，然后看看能否安装最新版本的emacs
+    * 在执行port -v selfupdate后，发现一样报错
+  * 于是想打开xcode看看，结果发现打不开
+    * 应该是由于最近升级了操作系统导致的
+    * 在应用商店中下载最新版的xcode
+    * 安装后，发现emacs可以编译了
+    * command
+    * /configure --prefix=/Users/huangling/wanghao/bin/emacs-24.5 --without-all
+    * make
+    * make install
+    * update the configuration file lisp/init-org.el
+
+# 2、2015-08-27
+* 安装oh-my-zsh，经过测试，最后选择"arrow"这个theme
+  * 解决了zsh中ls显示文件不清楚的问题
+  * 但是连接到linux后，ls显示文件，仍然模糊
+  * 怀疑，应该和我用的air不是高清屏有关
+  * 最后还是觉得，原生的terminal的显示效果最好
+
+* 由于air上的chrome的数据同步不准确，先将server上的数据清除，在"设置"->"登录"->"Google信息中心"->"Reset sync"
+
+# 1、2015-08-26
+* 配置mac开发环境过程
+  * 移植基于ubuntu的docker的virtualbox虚拟机
+    * 需要更新到5.0.2版本
+    * 需要手动添加给hostonly用的网卡，在"VirtualBox"->"偏好设置"->"网络"->"仅主机(Host-Only)网络(H)"中，添加一个虚拟设备
+
+  * emacs快捷键
+    * 系统自带的终端，默认meta键是esc，可以在"终端"->"偏好设置"->"描述文件"->"Basic"->"键盘"，选择"使用Option键作为Meta键"
+      可惜的是但是不能设置为command
+      * 优点
+        * 字体好看，比较细致
+      * 缺点
+        * 不能设置command键为meta
+    * 使用chrome的Secure Shell，则可以用command键
+      * 优点
+        * 可以使用command作为meta键
+        * 很多习惯和windows上一致
+      * 缺点
+        * 字体不好看，太粗，不清晰
+      * 修改字体
+        * 默认为
+          * "DejaVu Sans Mono", "Everson Mono", FreeMono, "Menlo", "Terminal", monospace
+          * 感觉看着模糊
+        * 修改为
+          * "Terminal", monospace
+          * 可以接受了，感觉清晰了些
+
+    * iterm2，可以设置command为meta
+      * 优点
+        * 可以使用command作为meta键
+      * 缺点
+        * 字体不好看，太粗，不清晰
+      * 参见
+        [Setting up Mac OS X and iTerm2 for Emacs](http://azaleasays.com/2013/07/05/setting-up-mac-os-x-and-iterm2-for-emacs/)
+    * 使用网上说的一些方法，来修改emacs的配置文件，发现不好用
+
+  * relations
+    * [robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+    * [iterm2](https://www.iterm2.com)
+    * [程序员如何优雅地使用 Mac？](http://www.zhihu.com/question/20873070)
+
+* 大家有没有发现Mac的键盘没有Home, End, Page UP, Page DOWN这几个键？
+  * 其实可以用Fn键来组合得到同样的功能
+    * Home键=Fn+左方向
+    * End键=Fn+右方向
+    * PageUP=Fn+上方向
+    * PageDOWN=Fn+下方向
+    * 向前Delete=Fn+delete键

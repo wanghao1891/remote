@@ -1,6 +1,7 @@
-* 31. [2015-09-15 Tue 14:41]
-** `M-x org-insert-subheading` -- Insert a new subheading and demote it.
-** `M-x org-insert-heading` -- Insert a new heading or an item with the same depth at point.
+- 31. [2015-09-15 Tue 14:41]
+ - org mode中，由于使用'*'来表示层级的话，在github的html中显示字体会很大，于是改用代表列表的方式，'_', 表示层级的话，就缩进一个空格就可以了
+ - `M-x org-insert-subheading` -- Insert a new subheading and demote it.
+ - `M-x org-insert-heading` -- Insert a new heading or an item with the same depth at point.
 
 * 30. [2015-09-12 Sat 22:55]
 ** org-mode的自动换行

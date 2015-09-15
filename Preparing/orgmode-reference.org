@@ -1,5 +1,5 @@
 * 2. [2015-09-12 Sat 23:08]
-** [[http://orgmode.org/manual/Clean-view.html][15.8 A cleaner outline view]] [2015-09-12 Sat 23:09]
+  - [[http://orgmode.org/manual/Clean-view.html][15.8 A cleaner outline view]] [2015-09-12 Sat 23:09]
 
 * 1. [2015-09-03 Thu 16:04]
 ** [[http://www.cnblogs.com/holbrook/archive/2012/04/17/2454619.html][Emacs学习笔记(11):用Org-mode实现GTD]]

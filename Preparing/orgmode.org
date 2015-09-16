@@ -1,19 +1,19 @@
 * Learn how to use org mode in emacs
-- 4. [2015-09-15 Tue 14:31]
- - 11)  `M-x org-insert-todo-subheading` -- Insert a new subheading with TODO keyword or checkbox and demote it.
- - 10) `M-x org-insert-todo-heading` -- Insert a new heading with the same level and TODO state as current heading.
+* 4. [2015-09-15 Tue 14:31]
+** 11)  `M-x org-insert-todo-subheading` -- Insert a new subheading with TODO keyword or checkbox and demote it.
+** 10) `M-x org-insert-todo-heading` -- Insert a new heading with the same level and TODO state as current heading.
 
-- 3. [2015-09-07 Mon 13:37]
- - 9) `M-x org-open-at-point` -- Open link at or after point
+* 3. [2015-09-07 Mon 13:37]
+** 9) `M-x org-open-at-point` -- Open link at or after point
 
-- 2. [2015-09-04 Fri 10:43]
- - 8) `M-x org-set-tags` -- Set the tags for the current headline [2015-09-04 Fri 10:45] :learn:function:
+* 2. [2015-09-04 Fri 10:43]
+** 8) `M-x org-set-tags` -- Set the tags for the current headline [2015-09-04 Fri 10:45] :learn:function:
 
-- 1. [2015-09-03 Thu 16:01]
- - 7) `C-c C-o` -- `M-x org-open-at-point` -- Open link at or after point
- - 6) `M-x org-move-subtree-down` -- Move the current subtree down past ARG headlines of the same level
- - 5) `M-x org-move-subtree-up` -- Move the current subtree up past ARG headlines of the same level
- - 4) `M-x org-insert-link` -- Insert a link
- - 3) `tab` -- `M-x org-cycle` -- Show and hide the current line, tab-action and visibility cycling for Org-mode
- - 2) `shift-tab` -- `M-x org-shifttab` -- Show and hide the outliner, global visibility cycling or move to previous table field
- - 1) `C-u M-x org-time-stamp-inactive` -- Add timestamp which includes hour and minute.
+* 1. [2015-09-03 Thu 16:01]
+** 7) `C-c C-o` -- `M-x org-open-at-point` -- Open link at or after point
+** 6) `M-x org-move-subtree-down` -- Move the current subtree down past ARG headlines of the same level
+** 5) `M-x org-move-subtree-up` -- Move the current subtree up past ARG headlines of the same level
+** 4) `M-x org-insert-link` -- Insert a link
+** 3) `tab` -- `M-x org-cycle` -- Show and hide the current line, tab-action and visibility cycling for Org-mode
+** 2) `shift-tab` -- `M-x org-shifttab` -- Show and hide the outliner, global visibility cycling or move to previous table field
+** 1) `C-u M-x org-time-stamp-inactive` -- Add timestamp which includes hour and minute.

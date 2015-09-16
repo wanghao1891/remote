@@ -1,5 +1,32 @@
-12. [2015-09-16 Wed 10:16]
-    - 发现zsh可以像emacs那样调用`M-x`，然后执行命令，好强大。
+* 12. [2015-09-16 Wed 10:16]
+** top命令按不同条件排序
+   top -o mem -- 按照内存使用量排序
+   或者在top中，按`o`键，这样的话，就可以填要排序的key
+
+** 安装[[http://www.litixsoft.de/english/mms/][Mongo Management Studio]]
+   wget http://packages.litixsoft.de/mms/1.9.0/mms-v1.9.0-community-linux.tar.gz
+   tar -zxvf mms-v1.9.0-community-linux.tar.gz
+   cd ~/wanghao/bin/
+   tar -zxvf ../tools/mms-v1.9.0-community-linux-x86_64.tar.gz
+   ln -s mms-v1.9.0-community-linux-x86_64 mongo-management-studio
+   cd mongo-management-studio
+   rm -fr node_modules/mongodb
+   npm install mongodb@1.4.38
+   vim start
+   <<
+   #!/bin/sh
+   node server.js
+   >>
+   vim ~/.zshrc
+   <<
+   MMS_HOME=$MYHOME/bin/mongo-management-studio/lx-mms
+   alias start-mongo-management-studio='node $MMS_HOME/server.js > /dev/null 2>&1 &'
+   >>
+
+   这个启动后，内存占用有90多MB，但是chrome浏览器的tab占用内存也有100多MB，所以还是用3T Mongo Chef吧。
+
+** 测试了下3T MongoChef，发现这个工具占用内存有176MB。
+** 发现zsh可以像emacs那样调用`M-x`，然后执行命令，好强大。
 
 * 11. [2015-09-09 Wed 11:30]
 ** petite安装配置

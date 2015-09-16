@@ -1,3 +1,6 @@
+- 73. [2015-09-16 Wed 13:30]
+  - [[https://blog.helong.info/][Tech Ideas]] [2015-09-16 Wed 13:30]
+
 * 72. [2015-09-11 Fri 15:31]
 ** [[http://www.amoa400.com/][moa400-blog]] [2015-09-11 Fri 15:32]                                           :node.js:
    写程序-做产品-玩设计

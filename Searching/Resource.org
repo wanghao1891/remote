@@ -1,3 +1,6 @@
+- 69. [2015-09-16 Wed 13:12]
+ - [[https://blog.helong.info/blog/2015/09/06/tls-protocol-analysis-and-crypto-protocol-design/][TLS协议分析 与 现代加密通信协议设计]] [2015-09-16 Wed 13:13]
+
 * 68. [2015-09-14 Mon 10:21]
 ** [[https://www.processon.com/][ProcessOn]] [2015-09-14 Mon 10:21]
    ProcessOn是一个方便易用、免费高效的在线作图工具，运用它可以免费制作多种图，例如：Flowchart流程图，BPMN图，Org组织结构图，EVC企业价值链图，EPC事件过程链图，并且图形支持正在不断丰富。

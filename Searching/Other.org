@@ -1,3 +1,6 @@
+- 41. [2015-09-16 Wed 13:18]
+  - [[http://www.ituring.com.cn/article/203595][Microsoft Azure研发经理胡鲁辉：技术总是相通的，不同的是产品（图灵访谈）]] [2015-09-16 Wed 13:19]
+
 * 40. [2015-09-14 Mon 10:19]
 ** [[http://www.zhihu.com/question/20177573][用什么软件画流程图？]] [2015-09-14 Mon 10:19]
 

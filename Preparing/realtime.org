@@ -1,13 +1,17 @@
 - 3. [2015-09-16 Wed 12:02]
   - 使用firefox连接socket.io报如下错误：
-    - 现象 ::
+    - 现象
       GET XHR http://localhost:3000/socket.io/ [HTTP/1.1 400 Bad Request 1ms]
+
       Firefox can't establish a connection to the server at ws://localhost:3000/socket.io/?EIO=3&transport=websocket&sid=TU3ZgPeUN_yKRlTNAAA8. socket.io.js:5325:0
+
       The connection to ws://localhost:3000/socket.io/?EIO=3&transport=websocket&sid=TU3ZgPeUN_yKRlTNAAA8 was interrupted while the page was loading.
+
       出现这个错误是通过nginx连接时出现的，直接连接socket.io则不会出现这种问题。
 
-    - 原因 ::
+    - 原因
       我在nginx配置中将`upstream`中的`ip_hash;`去掉造成的，socket.io client会先用xhr pooling，然后再用websocket，这样第二次连接就会跳到另外一个节点，从而造成连接失败。
+
       奇怪的是，在firefox和safari下会这样，在chrome下则不会，不知道具体实现有什么区别。
 
   - 调试socket.io

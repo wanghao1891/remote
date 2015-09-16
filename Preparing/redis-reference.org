@@ -1,5 +1,6 @@
-* 7. [2015-09-15 Tue 16:54]
-** [[http://redis.readthedocs.org/en/latest/pub_sub/pubsub.html][PUBSUB]] [2015-09-15 Tue 16:55]
+- 7. [2015-09-15 Tue 16:54]
+ - [[http://my.oschina.net/u/750011/blog/332846][socket.io搭建分布式web推送服务器]] [2015-09-15 Tue 18:15]
+ - [[http://redis.readthedocs.org/en/latest/pub_sub/pubsub.html][PUBSUB]] [2015-09-15 Tue 16:55]
 
 * 6. [2015-09-14 Mon 13:34]
 ** [[https://github.com/NodeRedis/node_redis][NodeRedis/node_redis]] [2015-09-14 Mon 18:55]

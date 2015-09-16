@@ -1,3 +1,6 @@
+12. [2015-09-16 Wed 10:16]
+    - 发现zsh可以像emacs那样调用`M-x`，然后执行命令，好强大。
+
 * 11. [2015-09-09 Wed 11:30]
 ** petite安装配置
    cd /Users/huangling/wanghao/tools/

@@ -1,0 +1,34 @@
+- Scheme 是一种函数式编程语言，但又不是纯的，它允许副作用的存在。Haskell 是一种纯的函数式编程语言。
+
+- Scheme 是 Lisp 的两种主要方言之一，另外一种是 Common Lisp。
+
+- 不同于 Common Lisp，Scheme 遵循极简主义哲学，以一个小型语言核心作为标准，加上各种强力语言工具（语法糖）来扩展语言本身。
+
+- Scheme 的哲学是：设计计算机语言不应该进行功能的堆砌，而应该尽可能减少弱点和限制，使剩下的功能显得必要。
+
+- Lisp 和 Scheme 都是诞生在 MIT 人工智能实验室（MIT AI Lab）的语言。
+
+- Lisp 是约翰·麦卡锡（John McCarthy）在1958年提出来的。
+
+- Scheme 是盖伊·史提尔二世（Guy L. Steele）与杰拉德·杰伊·萨斯曼（Gerald Jay Sussman在1975发展出来的。并由两人发表的“λ论文集”推广开来。 Scheme语言与λ演算关系十分密切。小写字母“λ”是 Scheme 语言的标志。
+
+- Lisp 和 Scheme 的区别：
+  - Scheme 采用静态作用域（lexical scope）；
+  - Lisp 采用动态作用域（dynamic scope）；
+  - Scheme中引入了延续（continuation）等特性。
+
+- Lisp 和 Scheme 都采用S表达式（S-expression）来作为基本的语法。
+#+BEGIN_SRC
+  (a b c d e)
+#+END_SRC
+
+- S 表达式的特点是，程序和数据由相同的数据结构存储（homoiconicity），即代码即数据。
+
+- Scheme 的列表与其他 Lisp 方言都是基于最基础的数据结构“有序对”（pair）。
+
+- Scheme提供cons，car，与cdr方法操作有序对与列表。
+  - cons
+  - car
+  - cdr
+
+- Scheme的变数都使用动态强类型系统，而函数被视为变数的一种，并可以作为参数提供给其他函数。换句话说，Scheme中的函数都是第一类对象。

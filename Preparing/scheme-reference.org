@@ -1,3 +1,6 @@
+* 11. [2015-09-21 Mon 17:23]
+** [[http://scheme.com/csug7/debug.html][Chapter 3. Debugging -- Chez Scheme Version 7 User's Guide]] [2015-09-21 Mon 17:24]
+
 # 10、2015-08-14
 * [kedebug/LispEx](https://github.com/kedebug/LispEx)
 

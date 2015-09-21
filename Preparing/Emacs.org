@@ -1,3 +1,28 @@
+* 36. [2015-09-21 Mon 14:02]
+** 当Eamcs卡住，kill掉Emacs进程后，Emacs会自动保存一个备份文件，格式是filename_20150921134905.org
+
+* 35. [2015-09-19 Sat 10:47]
+** 替换字符串
+   `M-x replace-string` -- 替换所有
+   `M-x replace-regexp` -- 用正则表达式替换所有
+   `M-x query-replace` -- 一个一个替换
+
+** Eamacs对齐等号、冒号等
+   `M-x align-regexp Enter`输入要对齐的符号。
+
+* 34. [2015-09-18 Fri 15:27]
+** 选中buffer的全部内容 [2015-09-18 Fri 15:28]
+   快捷键：`C-x h`
+   命令：`M-x mark-whole-buffer`
+
+* 33 [2015-09-17 Thu 16:07]
+** 删除当前窗口
+   快捷键：`C-x 0`
+   命令：`M-x delete-window`
+
+** 查看当前buffer的路径
+   使用`M-x rename-file`或者`M-x write-file`都可以看到
+
 * 32. [2015-09-16 Wed 17:55]
 ** the way of kill buffer
    首先执行`M-x list-buffers`，将光标移到要删除的buffer，首先按`d`键，然后按`x`键，这样就可以删除了

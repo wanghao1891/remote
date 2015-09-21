@@ -1,3 +1,16 @@
+* 28. [2015-09-19 Sat 10:50]
+** [[http://blog.sciencenet.cn/blog-350278-669158.html][Emacs第一弹：Emacs 精细操作（持续更新中）]] [2015-09-19 Sat 10:51]
+
+* 27. [2015-09-17 Thu 15:46]
+** [[http://www.ibm.com/developerworks/cn/education/linux/l-emacs/l-emacs.html][生活在 Emacs 中]] [2015-09-17 Thu 16:06]
+
+** [[http://aifreedom.com/technology/112][Emacs快捷键列表]] [2015-09-17 Thu 15:47]
+
+* 26. [2015-09-16 Wed 18:09]
+** [[http://emacswiki.org/emacs/AutoSave][AutoSave]] [2015-09-16 Wed 18:12]
+
+** [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Several-Buffers.html][19.5 Operating on Several Buffers]] [2015-09-16 Wed 18:09]
+
 * 25. [2015-09-12 Sat 23:00]
 ** [[http://www.emacswiki.org/emacs/TruncateLines][TruncateLines]] [2015-09-12 Sat 23:08]
 

@@ -1,5 +1,13 @@
-- 73. [2015-09-16 Wed 13:30]
-  - [[https://blog.helong.info/][Tech Ideas]] [2015-09-16 Wed 13:30]
+* 75. [2015-09-19 Sat 13:45]
+** [[https://www.nczonline.net/][Nicholas C. Zakas]] [2015-09-19 Sat 13:46]
+   Nicholas C. Zakas is a front-end engineer, author, and speaker. He currently works at Box making the web application awesome. Prior to that, he worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library. He is the author of Maintainable JavaScript (O’Reilly, 2012), Professional JavaScript for Web Developers (Wrox, 2012), High Performance JavaScript (O’Reilly, 2010), and Professional Ajax (Wrox, 2007). Nicholas is a strong advocate for development best practices including progressive enhancement, accessibility, performance, scalability, and maintainability. He blogs regularly at http://www.nczonline.net/ and can be found on Twitter via @slicknet.
+
+* 74. [2015-09-18 Fri 14:07]
+** [[https://github.com/fouber/blog][张云龙 fouber/blog]] [2015-09-18 Fri 14:05]                                    :front:end:
+   现 UC 前端资深工程师
+
+* 73. [2015-09-16 Wed 13:30]
+** [[https://blog.helong.info/][Tech Ideas]] [2015-09-16 Wed 13:30]
 
 * 72. [2015-09-11 Fri 15:31]
 ** [[http://www.amoa400.com/][moa400-blog]] [2015-09-11 Fri 15:32]                                           :node.js:

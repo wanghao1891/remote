@@ -1,3 +1,6 @@
+* 17. [2015-09-19 Sat 15:21]
+** [[http://stackoverflow.com/questions/221921/use-grep-exclude-include-syntax-to-not-grep-through-certain-files][Use grep --exclude/--include syntax to not grep through certain files]] [2015-09-19 Sat 15:22]
+
 * 16. [2015-09-14 Mon 13:07]
 ** [[http://github.tiankonguse.com/blog/2015/09/13/linux-remove-recovery/][Linux下恢复删除的文件]] [2015-09-14 Mon 13:07]
 

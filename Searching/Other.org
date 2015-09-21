@@ -1,5 +1,22 @@
-- 41. [2015-09-16 Wed 13:18]
-  - [[http://www.ituring.com.cn/article/203595][Microsoft Azure研发经理胡鲁辉：技术总是相通的，不同的是产品（图灵访谈）]] [2015-09-16 Wed 13:19]
+* 44. [2015-09-21 Mon 13:33]
+** [[http://mp.weixin.qq.com/s__biz%3DMzAwMjMxNzQ0MQ%3D%3D&mid%3D209090767&idx%3D1&sn%3Dc46aa9fb88bec00997403654f905bc34&scene%3D0#rd][关于最近的XcodeGhost事件，我也来说两句]] [2015-09-21 Mon 13:33]
+
+* 43. [2015-09-19 Sat 12:20]
+** [[https://www.nczonline.net/blog/2013/10/15/the-best-career-advice-ive-received/][The best career advice I’ve received]] [2015-09-19 Sat 13:41]
+
+** [[http://www.ruanyifeng.com/blog/2015/09/career-advice.html*Org%20Links*][七个对我最重要的职业建议（译文）]] [2015-09-19 Sat 13:39]
+
+** [[https://github.com/ty4z2008/Qix/blob/master/ds.md][分布式系统(Distributed System)资料]] [2015-09-19 Sat 12:21]
+
+* 42. [2015-09-18 Fri 13:23]
+** [[http://insights.thoughtworkers.org/enterprise-core-systems-transformation-practice/][基于微服务架构，改造企业核心系统之实践]] [2015-09-18 Fri 17:57]
+
+** [[http://www.infoq.com/cn/articles/hk-build-full-function-team-practice][建设全功能团队——实践篇]] [2015-09-18 Fri 17:54]
+
+** [[https://blog.coding.net/blog/elastic-search][如何使用正确的姿势进行搜索]] [2015-09-18 Fri 13:23]
+
+* 41. [2015-09-16 Wed 13:18]
+** [[http://www.ituring.com.cn/article/203595][Microsoft Azure研发经理胡鲁辉：技术总是相通的，不同的是产品（图灵访谈）]] [2015-09-16 Wed 13:19]
 
 * 40. [2015-09-14 Mon 10:19]
 ** [[http://www.zhihu.com/question/20177573][用什么软件画流程图？]] [2015-09-14 Mon 10:19]

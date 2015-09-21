@@ -1,3 +1,6 @@
+* 14. [2015-09-18 Fri 13:13]
+** [[https://blog.coding.net/blog/Coding-and-Docker][当 Coding 遇上 Docker]] [2015-09-18 Fri 13:13]
+
 * 13. [2015-09-15 Tue 13:12]
 ** [[http://www.ituring.com.cn/article/203520][VLIS实验室云计算组张磊：关于Docker、开源，以及教育的尝试（图灵访谈）]] [2015-09-15 Tue 13:12]
 

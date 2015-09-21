@@ -18,9 +18,9 @@
   - Scheme中引入了延续（continuation）等特性。
 
 - Lisp 和 Scheme 都采用S表达式（S-expression）来作为基本的语法。
-  #+BEGIN_SRC
+
   (a b c d e)
-  #+END_SRC
+
 
 - S 表达式的特点是，程序和数据由相同的数据结构存储（homoiconicity），即代码即数据。
 

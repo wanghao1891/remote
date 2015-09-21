@@ -43,65 +43,68 @@
    Scheme的变数都使用动态强类型系统，而函数被视为变数的一种，并可以作为参数提供给其他函数。换句话说，Scheme中的函数都是第一类对象。
 
    * 极简主义
+
      Scheme的简约性使它成为具备同级别功能的编程语言中最易于实现的语言。Scheme的很多结构源于λ演算，例如let可以写作创造并调用一个匿名函数：
 
-   #+BEGIN_SRC scheme
-   (define-syntax let
-     (syntax-rules ()
-       ((let ((var expr) ...) body ...)
-         ((lambda (var ...) body ...) expr ...))))
-   #+END_SRC
+     #+BEGIN_SRC scheme
+     (define-syntax let
+       (syntax-rules ()
+         ((let ((var expr) ...) body ...)
+           ((lambda (var ...) body ...) expr ...))))
+     #+END_SRC
 
      换句话说，调用let语句如(let ((a 1) (b 2)) (+ a b))等同于λ演算语句((lambda (a b) (+ a b)) 1 2)。 基于这一特性，Scheme的解释器可以得到极大的精简。
 
- * λ演算
-   Scheme的函数式范型主要受到了邱奇的λ演算的影响。在Scheme中，“lambda”关键词被用于定义匿名函数，且所有非匿名函数都可以被视作取值为lambda函数的变数。（换句话说，(define (foo x) (+ x 1))与(define foo (lambda (x) (+ x 1)))在语法上是等同的，而前者在解释器中会被译为后者。）这一设置在历史上推动了函数式编程语言的发展。
+   * λ演算
+     Scheme的函数式范型主要受到了邱奇的λ演算的影响。在Scheme中，“lambda”关键词被用于定义匿名函数，且所有非匿名函数都可以被视作取值为lambda函数的变数。（换句话说，(define (foo x) (+ x 1))与(define foo (lambda (x) (+ x 1)))在语法上是等同的，而前者在解释器中会被译为后者。）这一设置在历史上推动了函数式编程语言的发展。
 
- * 代码块结构
-   Scheme的代码块结构来自更早时候的ALGOL语言。在Scheme中，本地变数可以由let，let*，与letrec产生。这些语句实际上与lambda等同：它们都通过函数的形式参数来实现本地变数。例如，
+   * 代码块结构
+     Scheme的代码块结构来自更早时候的ALGOL语言。在Scheme中，本地变数可以由let，let*，与letrec产生。这些语句实际上与lambda等同：它们都通过函数的形式参数来实现本地变数。例如，
 
-   (define foo 5)
-   ;; foo 現在取值 5
-   (let ((foo 10))
-     ;; foo 現在取值 10
-     )
-   ;; foo 現在取值 5
+     #+BEGIN_SRC scheme
+     (define foo 5)
+     ;; foo 現在取值 5
+     (let ((foo 10))
+       ;; foo 現在取值 10
+       )
+     ;; foo 現在取值 5
+     #+END_SRC
 
- * 尾递归优化
-   Scheme是最早实现尾部递归优化的Lisp方言。换句话说，Scheme中所有尾部递归都会被自动作为循环解释（Scheme支持do语句，但是一般Scheme中循环都会写作递归）。尾部递归优化使得Scheme支持任意数目的尾部递归调用，而无需担心堆栈溢出。如以下计算阶乘的程序将自动优化为循环。
+   * 尾递归优化
+     Scheme是最早实现尾部递归优化的Lisp方言。换句话说，Scheme中所有尾部递归都会被自动作为循环解释（Scheme支持do语句，但是一般Scheme中循环都会写作递归）。尾部递归优化使得Scheme支持任意数目的尾部递归调用，而无需担心堆栈溢出。如以下计算阶乘的程序将自动优化为循环。
 
-   (define (factorial n)
-     (define (iter product counter)
-       (if (> counter n)
-           product
-           (iter (* counter product)
-                 (+ counter 1))))
-     (iter 1 1))
+     (define (factorial n)
+       (define (iter product counter)
+         (if (> counter n)
+             product
+             (iter (* counter product)
+                   (+ counter 1))))
+       (iter 1 1))
 
 ** 语言元素
-  根据Scheme语言规范，Scheme中的标准语句可分为“标准模式”（Standard form）与“标准过程”（Standard procedure），其中标准模式提供语言的控制结构，而标准过程提供一些常用的功能。
+   根据Scheme语言规范，Scheme中的标准语句可分为“标准模式”（Standard form）与“标准过程”（Standard procedure），其中标准模式提供语言的控制结构，而标准过程提供一些常用的功能。
 
 ** 实现
-  Scheme的精简设计使得编程语言设计人士与爱好者特别钟爱研究它的实现，很多嵌入式系统语言与脚本语言即是基于Scheme。Scheme的实现一般小而精简，造成了很多不可互通的实现互相竞争。尽管Scheme的精简性是它的一个主要长处，但试图使用Scheme编写既复杂又便于移植的程序往往比较困难，主要原因之一，是因为Scheme没有库函数标准。而R6RS试图完成这样的工作，它定义了两套标准，核心语言以及标准库。这使得Scheme第一次有了库函数标准，也使得编译器开发者和贡献者可以实现Scheme的可移植库。
+   Scheme的精简设计使得编程语言设计人士与爱好者特别钟爱研究它的实现，很多嵌入式系统语言与脚本语言即是基于Scheme。Scheme的实现一般小而精简，造成了很多不可互通的实现互相竞争。尽管Scheme的精简性是它的一个主要长处，但试图使用Scheme编写既复杂又便于移植的程序往往比较困难，主要原因之一，是因为Scheme没有库函数标准。而R6RS试图完成这样的工作，它定义了两套标准，核心语言以及标准库。这使得Scheme第一次有了库函数标准，也使得编译器开发者和贡献者可以实现Scheme的可移植库。
 
-  几乎所有Scheme实现都是基于Lisp的“读取–求值–输出循环”（read–eval–print loop）模式。一些Scheme实现亦可作为编译器，并将Scheme程序译为二进制码。很多用类似C的基础语言写成的软件都利用Scheme作为脚本语言。还有一些Scheme翻译器（例如Gambit，Chicken，Bigloo等）可将Scheme程序译为C或Java，或甚至.Net。将Scheme译作C的翻译器往往可以在源代码中利用C的特性。
+   几乎所有Scheme实现都是基于Lisp的“读取–求值–输出循环”（read–eval–print loop）模式。一些Scheme实现亦可作为编译器，并将Scheme程序译为二进制码。很多用类似C的基础语言写成的软件都利用Scheme作为脚本语言。还有一些Scheme翻译器（例如Gambit，Chicken，Bigloo等）可将Scheme程序译为C或Java，或甚至.Net。将Scheme译作C的翻译器往往可以在源代码中利用C的特性。
 
-  最基本的Scheme实现是在《计算机程序的构造和解释》中实现的自循环解释器。这一解释器以Scheme写成，并利用底层的Scheme功能来实现被运行的Scheme语言程序。尽管在实际上这一解释器的意义不大（要想运行自循环解释器，计算机中必须已经存在一个Scheme解释器），它简单的语法可以帮助用户理解Scheme的运行过程。
+   最基本的Scheme实现是在《计算机程序的构造和解释》中实现的自循环解释器。这一解释器以Scheme写成，并利用底层的Scheme功能来实现被运行的Scheme语言程序。尽管在实际上这一解释器的意义不大（要想运行自循环解释器，计算机中必须已经存在一个Scheme解释器），它简单的语法可以帮助用户理解Scheme的运行过程。
 
 ** 实际用处
- * 计算机科学教育
-   很多著名的计算机科学院校都利用Scheme来教授入门级课程。以下为一些最为著名的教授Scheme的学校：
+   * 计算机科学教育
+     很多著名的计算机科学院校都利用Scheme来教授入门级课程。以下为一些最为著名的教授Scheme的学校：
 
-   - 麻省理工学院是Scheme与SICP的诞生地。直到2008年为止，麻省理工学院的入门课程6.001即是用Scheme来教授的。尽管现在Scheme已经不再被用于入门课程，麻省理工学院到目前为止还在教授SICP。
-   - 伯克利加州大学的入门课程61A到2010年为止利用Scheme与SICP教授入门课程，并利用Scheme来实现Logo，另一个基于Lisp的编程语言。自2011年起，61A改用Python来教授SICP。
-   - 西北大学的入门课程CS2500利用Scheme来教授另一本著名的教材《程序设计方法》。
-   - 印第安那大学的入门课程C211利用Scheme来教授。
-   - 耶鲁大学
-   - 莱斯大学
-   - ProgramByDesign项目在美国超过600所高中教授Scheme语言。
-   - 滑铁卢大学数学系（包括computer science）的入门课程CS115,CS116利用Scheme来教授。
-   - 云林科技大学
+     - 麻省理工学院是Scheme与SICP的诞生地。直到2008年为止，麻省理工学院的入门课程6.001即是用Scheme来教授的。尽管现在Scheme已经不再被用于入门课程，麻省理工学院到目前为止还在教授SICP。
+     - 伯克利加州大学的入门课程61A到2010年为止利用Scheme与SICP教授入门课程，并利用Scheme来实现Logo，另一个基于Lisp的编程语言。自2011年起，61A改用Python来教授SICP。
+     - 西北大学的入门课程CS2500利用Scheme来教授另一本著名的教材《程序设计方法》。
+     - 印第安那大学的入门课程C211利用Scheme来教授。
+     - 耶鲁大学
+     - 莱斯大学
+     - ProgramByDesign项目在美国超过600所高中教授Scheme语言。
+     - 滑铁卢大学数学系（包括computer science）的入门课程CS115,CS116利用Scheme来教授。
+     - 云林科技大学
 
- * 脚本语言
-   - 自由软件视频处理程序GIMP利用Scheme为脚本语言。
-   - GNU的标准脚本语言Guile是基于Scheme的，并被用于GNOME等软件中。
+   * 脚本语言
+     - 自由软件视频处理程序GIMP利用Scheme为脚本语言。
+     - GNU的标准脚本语言Guile是基于Scheme的，并被用于GNOME等软件中。

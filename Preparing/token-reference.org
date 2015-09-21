@@ -1,0 +1,6 @@
+* 1. [2015-09-18 Fri 14:42]
+** [[http://yhv5.com/token_1532.html][揭秘Token的工作原理]] [2015-09-18 Fri 15:04]
+
+** [[http://book.51cto.com/art/201309/409650.htm][2.1.2 Token验证]] [2015-09-18 Fri 14:45]
+
+** [[https://github.com/zcbenz/sbbs-api-documentation/blob/master/content/auth.md][sbbs-api-documentation/content/auth.md]] [2015-09-18 Fri 14:43]

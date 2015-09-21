@@ -1,0 +1,52 @@
+* 7. [2015-09-19 Sat 11:50]
+** 21) [[http://raytaylorlin.com/Tech/web/Node.js/socket-io-advanced/][Socket.IO进阶]] [2015-09-19 Sat 11:50]
+
+* 6. [2015-09-17 Thu 12:09]
+** 20) [[http://strophe.im/strophejs/][Strophe.js]] [2015-09-17 Thu 12:10]                                        :xmpp:javascript:
+   Strophe.js is an XMPP library for JavaScript. Its primary purpose is to enable web-based, real-time XMPP applications that run in any browser.
+
+* 5. [2015-09-16 Wed 12:01]
+** 19) [[http://socket.io/docs/logging-and-debugging/][Logging and Debugging]] [2015-09-16 Wed 12:02]
+
+* 4. [2015-09-15 Tue 12:12]
+** 18) [[https://github.com/socketio/socket.io-adapter][socketio/socket.io-adapter]] [2015-09-15 Tue 15:07]
+
+** 17) [[https://github.com/socketio/socket.io-redis][socketio/socket.io-redis]] [2015-09-15 Tue 15:02]
+   Adapter to enable broadcasting of events to multiple separate socket.io server nodes.
+
+** 16) [[https://github.com/elad/node-cluster-socket.io][elad/node-cluster-socket.io]] [2015-09-15 Tue 12:12]
+   Socket.IO doesn't work out of the box with a node.js cluster. This is a writeup based on sticky-session and the Socket.IO multiple node documentation that explains how to make them play nice if you don't feel like wrapping your server code with it.
+
+* 3. [2015-09-12 Sat 12:09]
+** 15) [[https://github.com/NetEase/pomelo][NetEase/pomelo]] [2015-09-12 Sat 14:22]
+
+** 14) [[http://www.infoq.com/cn/articles/design-motivation-and-introduction-of-Pomelo-framework][深入浅出node.js游戏服务器开发——Pomelo框架的设计动机与架构介绍]] [2015-09-12 Sat 14:17]
+
+** 13) [[http://blog.yunba.io/go-vs-erlang/][Go vs Erlang]] [2015-09-12 Sat 14:06]
+
+** 12) [[https://www.jpush.cn/][极光推送]] [2015-09-12 Sat 14:02]
+
+** 11) [[http://www.infoq.com/cn/articles/baidu-android-cloud-push][博文共赏：Android推送服务——百度云推送]] [2015-09-12 Sat 14:01]
+
+** 10) [[http://yunba.io/products/push/][Yunba.io 云巴]] [2015-09-12 Sat 13:59]
+
+** [[http://blog.yunba.io/][9) Yunba.IO]] [2015-09-12 Sat 13:57]
+   The Cloud Message Bus 实时消息系统
+
+** [[http://www.lxway.com/16920256.htm][8) engine.io分析2socket.io的基石]] [2015-09-12 Sat 13:23]
+
+** 7) [[http://hongtoushizi.iteye.com/blog/1958959][用node.js(socket.io)实现数据实时推送]] [2015-09-12 Sat 12:51]
+
+** [[http://www.edwardesire.com/socketio-of-interest/][6) Socket.io:有点意思]] [2015-09-12 Sat 12:10]
+
+* 2. [2015-09-11 Fri 15:27]
+** [[https://github.com/cayasso/engine.io-reconnect][5) cayasso/engine.io-reconnect]] [2015-09-11 Fri 18:48]
+
+** [[https://medium.com/@denizozger/finding-the-right-node-js-websocket-implementation-b63bfca0539][4) Finding the right Node.js WebSocket implementation]] [2015-09-11 Fri 16:14]
+
+** 3[[http://www.amoa400.com/realtime-com-design/][) 实时通信技术的架构设计]] [2015-09-11 Fri 15:38]                             :websocket:
+
+** [[http://www.amoa400.com/analysis-engine-io/][2) 浅析engine.io]] [2015-09-11 Fri 15:27]                                         :engine.io: :socket.io: :websocket:
+
+* 1. [2015-09-09 Wed 16:57]
+** 1[[http://stackoverflow.com/questions/8542502/whats-the-difference-between-engine-io-and-socket-io][) What's the difference between engine.io and socket.io?]] [2015-09-09 Wed 16:58] :engine.io: :socket.io: :websocket:
